@@ -1,11 +1,20 @@
 #include <stdio.h>
 #include <curl/curl.h>
 #include <stdlib.h>
-#include <cjson/cJSON.h>
+#include <cJSON.h>
 #include <stdint.h>
 #include "kprotocal.h"
 #include <unistd.h>
-uint8_t testData[] = {0x40, 0x11, 0x12, 0x1, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x04};
+
+typedef enum
+{
+	haveNoPriceLable,
+	havePriceLable,
+}routerStatus_t;
+
+
+static routerStatus_t status;
+uint8_t normalInfo[] = {0x40, 0x11, 0x12, 0x1, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x04};
 
 int main(void)
 {
@@ -15,8 +24,8 @@ int main(void)
 	for(;;)
 	{
 
-
-		pPostData =  protocalEncodeToJSONArray(testData);
+		
+		pPostData =  protocalEncodeToJSONArray(normalInfo);
 		if(pPostData == NULL)
 		{
 			continue;
@@ -35,6 +44,7 @@ int main(void)
 			/* always cleanup */
 			curl_easy_cleanup(curl);
 		}
+		free(pPostData);
 		sleep(1);
 	}
 	return 0;

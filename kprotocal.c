@@ -1,73 +1,66 @@
 #include "kprotocal.h"
-#include "cjson/cJSON.h"
+#include "cJSON/cJSON.h"
 static uint32_t sqnum = 1;
-#if 0
-#pragma pack(1)
-typedef struct
-{
-	uint8_t FUN;
-	uint8_t LEN;
-	uint32_t ID;
-	uint16_t Panid;
-	uint8_t XD1;
-       	uint8_t XD2;
-	uint8_t BACK1;
-	uint8_t BACK2;
-	uint8_t BACK3;
-	uint8_t VER;
-	uint8_t Mark;
-	uint8_t CRCHI;
-	uint8_t CRCLO;	
-}status_with_no_label_req_t;
-#pragma pack()
+static uint32_t apid = 0x12345678;
 
-typedef struct
+static char  *encodeToJsonHeartbeat(uint8_t *pData)
 {
-	uint8_t FUN;
-	uint8_t LEN;
-	uint8_t Wait;
-	uint8_t CRCHI;
-	uint8_t CRCLO;
-}status_1_resp_t;
-
-typedef struct
-{
-	uint8_t FUN;
-	uint8_t LEN;
-	uint8_t  
-}
-#endif
-static uint32_t sunum;
-uint8_t *protocalEncodeToJSONArray(uint8_t *pData)
-{
+	
 	static cJSON *pItem = NULL;
 	static cJSON *pBody = NULL;
-	int8_t tmp[12] = "";
+	static cJSON *pHead = NULL;
+	char *pCharData = NULL;
+	uint32_t id;
 	if(pData == NULL)
 	{
 		return NULL;
 	}	
-        pItem = cJSON_CreateObject();
-        pBody = cJSON_CreateArray();
-        if(pItem == NULL)
+        pItem = cJSON_CreateArray();
+        pBody = cJSON_CreateObject();
+	pHead = cJSON_CreateObject();
+        if(pItem == NULL || pBody == NULL || pHead == NULL)
         {
                 printf("Create Json object error\n");
 		return NULL;
         }
-        sprintf(tmp, "%d", sqnum++);
+	
+	cJSON_AddNumberToObject(pHead, "Total",1);
+        cJSON_AddNumberToObject(pHead,"SEQUENCE",sqnum++);
+	
+        cJSON_AddNumberToObject(pBody,"Function",0x40);
+        cJSON_AddNumberToObject(pBody,"APID",apid);
+        cJSON_AddNumberToObject(pBody,"VER", (uint32_t)pData[13]);
+        cJSON_AddNumberToObject(pBody,"XD2", (uint32_t)pData[9]);
+        cJSON_AddNumberToObject(pBody,"XD1", (uint32_t)pData[8]);
+        cJSON_AddNumberToObject(pBody,"PANID", (uint32_t)((pData[6] << 8) | pData[7]));
+        cJSON_AddNumberToObject(pBody,"BACK1", (uint32_t)pData[10]);
+        cJSON_AddNumberToObject(pBody,"BACK2", (uint32_t)pData[11]);
+        cJSON_AddNumberToObject(pBody,"BACK3", (uint32_t)pData[12]);
+	
+	cJSON_AddItemToArray(pItem,pHead);	
+	cJSON_AddItemToArray(pItem,pBody);
 
-        cJSON_AddStringToObject(pItem,"SEQUENCE",tmp);
+	pCharData = cJSON_Print(pItem);
+	cJSON_Delete(pItem);
+	return pCharData;
+}
 
-        cJSON_AddStringToObject(pItem,"Function","64");
-        cJSON_AddStringToObject(pItem,"APID","1234567890");
-        cJSON_AddStringToObject(pItem,"XD1","02");
-        cJSON_AddStringToObject(pItem,"XD2","03");
-        cJSON_AddStringToObject(pItem,"BACK1","00");
-        cJSON_AddStringToObject(pItem,"BACK2","00");
-        cJSON_AddStringToObject(pItem,"BACK3","00");
-        cJSON_AddStringToObject(pItem,"VER","00");
-
-	cJSON_AddItemToArray(pBody,pItem);
-	return cJSON_Print(pBody);
+uint8_t *protocalEncodeToJSONArray(uint8_t *pData)
+{
+	if(pData == NULL)
+	{
+		return NULL;
+	}
+	switch((uint32_t)pData[0])
+	{
+		case 0x40:
+			return encodeToJsonHeartbeat(pData);
+			break;
+		case 0x44:
+			break;
+		default:
+			break;
+	}	
+	return NULL;
 }
 
