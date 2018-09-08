@@ -219,24 +219,37 @@ int usb_transmite(uint8_t *pData, int len, int timeout)
 
 int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)
 {
+    if(pBuffer == NULL || buffer_size == 0)
+    {
+        return 0;
+    }
     int received = 0;
+    uint8_t *pStart = pBuffer;
+    int r = 0;
     while(buffer_size > 64)
     {
         if(0 != libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, 64, &received, timeout)) 
         {
             return 1;
         }
+        if(received < 64)
+        {
+            return 0;
+        }
+        else
+        {
+            r += received;
+        }
         pBuffer += 64;
         len -= 64;
     }
     if(len != 0)
     {
-        if(0 !=libusb_bulk_transfer(handle, BULK_EP_IN, my_string1, len, &received, timeout))
+        if(0 !=libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, len, &received, timeout))
         {
-            return 1;
+            return 0;
         }
     }
-	return 0;
 }
 
 bool usb_get_status(void)
