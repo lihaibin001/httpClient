@@ -1,0 +1,764 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+BACK1	kprotocal.c	/^	uint8_t BACK1;$/;"	m	struct:__anon3	file:
+BACK2	kprotocal.c	/^	uint8_t BACK2;$/;"	m	struct:__anon3	file:
+BACK3	kprotocal.c	/^	uint8_t BACK3;$/;"	m	struct:__anon3	file:
+BULK_EP_IN	libusb/test/test3.c	8;"	d	file:
+BULK_EP_IN	test3.c	8;"	d	file:
+BULK_EP_IN	usbCom.c	4;"	d	file:
+BULK_EP_OUT	libusb/test/test3.c	7;"	d	file:
+BULK_EP_OUT	test3.c	7;"	d	file:
+BULK_EP_OUT	usbCom.c	3;"	d	file:
+CC	Makefile	/^CC := arm-none-linux-gnueabi-gcc$/;"	m
+CC	libusb/test/Makefile	/^CC := arm-none-linux-gnueabi-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $(DEBUG) -Wall -c$/;"	m
+CFLAGS	libusb/test/Makefile	/^CFLAGS = $(DEBUG) -Wall -c$/;"	m
+CJSON_EXPORT_SYMBOLS	cJSON/cJSON.h	108;"	d
+CJSON_NESTING_LIMIT	cJSON/cJSON.h	129;"	d
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_Compare(const cJSON * const a, const cJSON * const b, const cJSON_bool case_sensitive)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_HasObjectItem(const cJSON *object, const char *string)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsArray(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsBool(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsFalse(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsInvalid(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNull(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNumber(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsObject(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsRaw(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsString(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsTrue(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_PrintPreallocated(cJSON *item, char *buf, const int len, const cJSON_bool fmt)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemViaPointer(cJSON * const parent, cJSON * const item, cJSON * replacement)$/;"	f
+CJSON_PUBLIC	cJSON/cJSON.h	112;"	d
+CJSON_PUBLIC	cJSON/cJSON.h	114;"	d
+CJSON_PUBLIC	cJSON/cJSON.h	116;"	d
+CJSON_PUBLIC	cJSON/cJSON.h	120;"	d
+CJSON_PUBLIC	cJSON/cJSON.h	122;"	d
+CJSON_VERSION_MAJOR	cJSON/cJSON.h	32;"	d
+CJSON_VERSION_MINOR	cJSON/cJSON.h	33;"	d
+CJSON_VERSION_PATCH	cJSON/cJSON.h	34;"	d
+COPY	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+ContainerID	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  ContainerID[16];$/;"	m	struct:libusb_container_id_descriptor
+CreateListItem	List.c	/^static ListItem* CreateListItem(List* pList, void* pData)$/;"	f	file:
+DEBUG	Makefile	/^DEBUG = -g -O2$/;"	m
+DEBUG	libusb/test/Makefile	/^DEBUG = -g -O2$/;"	m
+FAC	kprotocal.c	/^	uint8_t FAC;$/;"	m	struct:__anon4	file:
+ID	kprotocal.c	/^	uint32_t ID;$/;"	m	struct:__anon3	file:
+ID	kprotocal.c	/^	uint32_t ID;$/;"	m	struct:__anon4	file:
+INCLUDE	Makefile	/^INCLUDE = -I\/usr\/libcurl\/include -I.\/cJSON$/;"	m
+INCLUDE	libusb/test/Makefile	/^INCLUDE = -I\/root\/tool\/libusb\/include\/$/;"	m
+INVALID	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+IteratorHandler	List.h	/^typedef int IteratorHandler(void*);$/;"	t
+LIB	Makefile	/^LIB = -L\/usr\/libcurl\/lib$/;"	m
+LIB	libusb/test/Makefile	/^LIB = -L\/root\/tool\/libusb\/lib$/;"	m
+LIBS	Makefile	/^LIBS = -lcurl$/;"	m
+LIBS	libusb/test/Makefile	/^LIBS = -lusb-1.0 -lrt$/;"	m
+LIBUSBX_API_VERSION	libusb/include/libusb-1.0/libusb.h	155;"	d
+LIBUSB_API_VERSION	libusb/include/libusb-1.0/libusb.h	152;"	d
+LIBUSB_BM_LPM_SUPPORT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_BM_LPM_SUPPORT = 2,$/;"	e	enum:libusb_usb_2_0_extension_attributes
+LIBUSB_BM_LTM_SUPPORT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_BM_LTM_SUPPORT = 2,$/;"	e	enum:libusb_ss_usb_device_capability_attributes
+LIBUSB_BT_CONTAINER_ID	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_BT_CONTAINER_ID				= 4,$/;"	e	enum:libusb_bos_type
+LIBUSB_BT_CONTAINER_ID_SIZE	libusb/include/libusb-1.0/libusb.h	311;"	d
+LIBUSB_BT_SS_USB_DEVICE_CAPABILITY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_BT_SS_USB_DEVICE_CAPABILITY		= 3,$/;"	e	enum:libusb_bos_type
+LIBUSB_BT_SS_USB_DEVICE_CAPABILITY_SIZE	libusb/include/libusb-1.0/libusb.h	310;"	d
+LIBUSB_BT_USB_2_0_EXTENSION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_BT_USB_2_0_EXTENSION			= 2,$/;"	e	enum:libusb_bos_type
+LIBUSB_BT_USB_2_0_EXTENSION_SIZE	libusb/include/libusb-1.0/libusb.h	309;"	d
+LIBUSB_BT_WIRELESS_USB_DEVICE_CAPABILITY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_BT_WIRELESS_USB_DEVICE_CAPABILITY	= 1,$/;"	e	enum:libusb_bos_type
+LIBUSB_CALL	libusb/include/libusb-1.0/libusb.h	127;"	d
+LIBUSB_CALL	libusb/include/libusb-1.0/libusb.h	129;"	d
+LIBUSB_CAP_HAS_CAPABILITY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CAP_HAS_CAPABILITY = 0x0000,$/;"	e	enum:libusb_capability
+LIBUSB_CAP_HAS_HID_ACCESS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CAP_HAS_HID_ACCESS = 0x0100,$/;"	e	enum:libusb_capability
+LIBUSB_CAP_HAS_HOTPLUG	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CAP_HAS_HOTPLUG = 0x0001,$/;"	e	enum:libusb_capability
+LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER = 0x0101$/;"	e	enum:libusb_capability
+LIBUSB_CLASS_APPLICATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_APPLICATION = 0xfe,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_AUDIO	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_AUDIO = 1,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_COMM	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_COMM = 2,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_CONTENT_SECURITY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_CONTENT_SECURITY = 0x0d,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_DATA	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_DATA = 10,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_DIAGNOSTIC_DEVICE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_DIAGNOSTIC_DEVICE = 0xdc,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_HID	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_HID = 3,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_HUB	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_HUB = 9,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_IMAGE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_IMAGE = 6,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_MASS_STORAGE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_MASS_STORAGE = 8,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PERSONAL_HEALTHCARE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_PERSONAL_HEALTHCARE = 0x0f,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PER_INTERFACE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_PER_INTERFACE = 0,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PHYSICAL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_PHYSICAL = 5,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PRINTER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_PRINTER = 7,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PTP	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_PTP = 6, \/* legacy name from libusb-0.1 usb.h *\/$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_SMART_CARD	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_SMART_CARD = 0x0b,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_VENDOR_SPEC	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_VENDOR_SPEC = 0xff$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_VIDEO	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_VIDEO = 0x0e,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_WIRELESS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_CLASS_WIRELESS = 0xe0,$/;"	e	enum:libusb_class_code
+LIBUSB_CONTROL_SETUP_SIZE	libusb/include/libusb-1.0/libusb.h	890;"	d
+LIBUSB_DEPRECATED_FOR	libusb/include/libusb-1.0/libusb.h	86;"	d
+LIBUSB_DEPRECATED_FOR	libusb/include/libusb-1.0/libusb.h	89;"	d
+LIBUSB_DEPRECATED_FOR	libusb/include/libusb-1.0/libusb.h	91;"	d
+LIBUSB_DT_BOS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_BOS = 0x0f,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_BOS_MAX_SIZE	libusb/include/libusb-1.0/libusb.h	314;"	d
+LIBUSB_DT_BOS_SIZE	libusb/include/libusb-1.0/libusb.h	305;"	d
+LIBUSB_DT_CONFIG	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_CONFIG = 0x02,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_CONFIG_SIZE	libusb/include/libusb-1.0/libusb.h	299;"	d
+LIBUSB_DT_DEVICE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_DEVICE = 0x01,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_DEVICE_CAPABILITY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_DEVICE_CAPABILITY = 0x10,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_DEVICE_CAPABILITY_SIZE	libusb/include/libusb-1.0/libusb.h	306;"	d
+LIBUSB_DT_DEVICE_SIZE	libusb/include/libusb-1.0/libusb.h	298;"	d
+LIBUSB_DT_ENDPOINT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_ENDPOINT = 0x05,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_ENDPOINT_AUDIO_SIZE	libusb/include/libusb-1.0/libusb.h	302;"	d
+LIBUSB_DT_ENDPOINT_SIZE	libusb/include/libusb-1.0/libusb.h	301;"	d
+LIBUSB_DT_HID	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_HID = 0x21,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_HUB	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_HUB = 0x29,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_HUB_NONVAR_SIZE	libusb/include/libusb-1.0/libusb.h	303;"	d
+LIBUSB_DT_INTERFACE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_INTERFACE = 0x04,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_INTERFACE_SIZE	libusb/include/libusb-1.0/libusb.h	300;"	d
+LIBUSB_DT_PHYSICAL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_PHYSICAL = 0x23,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_REPORT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_REPORT = 0x22,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_SS_ENDPOINT_COMPANION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_SS_ENDPOINT_COMPANION = 0x30$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_SS_ENDPOINT_COMPANION_SIZE	libusb/include/libusb-1.0/libusb.h	304;"	d
+LIBUSB_DT_STRING	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_STRING = 0x03,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_SUPERSPEED_HUB	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_DT_SUPERSPEED_HUB = 0x2a,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_ENDPOINT_ADDRESS_MASK	libusb/include/libusb-1.0/libusb.h	319;"	d
+LIBUSB_ENDPOINT_DIR_MASK	libusb/include/libusb-1.0/libusb.h	320;"	d
+LIBUSB_ENDPOINT_IN	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ENDPOINT_IN = 0x80,$/;"	e	enum:libusb_endpoint_direction
+LIBUSB_ENDPOINT_OUT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ENDPOINT_OUT = 0x00$/;"	e	enum:libusb_endpoint_direction
+LIBUSB_ERROR_ACCESS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_ACCESS = -3,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_BUSY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_BUSY = -6,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_COUNT	libusb/include/libusb-1.0/libusb.h	1101;"	d
+LIBUSB_ERROR_INTERRUPTED	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_INTERRUPTED = -10,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_INVALID_PARAM	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_INVALID_PARAM = -2,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_IO	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_IO = -1,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NOT_FOUND	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_NOT_FOUND = -5,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NOT_SUPPORTED	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_NOT_SUPPORTED = -12,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NO_DEVICE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_NO_DEVICE = -4,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NO_MEM	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_NO_MEM = -11,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_OTHER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_OTHER = -99,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_OVERFLOW	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_OVERFLOW = -8,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_PIPE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_PIPE = -9,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_TIMEOUT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ERROR_TIMEOUT = -7,$/;"	e	enum:libusb_error
+LIBUSB_FULL_SPEED_OPERATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_FULL_SPEED_OPERATION  = 2,$/;"	e	enum:libusb_supported_speed
+LIBUSB_H	libusb/include/libusb-1.0/libusb.h	25;"	d
+LIBUSB_HIGH_SPEED_OPERATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_HIGH_SPEED_OPERATION  = 4,$/;"	e	enum:libusb_supported_speed
+LIBUSB_HOTPLUG_ENUMERATE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_HOTPLUG_ENUMERATE = 1<<0,$/;"	e	enum:__anon1
+LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED = 0x01,$/;"	e	enum:__anon2
+LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT    = 0x02,$/;"	e	enum:__anon2
+LIBUSB_HOTPLUG_MATCH_ANY	libusb/include/libusb-1.0/libusb.h	1910;"	d
+LIBUSB_HOTPLUG_NO_FLAGS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_HOTPLUG_NO_FLAGS = 0,$/;"	e	enum:__anon1
+LIBUSB_ISO_SYNC_TYPE_ADAPTIVE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_ADAPTIVE = 2,$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_SYNC_TYPE_ASYNC	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_ASYNC = 1,$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_SYNC_TYPE_MASK	libusb/include/libusb-1.0/libusb.h	441;"	d
+LIBUSB_ISO_SYNC_TYPE_NONE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_NONE = 0,$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_SYNC_TYPE_SYNC	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_SYNC = 3$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_USAGE_TYPE_DATA	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_USAGE_TYPE_DATA = 0,$/;"	e	enum:libusb_iso_usage_type
+LIBUSB_ISO_USAGE_TYPE_FEEDBACK	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_USAGE_TYPE_FEEDBACK = 1,$/;"	e	enum:libusb_iso_usage_type
+LIBUSB_ISO_USAGE_TYPE_IMPLICIT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_ISO_USAGE_TYPE_IMPLICIT = 2,$/;"	e	enum:libusb_iso_usage_type
+LIBUSB_ISO_USAGE_TYPE_MASK	libusb/include/libusb-1.0/libusb.h	462;"	d
+LIBUSB_LOG_LEVEL_DEBUG	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_LOG_LEVEL_DEBUG = 4,$/;"	e	enum:libusb_log_level
+LIBUSB_LOG_LEVEL_ERROR	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_LOG_LEVEL_ERROR = 1,$/;"	e	enum:libusb_log_level
+LIBUSB_LOG_LEVEL_INFO	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_LOG_LEVEL_INFO = 3,$/;"	e	enum:libusb_log_level
+LIBUSB_LOG_LEVEL_NONE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_LOG_LEVEL_NONE = 0,$/;"	e	enum:libusb_log_level
+LIBUSB_LOG_LEVEL_WARNING	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_LOG_LEVEL_WARNING = 2,$/;"	e	enum:libusb_log_level
+LIBUSB_LOW_SPEED_OPERATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_LOW_SPEED_OPERATION   = 1,$/;"	e	enum:libusb_supported_speed
+LIBUSB_OPTION_LOG_LEVEL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_OPTION_LOG_LEVEL,$/;"	e	enum:libusb_option
+LIBUSB_OPTION_USE_USBDK	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_OPTION_USE_USBDK,$/;"	e	enum:libusb_option
+LIBUSB_RECIPIENT_DEVICE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_RECIPIENT_DEVICE = 0x00,$/;"	e	enum:libusb_request_recipient
+LIBUSB_RECIPIENT_ENDPOINT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_RECIPIENT_ENDPOINT = 0x02,$/;"	e	enum:libusb_request_recipient
+LIBUSB_RECIPIENT_INTERFACE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_RECIPIENT_INTERFACE = 0x01,$/;"	e	enum:libusb_request_recipient
+LIBUSB_RECIPIENT_OTHER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_RECIPIENT_OTHER = 0x03,$/;"	e	enum:libusb_request_recipient
+LIBUSB_REQUEST_CLEAR_FEATURE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_CLEAR_FEATURE = 0x01,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_CONFIGURATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_GET_CONFIGURATION = 0x08,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_DESCRIPTOR	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_GET_DESCRIPTOR = 0x06,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_INTERFACE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_GET_INTERFACE = 0x0A,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_STATUS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_GET_STATUS = 0x00,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_ADDRESS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SET_ADDRESS = 0x05,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_CONFIGURATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SET_CONFIGURATION = 0x09,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_DESCRIPTOR	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SET_DESCRIPTOR = 0x07,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_FEATURE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SET_FEATURE = 0x03,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_INTERFACE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SET_INTERFACE = 0x0B,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_SEL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SET_SEL = 0x30,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SYNCH_FRAME	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_SYNCH_FRAME = 0x0C,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_TYPE_CLASS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_TYPE_CLASS = (0x01 << 5),$/;"	e	enum:libusb_request_type
+LIBUSB_REQUEST_TYPE_RESERVED	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_TYPE_RESERVED = (0x03 << 5)$/;"	e	enum:libusb_request_type
+LIBUSB_REQUEST_TYPE_STANDARD	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_TYPE_STANDARD = (0x00 << 5),$/;"	e	enum:libusb_request_type
+LIBUSB_REQUEST_TYPE_VENDOR	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_REQUEST_TYPE_VENDOR = (0x02 << 5),$/;"	e	enum:libusb_request_type
+LIBUSB_SET_ISOCH_DELAY	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SET_ISOCH_DELAY = 0x31,$/;"	e	enum:libusb_standard_request
+LIBUSB_SPEED_FULL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SPEED_FULL = 2,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_HIGH	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SPEED_HIGH = 3,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_LOW	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SPEED_LOW = 1,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_SUPER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SPEED_SUPER = 4,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_SUPER_PLUS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SPEED_SUPER_PLUS = 5,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_UNKNOWN	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SPEED_UNKNOWN = 0,$/;"	e	enum:libusb_speed
+LIBUSB_SUCCESS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SUCCESS = 0,$/;"	e	enum:libusb_error
+LIBUSB_SUPER_SPEED_OPERATION	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_SUPER_SPEED_OPERATION = 8,$/;"	e	enum:libusb_supported_speed
+LIBUSB_TRANSFER_ADD_ZERO_PACKET	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_ADD_ZERO_PACKET = 1 << 3,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_CANCELLED	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_CANCELLED,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_COMPLETED	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_COMPLETED,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_ERROR	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_ERROR,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_FREE_BUFFER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_FREE_BUFFER = 1<<1,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_FREE_TRANSFER	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_FREE_TRANSFER = 1<<2,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_NO_DEVICE	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_NO_DEVICE,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_OVERFLOW	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_OVERFLOW,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_SHORT_NOT_OK	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_SHORT_NOT_OK = 1<<0,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_STALL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_STALL,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_TIMED_OUT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TIMED_OUT,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_TYPE_BULK	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_BULK = 2,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_BULK_STREAM	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_BULK_STREAM = 4,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_CONTROL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_CONTROL = 0,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_INTERRUPT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_INTERRUPT = 3,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_ISOCHRONOUS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_ISOCHRONOUS = 1,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_MASK	libusb/include/libusb-1.0/libusb.h	334;"	d
+LIST_MAX_BUFF_CNT	List.c	7;"	d	file:
+LQI	kprotocal.c	/^	uint8_t LQI;$/;"	m	struct:__anon4	file:
+List	List.h	/^typedef struct List $/;"	s
+List	List.h	/^}List;$/;"	t	typeref:struct:List
+ListItem	List.h	/^typedef struct ListItem$/;"	s
+ListItem	List.h	/^}ListItem;$/;"	t	typeref:struct:ListItem
+List_Add	List.c	/^int List_Add(List* pList, void* pItem)$/;"	f
+List_Count	List.c	/^int List_Count(List* pList)$/;"	f
+List_Create	List.c	/^List* List_Create(int nItemLen)$/;"	f
+List_Destroy	List.c	/^int List_Destroy(List* pList)$/;"	f
+List_DestroyListItem	List.c	/^static void List_DestroyListItem(ListItem* pListItem)$/;"	f	file:
+List_Find	List.c	/^const void* List_Find(List* pList, int nIndex)$/;"	f
+List_FindCopy	List.c	/^void* List_FindCopy(List* pList, int nIndex)$/;"	f
+List_FindListItem	List.c	/^static ListItem* List_FindListItem(List* pList, unsigned int nIndex)$/;"	f	file:
+List_Iterator	List.c	/^int List_Iterator(List* pList, IteratorHandler handler)$/;"	f
+List_Remove	List.c	/^int List_Remove(List* pList, unsigned int nIndex)$/;"	f
+List_Update	List.c	/^int List_Update(List *pList, int nIndex, void *pItem)$/;"	f
+MOVE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+MaxPower	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  MaxPower;$/;"	m	struct:libusb_config_descriptor
+OP_ALL	SharedList.c	8;"	d	file:
+OP_FREE	SharedList.c	5;"	d	file:
+OP_READ	SharedList.c	7;"	d	file:
+OP_WRITE	SharedList.c	6;"	d	file:
+PID	libusb/test/test.c	8;"	d	file:
+PROC_FILE_PATH	deamonTask.c	1;"	d	file:
+PRODUCT_ID	usbCom.c	7;"	d	file:
+Panid	kprotocal.c	/^	uint16_t Panid;$/;"	m	struct:__anon3	file:
+REMOVE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+REPLACE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+RET_ABANDON	SharedList.c	10;"	d	file:
+RET_BAD_PARA	CommonDefine.h	4;"	d
+RET_FUNCTION_OK	CommonDefine.h	3;"	d
+RET_GENERAL_ERR	CommonDefine.h	6;"	d
+RET_MALLOC_ERR	CommonDefine.h	5;"	d
+RET_USER_DEFINE	CommonDefine.h	7;"	d
+RxBuffer_t	httpClient.c	/^}RxBuffer_t;$/;"	t	typeref:struct:__anon6	file:
+ShareList_update	SharedList.c	/^int ShareList_update(ShareList *pList, int nIndex, void *pItem)$/;"	f
+SharedList	SharedList.h	/^typedef struct SharedList$/;"	s
+SharedList	SharedList.h	/^}SharedList;$/;"	t	typeref:struct:SharedList
+SharedList_Add	SharedList.c	/^int SharedList_Add(SharedList* pList, void* pItem)$/;"	f
+SharedList_Count	SharedList.c	/^int SharedList_Count(SharedList* pList)$/;"	f
+SharedList_Create	SharedList.c	/^SharedList* SharedList_Create(int nItemLen)$/;"	f
+SharedList_Destroy	SharedList.c	/^int SharedList_Destroy(SharedList* pList)$/;"	f
+SharedList_FindCopy	SharedList.c	/^void* SharedList_FindCopy(SharedList* pList, int nIndex)$/;"	f
+SharedList_Iterator	SharedList.c	/^int SharedList_Iterator(SharedList* pList, IteratorHandler handler)$/;"	f
+SharedList_Lock	SharedList.c	/^int SharedList_Lock(SharedList* pList)$/;"	f
+SharedList_Remove	SharedList.c	/^int SharedList_Remove(SharedList* pList, int nIndex)$/;"	f
+SharedList_Unlock	SharedList.c	/^int SharedList_Unlock(SharedList* pList)$/;"	f
+TARGET	Makefile	/^TARGET = httpClient$/;"	m
+TARGET	libusb/test/Makefile	/^TARGET = usb_test $/;"	m
+TEST	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+TYPE	kprotocal.c	/^	uint8_t TYPE;$/;"	m	struct:__anon4	file:
+USB_DEBUG	usbCom.c	12;"	d	file:
+USB_DEBUG	usbCom.c	17;"	d	file:
+USB_DEBUG_ENABLE	usbCom.c	9;"	d	file:
+VENDER_ID	usbCom.c	6;"	d	file:
+VER	kprotocal.c	/^	uint8_t VER;$/;"	m	struct:__anon3	file:
+VER	kprotocal.c	/^	uint8_t VER;$/;"	m	struct:__anon4	file:
+VID	libusb/test/test.c	7;"	d	file:
+VOL	kprotocal.c	/^	uint8_t VOL;$/;"	m	struct:__anon4	file:
+XD1	kprotocal.c	/^	uint8_t XD1;$/;"	m	struct:__anon3	file:
+XD1	kprotocal.c	/^	uint8_t XD1;$/;"	m	struct:__anon4	file:
+XD2	kprotocal.c	/^	uint8_t XD2;$/;"	m	struct:__anon3	file:
+XD2	kprotocal.c	/^	uint8_t XD2;$/;"	m	struct:__anon4	file:
+ZERO_SIZED_ARRAY	libusb/include/libusb-1.0/libusb.h	65;"	d
+ZERO_SIZED_ARRAY	libusb/include/libusb-1.0/libusb.h	67;"	d
+_CRT_SECURE_NO_DEPRECATE	cJSON/cJSON.c	28;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	cJSON/cJSON_Utils.c	25;"	d	file:
+_SSIZE_T_DEFINED	libusb/include/libusb-1.0/libusb.h	34;"	d
+__COMMONDEFINE_H__	CommonDefine.h	2;"	d
+__LIST_H__	List.h	2;"	d
+__PROTOCALPARSE_H__	kprotocal.h	2;"	d
+__SHAREDLIST_H__	SharedList.h	2;"	d
+__WINDOWS__	cJSON/cJSON.h	84;"	d
+active_config	libusb/test/test3.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
+active_config	test3.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
+active_config	usbCom.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
+actual_length	libusb/include/libusb-1.0/libusb.h	/^	int actual_length;$/;"	m	struct:libusb_transfer
+actual_length	libusb/include/libusb-1.0/libusb.h	/^	unsigned int actual_length;$/;"	m	struct:libusb_iso_packet_descriptor
+add_item_to_array	cJSON/cJSON.c	/^static cJSON_bool add_item_to_array(cJSON *array, cJSON *item)$/;"	f	file:
+add_item_to_object	cJSON/cJSON.c	/^static cJSON_bool add_item_to_object(cJSON * const object, const char * const string, cJSON * const item, const internal_hooks * const hooks, const cJSON_bool constant_key)$/;"	f	file:
+allocate	cJSON/cJSON.c	/^    void *(*allocate)(size_t size);$/;"	m	struct:internal_hooks	file:
+alt_interface	libusb/test/test3.c	/^int alt_interface, interface_number;$/;"	v
+alt_interface	test3.c	/^int alt_interface, interface_number;$/;"	v
+altsetting	libusb/include/libusb-1.0/libusb.h	/^	const struct libusb_interface_descriptor *altsetting;$/;"	m	struct:libusb_interface	typeref:struct:libusb_interface::libusb_interface_descriptor
+apid	kprotocal.c	/^static uint32_t apid = 0x12345678;$/;"	v	file:
+apply_patch	cJSON/cJSON_Utils.c	/^static int apply_patch(cJSON *object, const cJSON *patch, const cJSON_bool case_sensitive)$/;"	f	file:
+array	cJSON/cJSON.h	/^CJSON_PUBLIC(int) cJSON_GetArraySize(const cJSON *array);$/;"	v
+bAlternateSetting	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bAlternateSetting;$/;"	m	struct:libusb_interface_descriptor
+bConfigurationValue	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bConfigurationValue;$/;"	m	struct:libusb_config_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_bos_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_config_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_container_id_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_device_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_endpoint_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_interface_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_ss_endpoint_companion_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_usb_2_0_extension_descriptor
+bDescriptorType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t bDescriptorType;$/;"	m	struct:libusb_bos_dev_capability_descriptor
+bDevCapabilityType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDevCapabilityType;$/;"	m	struct:libusb_container_id_descriptor
+bDevCapabilityType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDevCapabilityType;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bDevCapabilityType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDevCapabilityType;$/;"	m	struct:libusb_usb_2_0_extension_descriptor
+bDevCapabilityType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t bDevCapabilityType;$/;"	m	struct:libusb_bos_dev_capability_descriptor
+bDeviceClass	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDeviceClass;$/;"	m	struct:libusb_device_descriptor
+bDeviceProtocol	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDeviceProtocol;$/;"	m	struct:libusb_device_descriptor
+bDeviceSubClass	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bDeviceSubClass;$/;"	m	struct:libusb_device_descriptor
+bEndpointAddress	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bEndpointAddress;$/;"	m	struct:libusb_endpoint_descriptor
+bFunctionalitySupport	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bFunctionalitySupport;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bInterfaceClass	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bInterfaceClass;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceNumber	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bInterfaceNumber;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceProtocol	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bInterfaceProtocol;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceSubClass	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bInterfaceSubClass;$/;"	m	struct:libusb_interface_descriptor
+bInterval	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bInterval;$/;"	m	struct:libusb_endpoint_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_bos_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_config_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_container_id_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_device_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_endpoint_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_interface_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_ss_endpoint_companion_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_usb_2_0_extension_descriptor
+bLength	libusb/include/libusb-1.0/libusb.h	/^	uint8_t bLength;$/;"	m	struct:libusb_bos_dev_capability_descriptor
+bMaxBurst	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bMaxBurst;$/;"	m	struct:libusb_ss_endpoint_companion_descriptor
+bMaxPacketSize0	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bMaxPacketSize0;$/;"	m	struct:libusb_device_descriptor
+bNumConfigurations	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bNumConfigurations;$/;"	m	struct:libusb_device_descriptor
+bNumDeviceCaps	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bNumDeviceCaps;$/;"	m	struct:libusb_bos_descriptor
+bNumEndpoints	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bNumEndpoints;$/;"	m	struct:libusb_interface_descriptor
+bNumInterfaces	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bNumInterfaces;$/;"	m	struct:libusb_config_descriptor
+bRefresh	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bRefresh;$/;"	m	struct:libusb_endpoint_descriptor
+bRequest	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bRequest;$/;"	m	struct:libusb_control_setup
+bReserved	libusb/include/libusb-1.0/libusb.h	/^	uint8_t bReserved;$/;"	m	struct:libusb_container_id_descriptor
+bSynchAddress	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bSynchAddress;$/;"	m	struct:libusb_endpoint_descriptor
+bU1DevExitLat	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bU1DevExitLat;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bU2DevExitLat	libusb/include/libusb-1.0/libusb.h	/^	uint16_t bU2DevExitLat;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bcdDevice	libusb/include/libusb-1.0/libusb.h	/^	uint16_t bcdDevice;$/;"	m	struct:libusb_device_descriptor
+bcdUSB	libusb/include/libusb-1.0/libusb.h	/^	uint16_t bcdUSB;$/;"	m	struct:libusb_device_descriptor
+bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint32_t  bmAttributes;$/;"	m	struct:libusb_usb_2_0_extension_descriptor
+bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_config_descriptor
+bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_endpoint_descriptor
+bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_ss_endpoint_companion_descriptor
+bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+bmRequestType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmRequestType;$/;"	m	struct:libusb_control_setup
+boolean	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateBool(cJSON_bool boolean);$/;"	v
+buffer	cJSON/cJSON.c	/^    unsigned char *buffer;$/;"	m	struct:__anon9	file:
+buffer	libusb/include/libusb-1.0/libusb.h	/^	unsigned char *buffer;$/;"	m	struct:libusb_transfer
+bufferCnt	List.h	/^	int bufferCnt;$/;"	m	struct:List
+buffer_at_offset	cJSON/cJSON.c	263;"	d	file:
+buffer_skip_whitespace	cJSON/cJSON.c	/^static parse_buffer *buffer_skip_whitespace(parse_buffer * const buffer)$/;"	f	file:
+c	cJSON/cJSON.h	/^CJSON_PUBLIC(void) cJSON_Delete(cJSON *c);$/;"	v
+cJSON	cJSON/cJSON.h	/^typedef struct cJSON$/;"	s
+cJSON	cJSON/cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSONUtils_AddPatchToArray	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(void) cJSONUtils_AddPatchToArray(cJSON * const array, const char * const operation, const char * const path, const cJSON * const value)$/;"	f
+cJSONUtils_ApplyPatches	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(int) cJSONUtils_ApplyPatches(cJSON * const object, const cJSON * const patches)$/;"	f
+cJSONUtils_ApplyPatchesCaseSensitive	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(int) cJSONUtils_ApplyPatchesCaseSensitive(cJSON * const object, const cJSON * const patches)$/;"	f
+cJSONUtils_FindPointerFromObjectTo	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(char *) cJSONUtils_FindPointerFromObjectTo(const cJSON * const object, const cJSON * const target)$/;"	f
+cJSONUtils_GenerateMergePatch	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_GenerateMergePatch(cJSON * const from, cJSON * const to)$/;"	f
+cJSONUtils_GenerateMergePatchCaseSensitive	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_GenerateMergePatchCaseSensitive(cJSON * const from, cJSON * const to)$/;"	f
+cJSONUtils_GeneratePatches	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_GeneratePatches(cJSON * const from, cJSON * const to)$/;"	f
+cJSONUtils_GeneratePatchesCaseSensitive	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_GeneratePatchesCaseSensitive(cJSON * const from, cJSON * const to)$/;"	f
+cJSONUtils_GetPointer	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_GetPointer(cJSON * const object, const char *pointer)$/;"	f
+cJSONUtils_GetPointerCaseSensitive	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_GetPointerCaseSensitive(cJSON * const object, const char *pointer)$/;"	f
+cJSONUtils_MergePatch	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_MergePatch(cJSON *target, const cJSON * const patch)$/;"	f
+cJSONUtils_MergePatchCaseSensitive	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(cJSON *) cJSONUtils_MergePatchCaseSensitive(cJSON *target, const cJSON * const patch)$/;"	f
+cJSONUtils_SortObject	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(void) cJSONUtils_SortObject(cJSON * const object)$/;"	f
+cJSONUtils_SortObjectCaseSensitive	cJSON/cJSON_Utils.c	/^CJSON_PUBLIC(void) cJSONUtils_SortObjectCaseSensitive(cJSON * const object)$/;"	f
+cJSONUtils_strdup	cJSON/cJSON_Utils.c	/^static unsigned char* cJSONUtils_strdup(const unsigned char* const string)$/;"	f	file:
+cJSON_AddArrayToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddArrayToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddBoolToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddBoolToObject(cJSON * const object, const char * const name, const cJSON_bool boolean)$/;"	f
+cJSON_AddFalseToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddFalseToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddItemReferenceToArray	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)$/;"	f
+cJSON_AddItemReferenceToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_AddItemReferenceToObject(cJSON *object, const char *string, cJSON *item)$/;"	f
+cJSON_AddItemToArray	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_AddItemToArray(cJSON *array, cJSON *item)$/;"	f
+cJSON_AddItemToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_AddItemToObject(cJSON *object, const char *string, cJSON *item)$/;"	f
+cJSON_AddItemToObjectCS	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_AddItemToObjectCS(cJSON *object, const char *string, cJSON *item)$/;"	f
+cJSON_AddNullToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddNullToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddNumberToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddNumberToObject(cJSON * const object, const char * const name, const double number)$/;"	f
+cJSON_AddObjectToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddObjectToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddRawToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddRawToObject(cJSON * const object, const char * const name, const char * const raw)$/;"	f
+cJSON_AddStringToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddStringToObject(cJSON * const object, const char * const name, const char * const string)$/;"	f
+cJSON_AddTrueToObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddTrueToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_Array	cJSON/cJSON.h	45;"	d
+cJSON_ArrayForEach	cJSON/cJSON.h	267;"	d
+cJSON_CreateArray	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArray(void)$/;"	f
+cJSON_CreateArrayReference	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArrayReference(const cJSON *child) {$/;"	f
+cJSON_CreateBool	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateBool(cJSON_bool b)$/;"	f
+cJSON_CreateDoubleArray	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateDoubleArray(const double *numbers, int count)$/;"	f
+cJSON_CreateFalse	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateFalse(void)$/;"	f
+cJSON_CreateFloatArray	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateFloatArray(const float *numbers, int count)$/;"	f
+cJSON_CreateIntArray	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateIntArray(const int *numbers, int count)$/;"	f
+cJSON_CreateNull	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateNull(void)$/;"	f
+cJSON_CreateNumber	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateNumber(double num)$/;"	f
+cJSON_CreateObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObject(void)$/;"	f
+cJSON_CreateObjectReference	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObjectReference(const cJSON *child)$/;"	f
+cJSON_CreateRaw	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateRaw(const char *raw)$/;"	f
+cJSON_CreateString	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateString(const char *string)$/;"	f
+cJSON_CreateStringArray	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateStringArray(const char **strings, int count)$/;"	f
+cJSON_CreateStringReference	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateStringReference(const char *string)$/;"	f
+cJSON_CreateTrue	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateTrue(void)$/;"	f
+cJSON_Delete	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_Delete(cJSON *item)$/;"	f
+cJSON_DeleteItemFromArray	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromArray(cJSON *array, int which)$/;"	f
+cJSON_DeleteItemFromObject	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromObject(cJSON *object, const char *string)$/;"	f
+cJSON_DeleteItemFromObjectCaseSensitive	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromObjectCaseSensitive(cJSON *object, const char *string)$/;"	f
+cJSON_DetachItemFromArray	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromArray(cJSON *array, int which)$/;"	f
+cJSON_DetachItemFromObject	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromObject(cJSON *object, const char *string)$/;"	f
+cJSON_DetachItemFromObjectCaseSensitive	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromObjectCaseSensitive(cJSON *object, const char *string)$/;"	f
+cJSON_DetachItemViaPointer	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemViaPointer(cJSON *parent, cJSON * const item)$/;"	f
+cJSON_Duplicate	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_Duplicate(const cJSON *item, cJSON_bool recurse)$/;"	f
+cJSON_False	cJSON/cJSON.h	40;"	d
+cJSON_GetArrayItem	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetArrayItem(const cJSON *array, int index)$/;"	f
+cJSON_GetArraySize	cJSON/cJSON.c	/^CJSON_PUBLIC(int) cJSON_GetArraySize(const cJSON *array)$/;"	f
+cJSON_GetErrorPtr	cJSON/cJSON.c	/^CJSON_PUBLIC(const char *) cJSON_GetErrorPtr(void)$/;"	f
+cJSON_GetObjectItem	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetObjectItem(const cJSON * const object, const char * const string)$/;"	f
+cJSON_GetObjectItemCaseSensitive	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetObjectItemCaseSensitive(const cJSON * const object, const char * const string)$/;"	f
+cJSON_GetStringValue	cJSON/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_GetStringValue(cJSON *item) {$/;"	f
+cJSON_Hooks	cJSON/cJSON.h	/^typedef struct cJSON_Hooks$/;"	s
+cJSON_Hooks	cJSON/cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_InsertItemInArray	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_InsertItemInArray(cJSON *array, int which, cJSON *newitem)$/;"	f
+cJSON_Invalid	cJSON/cJSON.h	39;"	d
+cJSON_IsReference	cJSON/cJSON.h	49;"	d
+cJSON_Minify	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	cJSON/cJSON.h	42;"	d
+cJSON_New_Item	cJSON/cJSON.c	/^static cJSON *cJSON_New_Item(const internal_hooks * const hooks)$/;"	f	file:
+cJSON_Number	cJSON/cJSON.h	43;"	d
+cJSON_Object	cJSON/cJSON.h	46;"	d
+cJSON_Parse	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_Parse(const char *value)$/;"	f
+cJSON_ParseWithOpts	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithOpts(const char *value, const char **return_parse_end, cJSON_bool require_null_terminated)$/;"	f
+cJSON_Print	cJSON/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_Print(const cJSON *item)$/;"	f
+cJSON_PrintBuffered	cJSON/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_PrintBuffered(const cJSON *item, int prebuffer, cJSON_bool fmt)$/;"	f
+cJSON_PrintUnformatted	cJSON/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_PrintUnformatted(const cJSON *item)$/;"	f
+cJSON_Raw	cJSON/cJSON.h	47;"	d
+cJSON_ReplaceItemInArray	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_ReplaceItemInArray(cJSON *array, int which, cJSON *newitem)$/;"	f
+cJSON_ReplaceItemInObject	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_ReplaceItemInObject(cJSON *object, const char *string, cJSON *newitem)$/;"	f
+cJSON_ReplaceItemInObjectCaseSensitive	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_ReplaceItemInObjectCaseSensitive(cJSON *object, const char *string, cJSON *newitem)$/;"	f
+cJSON_SetIntValue	cJSON/cJSON.h	261;"	d
+cJSON_SetNumberHelper	cJSON/cJSON.c	/^CJSON_PUBLIC(double) cJSON_SetNumberHelper(cJSON *object, double number)$/;"	f
+cJSON_SetNumberValue	cJSON/cJSON.h	264;"	d
+cJSON_String	cJSON/cJSON.h	44;"	d
+cJSON_StringIsConst	cJSON/cJSON.h	50;"	d
+cJSON_True	cJSON/cJSON.h	41;"	d
+cJSON_Utils__h	cJSON/cJSON_Utils.h	24;"	d
+cJSON_Version	cJSON/cJSON.c	/^CJSON_PUBLIC(const char*) cJSON_Version(void)$/;"	f
+cJSON__h	cJSON/cJSON.h	24;"	d
+cJSON_bool	cJSON/cJSON.h	/^typedef int cJSON_bool;$/;"	t
+cJSON_free	cJSON/cJSON.c	/^CJSON_PUBLIC(void) cJSON_free(void *object)$/;"	f
+cJSON_malloc	cJSON/cJSON.c	/^CJSON_PUBLIC(void *) cJSON_malloc(size_t size)$/;"	f
+cJSON_strdup	cJSON/cJSON.c	/^static unsigned char* cJSON_strdup(const unsigned char* string, const internal_hooks * const hooks)$/;"	f	file:
+callback	libusb/include/libusb-1.0/libusb.h	/^	libusb_transfer_cb_fn callback;$/;"	m	struct:libusb_transfer
+can_access_at_index	cJSON/cJSON.c	260;"	d	file:
+can_read	cJSON/cJSON.c	258;"	d	file:
+cannot_access_at_index	cJSON/cJSON.c	261;"	d	file:
+case_insensitive_strcmp	cJSON/cJSON.c	/^static int case_insensitive_strcmp(const unsigned char *string1, const unsigned char *string2)$/;"	f	file:
+cast_away_const	cJSON/cJSON.c	/^static void* cast_away_const(const void* string)$/;"	f	file:
+child	cJSON/cJSON.h	/^    struct cJSON *child;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+child	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArrayReference(const cJSON *child);$/;"	v
+child	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObjectReference(const cJSON *child);$/;"	v
+cjson_min	cJSON/cJSON.c	1085;"	d	file:
+compare_json	cJSON/cJSON_Utils.c	/^static cJSON_bool compare_json(cJSON *a, cJSON *b, const cJSON_bool case_sensitive)$/;"	f	file:
+compare_pointers	cJSON/cJSON_Utils.c	/^static cJSON_bool compare_pointers(const unsigned char *name, const unsigned char *pointer, const cJSON_bool case_sensitive)$/;"	f	file:
+compare_strings	cJSON/cJSON_Utils.c	/^static int compare_strings(const unsigned char *string1, const unsigned char *string2, const cJSON_bool case_sensitive)$/;"	f	file:
+compose_patch	cJSON/cJSON_Utils.c	/^static void compose_patch(cJSON * const patches, const unsigned char * const operation, const unsigned char * const path, const unsigned char *suffix, const cJSON * const value)$/;"	f	file:
+content	cJSON/cJSON.c	/^    const unsigned char *content;$/;"	m	struct:__anon8	file:
+count	List.h	/^	int count;$/;"	m	struct:List
+create_patches	cJSON/cJSON_Utils.c	/^static void create_patches(cJSON * const patches, const unsigned char * const path, cJSON * const from, cJSON * const to, const cJSON_bool case_sensitive)$/;"	f	file:
+create_reference	cJSON/cJSON.c	/^static cJSON *create_reference(const cJSON *item, const internal_hooks * const hooks)$/;"	f	file:
+deallocate	cJSON/cJSON.c	/^    void (*deallocate)(void *pointer);$/;"	m	struct:internal_hooks	file:
+deamonBootProcessor	deamonTask.c	/^int8_t deamonBootProcessor(const char* procname)$/;"	f
+deamonDetector	deamonTask.c	/^static int8_t deamonDetector(const char *procname)$/;"	f	file:
+deamonGetRunningState	deamonTask.c	/^static int8_t deamonGetRunningState(const char* filename)$/;"	f	file:
+deamonTrytoLockfile	deamonTask.c	/^static int32_t deamonTrytoLockfile(int fd, int lock)$/;"	f	file:
+decode_array_index_from_pointer	cJSON/cJSON_Utils.c	/^static cJSON_bool decode_array_index_from_pointer(const unsigned char * const pointer, size_t * const index)$/;"	f	file:
+decode_patch_operation	cJSON/cJSON_Utils.c	/^static enum patch_operation decode_patch_operation(const cJSON * const patch, const cJSON_bool case_sensitive)$/;"	f	file:
+decode_pointer_inplace	cJSON/cJSON_Utils.c	/^static void decode_pointer_inplace(unsigned char *string)$/;"	f	file:
+decode_price_tag	kprotocal.c	/^static int decode_price_tag(uint8_t *pData)$/;"	f	file:
+decode_tag_info	kprotocal.c	/^static void decode_tag_info(uint8_t *pData)$/;"	f	file:
+depth	cJSON/cJSON.c	/^    size_t depth; \/* How deeply nested (in arrays\/objects) is the input at the current offset. *\/$/;"	m	struct:__anon8	file:
+depth	cJSON/cJSON.c	/^    size_t depth; \/* current nesting depth (for formatted printing) *\/$/;"	m	struct:__anon9	file:
+describe	libusb/include/libusb-1.0/libusb.h	/^	const char* describe;$/;"	m	struct:libusb_version
+detach_item_from_array	cJSON/cJSON_Utils.c	/^static cJSON *detach_item_from_array(cJSON *array, size_t which)$/;"	f	file:
+detach_path	cJSON/cJSON_Utils.c	/^static cJSON *detach_path(cJSON *object, const unsigned char *path, const cJSON_bool case_sensitive)$/;"	f	file:
+dev_capability	libusb/include/libusb-1.0/libusb.h	/^	struct libusb_bos_dev_capability_descriptor *dev_capability[ZERO_SIZED_ARRAY];$/;"	m	struct:libusb_bos_descriptor	typeref:struct:libusb_bos_descriptor::libusb_bos_dev_capability_descriptor
+dev_capability_data	libusb/include/libusb-1.0/libusb.h	/^	uint8_t dev_capability_data[ZERO_SIZED_ARRAY];$/;"	m	struct:libusb_bos_dev_capability_descriptor
+dev_handle	libusb/include/libusb-1.0/libusb.h	/^	libusb_device_handle *dev_handle;$/;"	m	struct:libusb_transfer
+device_satus	libusb/test/test.c	/^static int device_satus(libusb_device_handle *hd)$/;"	f	file:
+encodeToJsonHeartbeat	kprotocal.c	/^static uint32_t *encodeToJsonHeartbeat(uint8_t *pData)$/;"	f	file:
+encode_string_as_pointer	cJSON/cJSON_Utils.c	/^static void encode_string_as_pointer(unsigned char *destination, const unsigned char *source)$/;"	f	file:
+endpoint	libusb/include/libusb-1.0/libusb.h	/^	const struct libusb_endpoint_descriptor *endpoint;$/;"	m	struct:libusb_interface_descriptor	typeref:struct:libusb_interface_descriptor::libusb_endpoint_descriptor
+endpoint	libusb/include/libusb-1.0/libusb.h	/^	unsigned char endpoint;$/;"	m	struct:libusb_transfer
+ensure	cJSON/cJSON.c	/^static unsigned char* ensure(printbuffer * const p, size_t needed)$/;"	f	file:
+error	cJSON/cJSON.c	/^} error;$/;"	t	typeref:struct:__anon7	file:
+error_record	logProcessor.c	/^int error_record(char *fmt, ..)$/;"	f
+events	libusb/include/libusb-1.0/libusb.h	/^	short events;$/;"	m	struct:libusb_pollfd
+extra	libusb/include/libusb-1.0/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_config_descriptor
+extra	libusb/include/libusb-1.0/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_endpoint_descriptor
+extra	libusb/include/libusb-1.0/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_interface_descriptor
+extra_length	libusb/include/libusb-1.0/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_config_descriptor
+extra_length	libusb/include/libusb-1.0/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_endpoint_descriptor
+extra_length	libusb/include/libusb-1.0/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_interface_descriptor
+false	cJSON/cJSON.c	62;"	d	file:
+false	cJSON/cJSON_Utils.c	54;"	d	file:
+fd	libusb/include/libusb-1.0/libusb.h	/^	int fd;$/;"	m	struct:libusb_pollfd
+fd_error	logProcessor.c	/^static int fd_error;$/;"	v	file:
+fd_log	logProcessor.c	/^static int fd_log;$/;"	v	file:
+flags	libusb/include/libusb-1.0/libusb.h	/^	uint8_t flags;$/;"	m	struct:libusb_transfer
+format	cJSON/cJSON.c	/^    cJSON_bool format; \/* is this print a formatted print *\/$/;"	m	struct:__anon9	file:
+free_fn	cJSON/cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+generate_merge_patch	cJSON/cJSON_Utils.c	/^static cJSON *generate_merge_patch(cJSON * const from, cJSON * const to, const cJSON_bool case_sensitive)$/;"	f	file:
+get_array_item	cJSON/cJSON.c	/^static cJSON* get_array_item(const cJSON *array, size_t index)$/;"	f	file:
+get_array_item	cJSON/cJSON_Utils.c	/^static cJSON *get_array_item(const cJSON *array, size_t item)$/;"	f	file:
+get_decimal_point	cJSON/cJSON.c	/^static unsigned char get_decimal_point(void)$/;"	f	file:
+get_item_from_pointer	cJSON/cJSON_Utils.c	/^static cJSON *get_item_from_pointer(cJSON * const object, const char * pointer, const cJSON_bool case_sensitive)$/;"	f	file:
+get_object_item	cJSON/cJSON.c	/^static cJSON *get_object_item(const cJSON * const object, const char * const name, const cJSON_bool case_sensitive)$/;"	f	file:
+get_object_item	cJSON/cJSON_Utils.c	/^static cJSON *get_object_item(const cJSON * const object, const char* name, const cJSON_bool case_sensitive)$/;"	f	file:
+global_error	cJSON/cJSON.c	/^static error global_error = { NULL, 0 };$/;"	v	file:
+global_hooks	cJSON/cJSON.c	/^static internal_hooks global_hooks = { internal_malloc, internal_free, internal_realloc };$/;"	v	file:
+haveNoPriceLable	httpClient.c	/^	haveNoPriceLable,$/;"	e	enum:__anon5	file:
+havePriceLable	httpClient.c	/^	havePriceLable,$/;"	e	enum:__anon5	file:
+hooks	cJSON/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon8	file:
+hooks	cJSON/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon9	file:
+hooks	cJSON/cJSON.h	/^CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks);$/;"	v
+iConfiguration	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iConfiguration;$/;"	m	struct:libusb_config_descriptor
+iInterface	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iInterface;$/;"	m	struct:libusb_interface_descriptor
+iManufacturer	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iManufacturer;$/;"	m	struct:libusb_device_descriptor
+iProduct	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iProduct;$/;"	m	struct:libusb_device_descriptor
+iSerialNumber	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iSerialNumber;$/;"	m	struct:libusb_device_descriptor
+idProduct	libusb/include/libusb-1.0/libusb.h	/^	uint16_t idProduct;$/;"	m	struct:libusb_device_descriptor
+idVendor	libusb/include/libusb-1.0/libusb.h	/^	uint16_t idVendor;$/;"	m	struct:libusb_device_descriptor
+inline	libusb/include/libusb-1.0/libusb.h	30;"	d
+insert_item_in_array	cJSON/cJSON_Utils.c	/^static cJSON_bool insert_item_in_array(cJSON *array, size_t which, cJSON *newitem)$/;"	f	file:
+interface	libusb/include/libusb-1.0/libusb.h	/^	const struct libusb_interface *interface;$/;"	m	struct:libusb_config_descriptor	typeref:struct:libusb_config_descriptor::libusb_interface
+interface	libusb/include/libusb-1.0/libusb.h	78;"	d
+interface_number	libusb/test/test3.c	/^int alt_interface, interface_number;$/;"	v
+interface_number	test3.c	/^int alt_interface, interface_number;$/;"	v
+interface_number	usbCom.c	/^int interface_number = -1;$/;"	v
+interface_ref	libusb/test/test3.c	/^int interface_ref = 0;$/;"	v
+interface_ref	test3.c	/^int interface_ref = 0;$/;"	v
+internal_free	cJSON/cJSON.c	/^static void internal_free(void *pointer)$/;"	f	file:
+internal_free	cJSON/cJSON.c	143;"	d	file:
+internal_hooks	cJSON/cJSON.c	/^typedef struct internal_hooks$/;"	s	file:
+internal_hooks	cJSON/cJSON.c	/^} internal_hooks;$/;"	t	typeref:struct:internal_hooks	file:
+internal_malloc	cJSON/cJSON.c	/^static void *internal_malloc(size_t size)$/;"	f	file:
+internal_malloc	cJSON/cJSON.c	142;"	d	file:
+internal_realloc	cJSON/cJSON.c	/^static void *internal_realloc(void *pointer, size_t size)$/;"	f	file:
+internal_realloc	cJSON/cJSON.c	144;"	d	file:
+is_opened	usbCom.c	/^	uint8_t is_opened:1;$/;"	m	struct:__anon10	file:
+iso_packet_desc	libusb/include/libusb-1.0/libusb.h	/^	struct libusb_iso_packet_descriptor iso_packet_desc[ZERO_SIZED_ARRAY];$/;"	m	struct:libusb_transfer	typeref:struct:libusb_transfer::libusb_iso_packet_descriptor
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsArray(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsBool(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsFalse(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsInvalid(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNull(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNumber(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsObject(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsRaw(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsString(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsTrue(const cJSON * const item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_GetStringValue(cJSON *item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_Print(const cJSON *item);$/;"	v
+item	cJSON/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_PrintUnformatted(const cJSON *item);$/;"	v
+itemLen	List.h	/^	int itemLen;$/;"	m	struct:List
+json	cJSON/cJSON.c	/^    const unsigned char *json;$/;"	m	struct:__anon7	file:
+len	httpClient.c	/^	uint32_t len;$/;"	m	struct:__anon6	file:
+length	cJSON/cJSON.c	/^    size_t length;$/;"	m	struct:__anon8	file:
+length	cJSON/cJSON.c	/^    size_t length;$/;"	m	struct:__anon9	file:
+length	libusb/include/libusb-1.0/libusb.h	/^	int length;$/;"	m	struct:libusb_transfer
+length	libusb/include/libusb-1.0/libusb.h	/^	unsigned int length;$/;"	m	struct:libusb_iso_packet_descriptor
+libusb_bos_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_bos_descriptor {$/;"	s
+libusb_bos_dev_capability_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_bos_dev_capability_descriptor {$/;"	s
+libusb_bos_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_bos_type {$/;"	g
+libusb_capability	libusb/include/libusb-1.0/libusb.h	/^enum libusb_capability {$/;"	g
+libusb_class_code	libusb/include/libusb-1.0/libusb.h	/^enum libusb_class_code {$/;"	g
+libusb_config_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_config_descriptor {$/;"	s
+libusb_container_id_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_container_id_descriptor {$/;"	s
+libusb_context	libusb/include/libusb-1.0/libusb.h	/^typedef struct libusb_context libusb_context;$/;"	t	typeref:struct:libusb_context
+libusb_control_setup	libusb/include/libusb-1.0/libusb.h	/^struct libusb_control_setup {$/;"	s
+libusb_control_transfer_get_data	libusb/include/libusb-1.0/libusb.h	/^static inline unsigned char *libusb_control_transfer_get_data($/;"	f
+libusb_control_transfer_get_setup	libusb/include/libusb-1.0/libusb.h	/^static inline struct libusb_control_setup *libusb_control_transfer_get_setup($/;"	f
+libusb_cpu_to_le16	libusb/include/libusb-1.0/libusb.h	/^static inline uint16_t libusb_cpu_to_le16(const uint16_t x)$/;"	f
+libusb_descriptor_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_descriptor_type {$/;"	g
+libusb_device	libusb/include/libusb-1.0/libusb.h	/^typedef struct libusb_device libusb_device;$/;"	t	typeref:struct:libusb_device
+libusb_device_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_device_descriptor {$/;"	s
+libusb_device_handle	libusb/include/libusb-1.0/libusb.h	/^typedef struct libusb_device_handle libusb_device_handle;$/;"	t	typeref:struct:libusb_device_handle
+libusb_endpoint_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_endpoint_descriptor {$/;"	s
+libusb_endpoint_direction	libusb/include/libusb-1.0/libusb.h	/^enum libusb_endpoint_direction {$/;"	g
+libusb_error	libusb/include/libusb-1.0/libusb.h	/^enum libusb_error {$/;"	g
+libusb_fill_bulk_stream_transfer	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_fill_bulk_stream_transfer($/;"	f
+libusb_fill_bulk_transfer	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer,$/;"	f
+libusb_fill_control_setup	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_fill_control_setup(unsigned char *buffer,$/;"	f
+libusb_fill_control_transfer	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_fill_control_transfer($/;"	f
+libusb_fill_interrupt_transfer	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_fill_interrupt_transfer($/;"	f
+libusb_fill_iso_transfer	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_fill_iso_transfer(struct libusb_transfer *transfer,$/;"	f
+libusb_get_descriptor	libusb/include/libusb-1.0/libusb.h	/^static inline int libusb_get_descriptor(libusb_device_handle *dev_handle,$/;"	f
+libusb_get_iso_packet_buffer	libusb/include/libusb-1.0/libusb.h	/^static inline unsigned char *libusb_get_iso_packet_buffer($/;"	f
+libusb_get_iso_packet_buffer_simple	libusb/include/libusb-1.0/libusb.h	/^static inline unsigned char *libusb_get_iso_packet_buffer_simple($/;"	f
+libusb_get_string_descriptor	libusb/include/libusb-1.0/libusb.h	/^static inline int libusb_get_string_descriptor(libusb_device_handle *dev_handle,$/;"	f
+libusb_hotplug_callback_fn	libusb/include/libusb-1.0/libusb.h	/^typedef int (LIBUSB_CALL *libusb_hotplug_callback_fn)(libusb_context *ctx,$/;"	t
+libusb_hotplug_callback_handle	libusb/include/libusb-1.0/libusb.h	/^typedef int libusb_hotplug_callback_handle;$/;"	t
+libusb_hotplug_event	libusb/include/libusb-1.0/libusb.h	/^} libusb_hotplug_event;$/;"	t	typeref:enum:__anon2
+libusb_hotplug_flag	libusb/include/libusb-1.0/libusb.h	/^} libusb_hotplug_flag;$/;"	t	typeref:enum:__anon1
+libusb_interface	libusb/include/libusb-1.0/libusb.h	/^struct libusb_interface {$/;"	s
+libusb_interface_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_interface_descriptor {$/;"	s
+libusb_iso_packet_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_iso_packet_descriptor {$/;"	s
+libusb_iso_sync_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_iso_sync_type {$/;"	g
+libusb_iso_usage_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_iso_usage_type {$/;"	g
+libusb_le16_to_cpu	libusb/include/libusb-1.0/libusb.h	188;"	d
+libusb_log_level	libusb/include/libusb-1.0/libusb.h	/^enum libusb_log_level {$/;"	g
+libusb_option	libusb/include/libusb-1.0/libusb.h	/^enum libusb_option {$/;"	g
+libusb_pollfd	libusb/include/libusb-1.0/libusb.h	/^struct libusb_pollfd {$/;"	s
+libusb_pollfd_added_cb	libusb/include/libusb-1.0/libusb.h	/^typedef void (LIBUSB_CALL *libusb_pollfd_added_cb)(int fd, short events,$/;"	t
+libusb_pollfd_removed_cb	libusb/include/libusb-1.0/libusb.h	/^typedef void (LIBUSB_CALL *libusb_pollfd_removed_cb)(int fd, void *user_data);$/;"	t
+libusb_request_recipient	libusb/include/libusb-1.0/libusb.h	/^enum libusb_request_recipient {$/;"	g
+libusb_request_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_request_type {$/;"	g
+libusb_set_iso_packet_lengths	libusb/include/libusb-1.0/libusb.h	/^static inline void libusb_set_iso_packet_lengths($/;"	f
+libusb_speed	libusb/include/libusb-1.0/libusb.h	/^enum libusb_speed {$/;"	g
+libusb_ss_endpoint_companion_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_ss_endpoint_companion_descriptor {$/;"	s
+libusb_ss_usb_device_capability_attributes	libusb/include/libusb-1.0/libusb.h	/^enum libusb_ss_usb_device_capability_attributes {$/;"	g
+libusb_ss_usb_device_capability_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_ss_usb_device_capability_descriptor {$/;"	s
+libusb_standard_request	libusb/include/libusb-1.0/libusb.h	/^enum libusb_standard_request {$/;"	g
+libusb_supported_speed	libusb/include/libusb-1.0/libusb.h	/^enum libusb_supported_speed {$/;"	g
+libusb_transfer	libusb/include/libusb-1.0/libusb.h	/^struct libusb_transfer {$/;"	s
+libusb_transfer_cb_fn	libusb/include/libusb-1.0/libusb.h	/^typedef void (LIBUSB_CALL *libusb_transfer_cb_fn)(struct libusb_transfer *transfer);$/;"	t
+libusb_transfer_flags	libusb/include/libusb-1.0/libusb.h	/^enum libusb_transfer_flags {$/;"	g
+libusb_transfer_status	libusb/include/libusb-1.0/libusb.h	/^enum libusb_transfer_status {$/;"	g
+libusb_transfer_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_transfer_type {$/;"	g
+libusb_usb_2_0_extension_attributes	libusb/include/libusb-1.0/libusb.h	/^enum libusb_usb_2_0_extension_attributes {$/;"	g
+libusb_usb_2_0_extension_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_usb_2_0_extension_descriptor {$/;"	s
+libusb_version	libusb/include/libusb-1.0/libusb.h	/^struct libusb_version {$/;"	s
+log_init	logProcessor.c	/^bool log_init(void)$/;"	f
+log_record	logProcessor.c	/^int log_record(char *fmt, ...)$/;"	f
+main	deamonTask.c	/^int main(int argc, char *argv[])$/;"	f
+main	httpClient.c	/^int main(void)$/;"	f
+main	libusb/test/test.c	/^int main() {$/;"	f
+main	libusb/test/test2.c	/^int main(int argc, char *argv[])$/;"	f
+main	libusb/test/test3.c	/^int main(void)$/;"	f
+main	logProcessor.c	/^int main(void)$/;"	f
+main	test3.c	/^int main(void)$/;"	f
+major	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t major;$/;"	m	struct:libusb_version
+malloc_fn	cJSON/cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+merge_patch	cJSON/cJSON_Utils.c	/^static cJSON *merge_patch(cJSON *target, const cJSON * const patch, const cJSON_bool case_sensitive)$/;"	f	file:
+micro	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t micro;$/;"	m	struct:libusb_version
+minor	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t minor;$/;"	m	struct:libusb_version
+nano	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t nano;$/;"	m	struct:libusb_version
+next	cJSON/cJSON.h	/^    struct cJSON *next;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+noalloc	cJSON/cJSON.c	/^    cJSON_bool noalloc;$/;"	m	struct:__anon9	file:
+normalInfo	httpClient.c	/^uint8_t normalInfo[] = {0x40, 0x11, 0x12, 0x1, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x04};$/;"	v
+num_altsetting	libusb/include/libusb-1.0/libusb.h	/^	int num_altsetting;$/;"	m	struct:libusb_interface
+num_iso_packets	libusb/include/libusb-1.0/libusb.h	/^	int num_iso_packets;$/;"	m	struct:libusb_transfer
+obj	Makefile	/^obj := httpClient.c kprotocal.c .\/cJSON\/cJSON.c$/;"	m
+obj	libusb/test/Makefile	/^obj := test3.c $/;"	m
+object	cJSON/cJSON_Utils.h	/^CJSON_PUBLIC(void) cJSONUtils_SortObject(cJSON * const object);$/;"	v
+object	cJSON/cJSON_Utils.h	/^CJSON_PUBLIC(void) cJSONUtils_SortObjectCaseSensitive(cJSON * const object);$/;"	v
+offset	cJSON/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon8	file:
+offset	cJSON/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon9	file:
+op_code	SharedList.h	/^	volatile int op_code;$/;"	m	struct:SharedList
+overwrite_item	cJSON/cJSON_Utils.c	/^static void overwrite_item(cJSON * const root, const cJSON replacement)$/;"	f	file:
+pBufferHead	List.h	/^	ListItem* pBufferHead;$/;"	m	struct:List
+pData	httpClient.c	/^	uint8_t *pData;$/;"	m	struct:__anon6	file:
+pHead	List.h	/^	ListItem* pHead;$/;"	m	struct:List
+pItem	List.h	/^	void* pItem;$/;"	m	struct:ListItem
+pList	SharedList.h	/^	List* pList;$/;"	m	struct:SharedList
+pNext	List.h	/^	struct ListItem* pNext;$/;"	m	struct:ListItem	typeref:struct:ListItem::ListItem
+pTag_list	kprotocal.c	/^static ShareList *pTag_list;$/;"	v	file:
+parse_array	cJSON/cJSON.c	/^static cJSON_bool parse_array(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_buffer	cJSON/cJSON.c	/^} parse_buffer;$/;"	t	typeref:struct:__anon8	file:
+parse_hex4	cJSON/cJSON.c	/^static unsigned parse_hex4(const unsigned char * const input)$/;"	f	file:
+parse_number	cJSON/cJSON.c	/^static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_object	cJSON/cJSON.c	/^static cJSON_bool parse_object(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_string	cJSON/cJSON.c	/^static cJSON_bool parse_string(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_value	cJSON/cJSON.c	/^static cJSON_bool parse_value(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+patch_operation	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	g	file:
+pointer_encoded_length	cJSON/cJSON_Utils.c	/^static size_t pointer_encoded_length(const unsigned char *string)$/;"	f	file:
+position	cJSON/cJSON.c	/^    size_t position;$/;"	m	struct:__anon7	file:
+prev	cJSON/cJSON.h	/^    struct cJSON *prev;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+price_tag_t	kprotocal.c	/^}price_tag_t;$/;"	t	typeref:struct:__anon4	file:
+print	cJSON/cJSON.c	/^static unsigned char *print(const cJSON * const item, cJSON_bool format, const internal_hooks * const hooks)$/;"	f	file:
+print_2_0_ext_cap	libusb/test/test2.c	/^static void print_2_0_ext_cap(struct libusb_usb_2_0_extension_descriptor *usb_2_0_ext_cap)$/;"	f	file:
+print_altsetting	libusb/test/test2.c	/^static void print_altsetting(const struct libusb_interface_descriptor *interface)$/;"	f	file:
+print_array	cJSON/cJSON.c	/^static cJSON_bool print_array(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+print_bos	libusb/test/test2.c	/^static void print_bos(libusb_device_handle *handle)$/;"	f	file:
+print_configuration	libusb/test/test2.c	/^static void print_configuration(struct libusb_config_descriptor *config)$/;"	f	file:
+print_configuration	libusb/test/test3.c	/^int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)$/;"	f
+print_configuration	test3.c	/^int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)$/;"	f
+print_device	libusb/test/test2.c	/^static int print_device(libusb_device *dev, int level)$/;"	f	file:
+print_endpoint	libusb/test/test2.c	/^static void print_endpoint(const struct libusb_endpoint_descriptor *endpoint)$/;"	f	file:
+print_endpoint_comp	libusb/test/test2.c	/^static void print_endpoint_comp(const struct libusb_ss_endpoint_companion_descriptor *ep_comp)$/;"	f	file:
+print_interface	libusb/test/test2.c	/^static void print_interface(const struct libusb_interface *interface)$/;"	f	file:
+print_number	cJSON/cJSON.c	/^static cJSON_bool print_number(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+print_object	cJSON/cJSON.c	/^static cJSON_bool print_object(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+print_ss_usb_cap	libusb/test/test2.c	/^static void print_ss_usb_cap(struct libusb_ss_usb_device_capability_descriptor *ss_usb_cap)$/;"	f	file:
+print_string	cJSON/cJSON.c	/^static cJSON_bool print_string(const cJSON * const item, printbuffer * const p)$/;"	f	file:
+print_string_ptr	cJSON/cJSON.c	/^static cJSON_bool print_string_ptr(const unsigned char * const input, printbuffer * const output_buffer)$/;"	f	file:
+print_value	cJSON/cJSON.c	/^static cJSON_bool print_value(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+printbuffer	cJSON/cJSON.c	/^} printbuffer;$/;"	t	typeref:struct:__anon9	file:
+protocalEncodeToJSONArray	kprotocal.c	/^uint8_t *protocalEncodeToJSONArray(uint8_t *pData)$/;"	f
+protocal_decode_usb_data	kprotocal.c	/^int protocal_decode_usb_data(uint8_t *pData,uint32_t len)$/;"	f
+protocal_encode_usb_resp	kprotocal.c	/^int protocal_encode_usb_resp(uint8_t *pEncodeData)$/;"	f
+rc	libusb/include/libusb-1.0/libusb.h	/^	const char *rc;$/;"	m	struct:libusb_version
+reallocate	cJSON/cJSON.c	/^    void *(*reallocate)(void *pointer, size_t size);$/;"	m	struct:internal_hooks	file:
+replace_item_in_object	cJSON/cJSON.c	/^static cJSON_bool replace_item_in_object(cJSON *object, const char *string, cJSON *replacement, cJSON_bool case_sensitive)$/;"	f	file:
+reserved	usbCom.c	/^	uint8_t reserved:7;$/;"	m	struct:__anon10	file:
+routerStatus_t	httpClient.c	/^}routerStatus_t;$/;"	t	typeref:enum:__anon5	file:
+size	cJSON/cJSON.h	/^CJSON_PUBLIC(void *) cJSON_malloc(size_t size);$/;"	v
+skip_utf8_bom	cJSON/cJSON.c	/^static parse_buffer *skip_utf8_bom(parse_buffer * const buffer)$/;"	f	file:
+snprintf	libusb/test/test2.c	26;"	d	file:
+sort_list	cJSON/cJSON_Utils.c	/^static cJSON *sort_list(cJSON *list, const cJSON_bool case_sensitive)$/;"	f	file:
+sort_object	cJSON/cJSON_Utils.c	/^static void sort_object(cJSON * const object, const cJSON_bool case_sensitive)$/;"	f	file:
+sqnum	kprotocal.c	/^static uint32_t sqnum = 1;$/;"	v	file:
+ssize_t	libusb/include/libusb-1.0/libusb.h	/^  typedef __int64 ssize_t;$/;"	t
+ssize_t	libusb/include/libusb-1.0/libusb.h	/^  typedef int ssize_t;$/;"	t
+ssize_t	libusb/include/libusb-1.0/libusb.h	35;"	d
+status	httpClient.c	/^static routerStatus_t status;$/;"	v	file:
+status	libusb/include/libusb-1.0/libusb.h	/^	enum libusb_transfer_status status;$/;"	m	struct:libusb_iso_packet_descriptor	typeref:enum:libusb_iso_packet_descriptor::libusb_transfer_status
+status	libusb/include/libusb-1.0/libusb.h	/^	enum libusb_transfer_status status;$/;"	m	struct:libusb_transfer	typeref:enum:libusb_transfer::libusb_transfer_status
+string	cJSON/cJSON.h	/^    char *string;$/;"	m	struct:cJSON
+suffix_object	cJSON/cJSON.c	/^static void suffix_object(cJSON *prev, cJSON *item)$/;"	f	file:
+tag_info	kprotocal.c	/^static tag_info_t tag_info;$/;"	v	file:
+tag_info_t	kprotocal.c	/^}tag_info_t;$/;"	t	typeref:struct:__anon3	file:
+thread_client_hdl	deamonTask.c	/^static void *thread_client_hdl(void *pdata)$/;"	f	file:
+timeout	libusb/include/libusb-1.0/libusb.h	/^	unsigned int timeout;$/;"	m	struct:libusb_transfer
+true	cJSON/cJSON.c	61;"	d	file:
+true	cJSON/cJSON_Utils.c	53;"	d	file:
+type	cJSON/cJSON.h	/^    int type;$/;"	m	struct:cJSON
+type	libusb/include/libusb-1.0/libusb.h	/^	unsigned char type;$/;"	m	struct:libusb_transfer
+uint16_t	libusb/include/libusb-1.0/libusb.h	/^typedef unsigned __int16  uint16_t;$/;"	t
+uint32_t	libusb/include/libusb-1.0/libusb.h	/^typedef unsigned __int32  uint32_t;$/;"	t
+uint8_t	libusb/include/libusb-1.0/libusb.h	/^typedef unsigned __int8   uint8_t;$/;"	t
+update_offset	cJSON/cJSON.c	/^static void update_offset(printbuffer * const buffer)$/;"	f	file:
+usb_get_status	usbCom.c	/^bool usb_get_status(void)$/;"	f
+usb_open	usbCom.c	/^int usb_open(void)$/;"	f
+usb_print_device_descriptors	usbCom.c	/^static void usb_print_device_descriptors(struct libusb_device_descriptor desc)$/;"	f	file:
+usb_receive	usbCom.c	/^int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)$/;"	f
+usb_status_falg	usbCom.c	/^usb_status_falg_t usb_status_falg;$/;"	v
+usb_status_falg_t	usbCom.c	/^}usb_status_falg_t;$/;"	t	typeref:struct:__anon10	file:
+usb_transmite	usbCom.c	/^int usb_transmite(uint8_t *pData, int len, int timeout)$/;"	f
+user_data	libusb/include/libusb-1.0/libusb.h	/^	void *user_data;$/;"	m	struct:libusb_transfer
+utf16_literal_to_utf8	cJSON/cJSON.c	/^static unsigned char utf16_literal_to_utf8(const unsigned char * const input_pointer, const unsigned char * const input_end, unsigned char **output_pointer)$/;"	f	file:
+valuedouble	cJSON/cJSON.h	/^    double valuedouble;$/;"	m	struct:cJSON
+valueint	cJSON/cJSON.h	/^    int valueint;$/;"	m	struct:cJSON
+valuestring	cJSON/cJSON.h	/^    char *valuestring;$/;"	m	struct:cJSON
+verbose	libusb/test/test2.c	/^int verbose = 0;$/;"	v
+vfpf	logProcessor.c	/^static int vfpf(char *fmt, ...)$/;"	f	file:
+wBytesPerInterval	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wBytesPerInterval;$/;"	m	struct:libusb_ss_endpoint_companion_descriptor
+wIndex	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wIndex;$/;"	m	struct:libusb_control_setup
+wLength	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wLength;$/;"	m	struct:libusb_control_setup
+wMaxPacketSize	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wMaxPacketSize;$/;"	m	struct:libusb_endpoint_descriptor
+wSpeedSupported	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wSpeedSupported;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+wTotalLength	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wTotalLength;$/;"	m	struct:libusb_bos_descriptor
+wTotalLength	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wTotalLength;$/;"	m	struct:libusb_config_descriptor
+wValue	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wValue;$/;"	m	struct:libusb_control_setup
+write_cb	httpClient.c	/^static size_t write_cb(char *buffer, size_t size, size_t nitems, void *userdata)$/;"	f	file:

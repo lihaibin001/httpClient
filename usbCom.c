@@ -10,8 +10,8 @@
 
 #if USB_DEBUG_ENABLE
 #define USB_DEBUG(...) do{ \
-	USB_DEBUG("[USB] ") \
-	USB_DEBUG(__VA_ARGS__) \
+	printf("[USB] ") \
+	printf(__VA_ARGS__) \
 	}while(0);
 #else
 #define USB_DEBUG(...)
