@@ -1,13 +1,31 @@
-#include <stdio.h>                                                              
-#include <stdio.h>
 #include <pthread.h>
+#include "usbCom.h"
 #include <unistd.h>
+#include "kp
+
+
+static usb_receive_buff[2048];
+static usb_transmite_buff[2048];
+
 void usbCom(void)                                                               
 {                                                                               
+	usb_open();
 	for(;;)
 	{
-		printf("This is usb communication pthread.\n");
-		sleep(1);
+		
+		if(!usg_get_status())
+		{
+			usb_open();
+		}
+		
+		if(usb_receive(usb_receive_buff, 2048, 60000) != 0)
+		{
+			continue;	
+		}
+		
+
+		if(usb_transmite()
+		
 	}	
 }
 

@@ -1,9 +1,39 @@
 #include "kprotocal.h"
 #include "cJSON/cJSON.h"
+#include "ShareList.h"
 static uint32_t sqnum = 1;
 static uint32_t apid = 0x12345678;
 
-static char  *encodeToJsonHeartbeat(uint8_t *pData)
+typedef struct
+{
+	uint32_t ID;
+	uint16_t Panid;
+	uint8_t XD1;
+	uint8_t XD2;
+	uint8_t BACK1;
+	uint8_t BACK2;
+	uint8_t BACK3;
+	uint8_t VER;
+}tag_info_t;
+
+typedef struct
+{
+	uint32_t ID;
+	uint8_t LQI;
+	uint8_t VOL;
+	uint8_t TYPE;
+	uint8_t FAC;
+	uint8_t XD1;
+	uint8_t XD2;
+	uint8_t XD2;
+	uint8_t VER;
+}price_tag_t;
+
+static tag_info_t tag_info;
+static ShareList *pTag_list;
+
+
+static uint32_t *encodeToJsonHeartbeat(uint8_t *pData)
 {
 	
 	static cJSON *pItem = NULL;
@@ -62,5 +92,49 @@ uint8_t *protocalEncodeToJSONArray(uint8_t *pData)
 			break;
 	}	
 	return NULL;
+}
+
+static void decode_tag_info(uint8_t *pData)
+{
+	
+}
+
+
+static int decode_price_tag(uint8_t *pData)
+{
+	if(pTag_list == NULL)
+	{
+		pTag_list = SharedList_Create(sizeof(price_tag_t));	
+		if(pTag_list == NULL)
+		{
+			return RET_MALLOC_ERR;
+		}	
+	}
+		
+}
+
+int protocal_decode_usb_data(uint8_t *pData,uint32_t len)
+{
+	if(pData == NULL || len == 0)
+	{
+		return RET_BAD_PARA;	
+	}
+	if(pData[0] == 0x40)
+	{
+		decode_tag_info(pData);
+	}
+	else if(pData[0] == 0x44)
+	{
+		decode_price_tag(pData);		
+	}
+}
+
+int protocal_encode_usb_resp(uint8_t *pEncodeData)
+{
+	if(pEncodeData == NULL)
+	{
+		return 	RET_BAD_PARA; 
+	}
+	
 }
 

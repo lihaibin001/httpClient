@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <string.h>
-#include <libusb-1.0/libusb.h>
+#include "usbCom.h"
 
 #define BULK_EP_OUT     0x01
 #define BULK_EP_IN      0x81
@@ -20,7 +16,6 @@
 #else
 #define USB_DEBUG(...)
 #endif
-
 
 typedef struct
 {
@@ -46,8 +41,6 @@ static void usb_print_device_descriptors(struct libusb_device_descriptor desc)
 	USB_DEBUG("Device Protocol: %d\n", desc.bDeviceProtocol);
 	USB_DEBUG("Max. Packet Size: %d\n---------------------\n", desc.bMaxPacketSize0);
 }
-
-
 
 struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)
 {
@@ -250,6 +243,7 @@ int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)
             return 0;
         }
     }
+	return r;
 }
 
 bool usb_get_status(void)
