@@ -3,7 +3,6 @@
 #include "stdlib.h"
 #include "string.h"
 #include "stdio.h"
-#include "configure.h"
 #define LIST_MAX_BUFF_CNT 10
 static ListItem* List_FindListItem(List* pList, unsigned int nIndex)
 {

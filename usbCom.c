@@ -1,4 +1,5 @@
 #include "usbCom.h"
+#include <sys/types.h>
 
 #define BULK_EP_OUT     0x01
 #define BULK_EP_IN      0x81
@@ -10,8 +11,8 @@
 
 #if USB_DEBUG_ENABLE
 #define USB_DEBUG(...) do{ \
-	printf("[USB] ") \
-	printf(__VA_ARGS__) \
+	printf("[USB] "); \
+	printf(__VA_ARGS__); \
 	}while(0);
 #else
 #define USB_DEBUG(...)
@@ -25,6 +26,7 @@ typedef struct
 
 int interface_number = -1;
 usb_status_falg_t usb_status_falg;
+static struct libusb_device_handle *handle;
 static void usb_print_device_descriptors(struct libusb_device_descriptor desc)
 {
 	
@@ -52,8 +54,8 @@ struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, stru
 
 	hDevice_req = handle;
 
-	ret_active = libusb_get_active_config_descriptor(dev, &config);
-	ret_print = print_configuration(hDevice_req, config);
+	//ret_active = libusb_get_active_config_descriptor(dev, &config);
+	//ret_print = print_configuration(hDevice_req, config);
 
 	for (interface_index=0;interface_index<config->bNumInterfaces;interface_index++)
 	{
@@ -88,7 +90,7 @@ int usb_open(void)
 {
 	int r, cnt, i, found;
 	struct libusb_device **devs;
-	struct libusb_device_handle *handle = NULL, *hDevice_expected = NULL;
+	struct libusb_device_handle *hDevice_expected = NULL;
 	struct libusb_device *dev, *dev_expected;
 
 	struct libusb_device_descriptor desc;
@@ -107,7 +109,7 @@ int usb_open(void)
 	if(cnt < 0)
 	{
 		USB_DEBUG("There are no USB device on the bus\n");
-		return -1	
+		return -1;
 	}
 	USB_DEBUG("Device count: %d\n", cnt);
 
@@ -197,12 +199,12 @@ int usb_transmite(uint8_t *pData, int len, int timeout)
         {
             return 1;
         }
-        pData += 64；
+        pData += 64;
         len -= 64;
     }
     if(len != 0)
     {
-        if(0 !=libusb_bulk_transfer(handle, BULK_EP_OUT, pData, len, &received, timeout))
+        if(0 !=libusb_bulk_transfer(handle, BULK_EP_OUT, pData, len, &transmited, timeout))
         {
             return 1;
         }
@@ -234,14 +236,15 @@ int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)
             r += received;
         }
         pBuffer += 64;
-        len -= 64;
+        buffer_size -= 64;
     }
-    if(len != 0)
+    if(buffer_size != 0)
     {
-        if(0 !=libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, len, &received, timeout))
+        if(0 !=libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, buffer_size, &received, timeout))
         {
             return 0;
         }
+	r += received;
     }
 	return r;
 }

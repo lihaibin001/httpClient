@@ -7,8 +7,8 @@
 
 #if UPROTOCAL_DEBUG_ENABLE
 #define LOCAL_DEBUG(...) do{ \
-    printf("[PROT] ")\
-	printf(__VA_ARGS__) \
+    printf("[PROT] ");\
+	printf(__VA_ARGS__); \
 	}while(0);
 #else
 #define LOCAL_DEBUG(...)
@@ -45,6 +45,7 @@ typedef struct
 static tag_info_t tag_info;
 static List *pTag_list;
 static pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER; 
+static uint32_t suqnum;
 
 static uint32_t *encodeToJsonHeartbeat(uint8_t *pData)
 {
@@ -71,7 +72,7 @@ static uint32_t *encodeToJsonHeartbeat(uint8_t *pData)
     cJSON_AddNumberToObject(pHead,"SEQUENCE",sqnum++);
 
     cJSON_AddNumberToObject(pBody,"Function",0x40);
-    cJSON_AddNumberToObject(pBody,"APID",apid);
+    cJSON_AddNumberToObject(pBody,"APID",tag_info.ID);
     cJSON_AddNumberToObject(pBody,"VER", (uint32_t)pData[13]);
     cJSON_AddNumberToObject(pBody,"XD2", (uint32_t)pData[9]);
     cJSON_AddNumberToObject(pBody,"XD1", (uint32_t)pData[8]);
@@ -158,19 +159,19 @@ static int decode_price_tag(uint8_t *pData)
         tag_count = List_Count(pTag_list);
         for(i=0; i<tag_count; i++)
         {
-            pTag =  List_Find(pTag_list);
+            pTag =  List_Find(pTag_list, i);
             if(pTag)
             {
                 if(pTag->ID == tag.ID)
                 {
-                    List_Update(pList, i, &tag);
+                    List_Update(pTag_list, i, &tag);
                     break;
                 }
             }
         }
         if(i == tag_count)
         {
-            if(List_Add(pList, &tag) != RET_FUNCTION_OK)
+            if(List_Add(pTag_list, &tag) != RET_FUNCTION_OK)
             {
                 LOCAL_DEBUG("Error %d\n",__LINE__);
                 res = RET_GENERAL_ERR;

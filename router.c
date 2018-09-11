@@ -1,7 +1,7 @@
 #include <pthread.h>
 #include "usbCom.h"
 #include <unistd.h>
-#include "kp
+#include "kprotocal.h"
 
 
 static usb_receive_buff[2048];
@@ -13,7 +13,7 @@ void usbCom(void)
 	for(;;)
 	{
 		
-		if(!usg_get_status())
+		if(!usb_get_status())
 		{
 			usb_open();
 		}
@@ -24,7 +24,6 @@ void usbCom(void)
 		}
 		
 
-		if(usb_transmite()
 		
 	}	
 }

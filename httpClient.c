@@ -38,7 +38,7 @@ static size_t write_cb(char *buffer, size_t size, size_t nitems, void *userdata)
 	printf("[HTTP Client] Receive length: %d\n",pRxData->len);
 	return pRxData->len;
 }
-
+#if 0
 int main(void)
 {
 	CURL *curl;
@@ -106,3 +106,5 @@ int main(void)
 	}
 	return 0;
 }
+#endif
+

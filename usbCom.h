@@ -3,6 +3,7 @@
 #include <sys/types.h>
 #include <string.h>
 #include <libusb-1.0/libusb.h>
+#include <stdbool.h>
 
 int usb_open(void);
 int usb_transmite(uint8_t *pData, int len, int timeout);
