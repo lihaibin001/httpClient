@@ -138,8 +138,7 @@ int usb_open(void)
 		
 		if(desc.idVendor == VENDER_ID && desc.idProduct == PRODUCT_ID)
 		{
-			found = -1;
-			break;
+			found = 1;
 		}
 	}
 			
@@ -219,33 +218,17 @@ int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)
         return 0;
     }
     int received = 0;
-    uint8_t *pStart = pBuffer;
     int r = 0;
-    while(buffer_size > 64)
+    do
     {
         if(0 != libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, 64, &received, timeout)) 
         {
             return 1;
         }
-        if(received < 64)
-        {
-            return 0;
-        }
-        else
-        {
-            r += received;
-        }
+        r += received;
         pBuffer += 64;
         buffer_size -= 64;
-    }
-    if(buffer_size != 0)
-    {
-        if(0 !=libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, buffer_size, &received, timeout))
-        {
-            return 0;
-        }
-	r += received;
-    }
+    }while(received == 64 && buffer_size > 0)
 	return r;
 }
 
