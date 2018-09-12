@@ -115,7 +115,7 @@ int usb_open(void)
 
 	while((dev = devs[i++]) != NULL)
 	{
-		r = libusb_device_descriptor(dev, &desc);
+		r = libusb_get_device_descriptor(dev, &desc);
 		if(r < 0)
 		{
 			USB_DEBUG("Failed to get device descriptor\n");
