@@ -22,9 +22,6 @@ void usbCom(void)
 		{
 			continue;	
 		}
-		
-
-		
 	}	
 }
 
