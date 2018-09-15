@@ -4,8 +4,6 @@
 #define BULK_EP_OUT     0x01
 #define BULK_EP_IN      0x81
 
-#define VENDER_ID 0x0483
-#define PRODUCT_ID 0x5740
 
 #define USB_DEBUG_ENABLE 1
 
@@ -13,7 +11,7 @@
 #define USB_DEBUG(...) do{ \
 	printf("[USB] "); \
 	printf(__VA_ARGS__); \
-	}while(0);
+	}while(0)
 #else
 #define USB_DEBUG(...)
 #endif
@@ -27,6 +25,33 @@ typedef struct
 int interface_number = -1;
 usb_status_falg_t usb_status_falg;
 static struct libusb_device_handle *handle;
+
+int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)
+{
+	char *data;
+	int index;
+
+	data = (char *)malloc(512);
+	memset(data, 0, 512);
+
+	index = config->iConfiguration;
+
+	libusb_get_string_descriptor_ascii(hDevice, index, data, 512);
+
+	USB_DEBUG("Interface Descriptors: ");
+	USB_DEBUG("Number of Interfaces: %d", config->bNumInterfaces);
+	USB_DEBUG("Length: %d", config->bLength);
+	USB_DEBUG("Desc_Type: %d", config->bDescriptorType);
+	USB_DEBUG("Config_index: %d", config->iConfiguration);
+	USB_DEBUG("Total length: %lu", config->wTotalLength);
+	USB_DEBUG("Configuration Value: %d", config->bConfigurationValue);
+	USB_DEBUG("Configuration Attributes: %d", config->bmAttributes);
+	USB_DEBUG("MaxPower(mA): %d\n", config->MaxPower);
+
+	free(data);
+	data = NULL;
+	return 0;
+}
 static void usb_print_device_descriptors(struct libusb_device_descriptor desc)
 {
 	
@@ -44,18 +69,18 @@ static void usb_print_device_descriptors(struct libusb_device_descriptor desc)
 	USB_DEBUG("Max. Packet Size: %d\n---------------------\n", desc.bMaxPacketSize0);
 }
 
-struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)
+const struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)
 {
 	struct libusb_device_handle *hDevice_req;
 	struct libusb_config_descriptor *config;
-	struct libusb_endpoint_descriptor *endpoint;
+	const struct libusb_endpoint_descriptor *endpoint;
 	int altsetting_index, interface_index=0, ret_active;
 	int i, ret_print;
 
 	hDevice_req = handle;
 
-	//ret_active = libusb_get_active_config_descriptor(dev, &config);
-	//ret_print = print_configuration(hDevice_req, config);
+	ret_active = libusb_get_active_config_descriptor(dev, &config);
+	ret_print = print_configuration(hDevice_req, config);
 
 	for (interface_index=0;interface_index<config->bNumInterfaces;interface_index++)
 	{
@@ -86,7 +111,7 @@ struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, stru
 	return endpoint;
 }
 
-int usb_open(void)
+int usb_open(uint16_t vID, uint16_t pID)
 {
 	int r, cnt, i, found;
 	struct libusb_device **devs;
@@ -136,7 +161,7 @@ int usb_open(void)
 		}
 		usb_print_device_descriptors(desc);
 		
-		if(desc.idVendor == VENDER_ID && desc.idProduct == PRODUCT_ID)
+		if(desc.idVendor == vID && desc.idProduct == pID)
 		{
 			found = 1;
 		}
@@ -226,9 +251,9 @@ int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)
             return 1;
         }
         r += received;
-        pBuffer += 64;
-        buffer_size -= 64;
-    }while(received == 64 && buffer_size > 0)
+        pBuffer += received;
+        buffer_size -= received;
+    }while(received != 0 && buffer_size > 0);
 	return r;
 }
 

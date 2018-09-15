@@ -123,7 +123,7 @@ int List_Add(List* pList, void* pItem)
 	return res;
 }
 
-const void* List_Find(List* pList, int nIndex)
+void* List_Find(List* pList, int nIndex)
 {
 	ListItem* pListItem;
 	if(pList == NULL)

@@ -22,15 +22,15 @@ int print_configuration(struct libusb_device_handle *hDevice, struct libusb_conf
 
 	libusb_get_string_descriptor_ascii(hDevice, index, data, 512);
 
-	printf("\nInterface Descriptors: ");
-	printf("\n\tNumber of Interfaces: %d", config->bNumInterfaces);
-	printf("\n\tLength: %d", config->bLength);
-	printf("\n\tDesc_Type: %d", config->bDescriptorType);
-	printf("\n\tConfig_index: %d", config->iConfiguration);
-	printf("\n\tTotal length: %lu", config->wTotalLength);
-	printf("\n\tConfiguration Value: %d", config->bConfigurationValue);
-	printf("\n\tConfiguration Attributes: %d", config->bmAttributes);
-	printf("\n\tMaxPower(mA): %d\n", config->MaxPower);
+	printf("Interface Descriptors: ");
+	printf("Number of Interfaces: %d", config->bNumInterfaces);
+	printf("Length: %d", config->bLength);
+	printf("Desc_Type: %d", config->bDescriptorType);
+	printf("Config_index: %d", config->iConfiguration);
+	printf("Total length: %lu", config->wTotalLength);
+	printf("Configuration Value: %d", config->bConfigurationValue);
+	printf("Configuration Attributes: %d", config->bmAttributes);
+	printf("MaxPower(mA): %d\n", config->MaxPower);
 
 	free(data);
 	data = NULL;

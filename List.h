@@ -46,7 +46,7 @@ int List_Add(List* pList, void* pItem);
 *****@para      nIndex          
 *****@return    Return a pointer point the item 
 **********************************/
-const void* List_Find(List* pList, int nIndex);
+void* List_Find(List* pList, int nIndex);
 
 /********************************* 
 *****@function  Update the specified item in the list

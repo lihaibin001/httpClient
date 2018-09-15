@@ -9,7 +9,7 @@
 #define LOCAL_DEBUG(...) do{ \
     printf("[PROT] ");\
 	printf(__VA_ARGS__); \
-	}while(0);
+	}while(0)
 #else
 #define LOCAL_DEBUG(...)
 #endif
@@ -47,7 +47,7 @@ static List *pTag_list;
 static pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER; 
 static uint32_t suqnum;
 
-static uint32_t *encodeToJsonHeartbeat(uint8_t *pData)
+static uint8_t *encodeToJsonHeartbeat(uint8_t *pData)
 {
 
     static cJSON *pItem = NULL;
@@ -121,7 +121,7 @@ static bool unlock_share_buff(void)
 
 static void decode_tag_info(uint8_t *pData)
 {
-    
+        
 }
 
 static int prepack_price_tag(uint8_t *pData, price_tag_t *pPrice_tag)
@@ -141,7 +141,7 @@ static int prepack_price_tag(uint8_t *pData, price_tag_t *pPrice_tag)
 static int decode_price_tag(uint8_t *pData)
 {
     int res = RET_FUNCTION_OK;
-    price_tag_t *pTag = NULL;
+    const price_tag_t *pTag = NULL;
     int tag_count = 0, i;
     price_tag_t tag;
     prepack_price_tag(pData, &tag);
@@ -199,12 +199,13 @@ int protocal_decode_usb_data(uint8_t *pData,uint32_t len)
     }
 }
 
-int protocal_encode_usb_resp(uint8_t *pEncodeData)
+int protocal_encode_usb_resp(uint8_t *pBuffer)
 {
-    if(pEncodeData == NULL)
+    if(pBuffer == NULL)
     {
         return 	RET_BAD_PARA; 
     }
 
 }
+
 

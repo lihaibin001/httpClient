@@ -5,19 +5,252 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ADD	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
-BACK1	kprotocal.c	/^	uint8_t BACK1;$/;"	m	struct:__anon3	file:
-BACK2	kprotocal.c	/^	uint8_t BACK2;$/;"	m	struct:__anon3	file:
-BACK3	kprotocal.c	/^	uint8_t BACK3;$/;"	m	struct:__anon3	file:
+BACK1	kprotocal.c	/^    uint8_t BACK1;$/;"	m	struct:__anon3	file:
+BACK2	kprotocal.c	/^    uint8_t BACK2;$/;"	m	struct:__anon3	file:
+BACK3	kprotocal.c	/^    uint8_t BACK3;$/;"	m	struct:__anon3	file:
 BULK_EP_IN	libusb/test/test3.c	8;"	d	file:
-BULK_EP_IN	test3.c	8;"	d	file:
-BULK_EP_IN	usbCom.c	4;"	d	file:
+BULK_EP_IN	usbCom.c	5;"	d	file:
 BULK_EP_OUT	libusb/test/test3.c	7;"	d	file:
-BULK_EP_OUT	test3.c	7;"	d	file:
-BULK_EP_OUT	usbCom.c	3;"	d	file:
+BULK_EP_OUT	usbCom.c	4;"	d	file:
 CC	Makefile	/^CC := arm-none-linux-gnueabi-gcc$/;"	m
 CC	libusb/test/Makefile	/^CC := arm-none-linux-gnueabi-gcc$/;"	m
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(ARRAY),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(BUFFER),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(BUFFERLENGTH),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(BUFFERPTR),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(CONTENTHEADER),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(CONTENTSLENGTH),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(CONTENTTYPE),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(COPYCONTENTS),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(COPYNAME),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(END),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(FILE),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(FILECONTENT),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(FILENAME),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(NAMELENGTH),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(NOTHING),        \/********* the first one is unused ************\/$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(OBSOLETE),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(OBSOLETE2),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(PTRCONTENTS),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(PTRNAME),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	/^  CFINIT(STREAM),$/;"	e	enum:__anon25
+CFINIT	libcurl/include/curl/curl.h	1671;"	d
+CFINIT	libcurl/include/curl/curl.h	1675;"	d
+CFINIT	libcurl/include/curl/curl.h	1678;"	d
+CFINIT	libcurl/include/curl/curl.h	1711;"	d
 CFLAGS	Makefile	/^CFLAGS = $(DEBUG) -Wall -c$/;"	m
 CFLAGS	libusb/test/Makefile	/^CFLAGS = $(DEBUG) -Wall -c$/;"	m
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(ACCEPTTIMEOUT_MS, LONG, 212),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(ACCEPT_ENCODING, OBJECTPOINT, 102),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(ADDRESS_SCOPE, LONG, 171),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(APPEND, LONG, 50),       \/* Append instead of overwrite on upload! *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(AUTOREFERER, LONG, 58),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(BUFFERSIZE, LONG, 98),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CAINFO, OBJECTPOINT, 65),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CAPATH, OBJECTPOINT, 97),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CERTINFO, LONG, 172),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CHUNK_BGN_FUNCTION, FUNCTIONPOINT, 198),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CHUNK_DATA, OBJECTPOINT, 201),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CHUNK_END_FUNCTION, FUNCTIONPOINT, 199),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CLOSEPOLICY, LONG, 72), \/* DEPRECATED, do not use! *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CLOSESOCKETDATA, OBJECTPOINT, 209),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CLOSESOCKETFUNCTION, FUNCTIONPOINT, 208),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CONNECTTIMEOUT, LONG, 78),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CONNECTTIMEOUT_MS, LONG, 156),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CONNECT_ONLY, LONG, 141),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CONV_FROM_NETWORK_FUNCTION, FUNCTIONPOINT, 142),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CONV_FROM_UTF8_FUNCTION, FUNCTIONPOINT, 144),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CONV_TO_NETWORK_FUNCTION, FUNCTIONPOINT, 143),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(COOKIE, OBJECTPOINT, 22),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(COOKIEFILE, OBJECTPOINT, 31),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(COOKIEJAR, OBJECTPOINT, 82),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(COOKIELIST, OBJECTPOINT, 135),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(COOKIESESSION, LONG, 96),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(COPYPOSTFIELDS, OBJECTPOINT, 165),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CRLF, LONG, 27),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CRLFILE, OBJECTPOINT, 169),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(CUSTOMREQUEST, OBJECTPOINT, 36),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(DEBUGDATA, OBJECTPOINT, 95),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(DEBUGFUNCTION, FUNCTIONPOINT, 94),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(DIRLISTONLY, LONG, 48),  \/* bare names when listing directories *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(DNS_CACHE_TIMEOUT, LONG, 92),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(DNS_SERVERS, OBJECTPOINT, 211),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(DNS_USE_GLOBAL_CACHE, LONG, 91), \/* DEPRECATED, do not use! *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(EGDSOCKET, OBJECTPOINT, 77),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(ERRORBUFFER, OBJECTPOINT, 10),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FAILONERROR, LONG, 45),  \/* no output on http error codes >= 300 *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FILE, OBJECTPOINT, 1),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FILETIME, LONG, 69),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FNMATCH_DATA, OBJECTPOINT, 202),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FNMATCH_FUNCTION, FUNCTIONPOINT, 200),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FOLLOWLOCATION, LONG, 52),  \/* use Location: Luke! *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FORBID_REUSE, LONG, 75),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FRESH_CONNECT, LONG, 74),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTPPORT, OBJECTPOINT, 17),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTPSSLAUTH, LONG, 129),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_ACCOUNT, OBJECTPOINT, 134),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_ALTERNATIVE_TO_USER, OBJECTPOINT, 147),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_CREATE_MISSING_DIRS, LONG, 110),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_FILEMETHOD, LONG, 138),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_RESPONSE_TIMEOUT, LONG, 112),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_SKIP_PASV_IP, LONG, 137),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_SSL_CCC, LONG, 154),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_USE_EPRT, LONG, 106),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_USE_EPSV, LONG, 85),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(FTP_USE_PRET, LONG, 188),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(GSSAPI_DELEGATION, LONG, 210),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HEADER, LONG, 42),       \/* throw the header out too *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HEADERFUNCTION, FUNCTIONPOINT, 79),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTP200ALIASES, OBJECTPOINT, 104),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTPAUTH, LONG, 107),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTPGET, LONG, 80),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTPHEADER, OBJECTPOINT, 23),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTPPOST, OBJECTPOINT, 24),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTPPROXYTUNNEL, LONG, 61),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTP_CONTENT_DECODING, LONG, 158),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTP_TRANSFER_DECODING, LONG, 157),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(HTTP_VERSION, LONG, 84),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(IGNORE_CONTENT_LENGTH, LONG, 136),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(INFILE, OBJECTPOINT, 9),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(INFILESIZE, LONG, 14),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(INFILESIZE_LARGE, OFF_T, 115),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(INTERFACE, OBJECTPOINT, 62),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(INTERLEAVEDATA, OBJECTPOINT, 195),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(INTERLEAVEFUNCTION, FUNCTIONPOINT, 196),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(IOCTLDATA, OBJECTPOINT, 131),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(IOCTLFUNCTION, FUNCTIONPOINT, 130),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(IPRESOLVE, LONG, 113),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(ISSUERCERT, OBJECTPOINT, 170),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(KEYPASSWD, OBJECTPOINT, 26),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(KRBLEVEL, OBJECTPOINT, 63),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(LOCALPORT, LONG, 139),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(LOCALPORTRANGE, LONG, 140),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(LOW_SPEED_LIMIT, LONG, 19),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(LOW_SPEED_TIME, LONG, 20),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAIL_AUTH, OBJECTPOINT, 217),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAIL_FROM, OBJECTPOINT, 186),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAIL_RCPT, OBJECTPOINT, 187),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAXCONNECTS, LONG, 71),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAXFILESIZE, LONG, 114),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAXFILESIZE_LARGE, OFF_T, 117),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAXREDIRS, LONG, 68),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAX_RECV_SPEED_LARGE, OFF_T, 146),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(MAX_SEND_SPEED_LARGE, OFF_T, 145),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NETRC, LONG, 51),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NETRC_FILE, OBJECTPOINT, 118),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NEW_DIRECTORY_PERMS, LONG, 160),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NEW_FILE_PERMS, LONG, 159),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NOBODY, LONG, 44),       \/* use HEAD to get http document *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NOPROGRESS, LONG, 43),   \/* shut off the progress meter *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NOPROXY, OBJECTPOINT, 177),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(NOSIGNAL, LONG, 99),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(OPENSOCKETDATA, OBJECTPOINT, 164),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(OPENSOCKETFUNCTION, FUNCTIONPOINT, 163),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PASSWORD, OBJECTPOINT, 174),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PORT, LONG, 3),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(POST, LONG, 47),         \/* HTTP POST method *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(POSTFIELDS, OBJECTPOINT, 15),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(POSTFIELDSIZE, LONG, 60),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(POSTFIELDSIZE_LARGE, OFF_T, 120),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(POSTQUOTE, OBJECTPOINT, 39),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(POSTREDIR, LONG, 161),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PREQUOTE, OBJECTPOINT, 93),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PRIVATE, OBJECTPOINT, 103),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROGRESSDATA, OBJECTPOINT, 57),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROGRESSFUNCTION, FUNCTIONPOINT, 56),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROTOCOLS, LONG, 181),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXY, OBJECTPOINT, 4),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXYAUTH, LONG, 111),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXYPASSWORD, OBJECTPOINT, 176),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXYPORT, LONG, 59),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXYTYPE, LONG, 101),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXYUSERNAME, OBJECTPOINT, 175),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXYUSERPWD, OBJECTPOINT, 6),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PROXY_TRANSFER_MODE, LONG, 166),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(PUT, LONG, 54),          \/* HTTP PUT *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(QUOTE, OBJECTPOINT, 28),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RANDOM_FILE, OBJECTPOINT, 76),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RANGE, OBJECTPOINT, 7),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(READFUNCTION, FUNCTIONPOINT, 12),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(REDIR_PROTOCOLS, LONG, 182),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(REFERER, OBJECTPOINT, 16),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RESOLVE, OBJECTPOINT, 203),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RESUME_FROM, LONG, 21),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RESUME_FROM_LARGE, OFF_T, 116),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RTSP_CLIENT_CSEQ, LONG, 193),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RTSP_REQUEST, LONG, 189),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RTSP_SERVER_CSEQ, LONG, 194),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RTSP_SESSION_ID, OBJECTPOINT, 190),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RTSP_STREAM_URI, OBJECTPOINT, 191),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(RTSP_TRANSPORT, OBJECTPOINT, 192),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SEEKDATA, OBJECTPOINT, 168),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SEEKFUNCTION, FUNCTIONPOINT, 167),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SHARE, OBJECTPOINT, 100),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SOCKOPTDATA, OBJECTPOINT, 149),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SOCKOPTFUNCTION, FUNCTIONPOINT, 148),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SOCKS5_GSSAPI_NEC, LONG, 180),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SOCKS5_GSSAPI_SERVICE, OBJECTPOINT, 179),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_AUTH_TYPES, LONG, 151),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_HOST_PUBLIC_KEY_MD5, OBJECTPOINT, 162),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_KEYDATA, OBJECTPOINT, 185),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_KEYFUNCTION, FUNCTIONPOINT, 184),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_KNOWNHOSTS, OBJECTPOINT, 183),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_PRIVATE_KEYFILE, OBJECTPOINT, 153),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSH_PUBLIC_KEYFILE, OBJECTPOINT, 152),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLCERT, OBJECTPOINT, 25),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLCERTTYPE, OBJECTPOINT, 86),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLENGINE, OBJECTPOINT, 89),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLENGINE_DEFAULT, LONG, 90),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLKEY, OBJECTPOINT, 87),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLKEYTYPE, OBJECTPOINT, 88),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSLVERSION, LONG, 32),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_CIPHER_LIST, OBJECTPOINT, 83),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_CTX_DATA, OBJECTPOINT, 109),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_CTX_FUNCTION, FUNCTIONPOINT, 108),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_OPTIONS, LONG, 216),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_SESSIONID_CACHE, LONG, 150),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_VERIFYHOST, LONG, 81),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(SSL_VERIFYPEER, LONG, 64),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(STDERR, OBJECTPOINT, 37),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TCP_KEEPALIVE, LONG, 213),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TCP_KEEPIDLE, LONG, 214),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TCP_KEEPINTVL, LONG, 215),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TCP_NODELAY, LONG, 121),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TELNETOPTIONS, OBJECTPOINT, 70),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TFTP_BLKSIZE, LONG, 178),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TIMECONDITION, LONG, 33),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TIMEOUT, LONG, 13),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TIMEOUT_MS, LONG, 155),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TIMEVALUE, LONG, 34),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TLSAUTH_PASSWORD, OBJECTPOINT, 205),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TLSAUTH_TYPE, OBJECTPOINT, 206),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TLSAUTH_USERNAME, OBJECTPOINT, 204),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TRANSFERTEXT, LONG, 53), \/* transfer data in text\/ASCII format *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(TRANSFER_ENCODING, LONG, 207),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(UNRESTRICTED_AUTH, LONG, 105),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(UPLOAD, LONG, 46),       \/* this is an upload *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(URL,  OBJECTPOINT, 2),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(USERAGENT, OBJECTPOINT, 18),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(USERNAME, OBJECTPOINT, 173),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(USERPWD, OBJECTPOINT, 5),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(USE_SSL, LONG, 119),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(VERBOSE, LONG, 41),      \/* talk a lot *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(WILDCARDMATCH, LONG, 197),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(WRITEFUNCTION, FUNCTIONPOINT, 11),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(WRITEHEADER, OBJECTPOINT, 29),$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	/^  CINIT(WRITEINFO, OBJECTPOINT, 40), \/* DEPRECATED, do not use! *\/$/;"	e	enum:__anon20
+CINIT	libcurl/include/curl/curl.h	791;"	d
+CINIT	libcurl/include/curl/curl.h	795;"	d
+CINIT	libcurl/include/curl/curl.h	802;"	d
+CINIT	libcurl/include/curl/multi.h	/^  CINIT(MAXCONNECTS, LONG, 6),$/;"	e	enum:__anon38
+CINIT	libcurl/include/curl/multi.h	/^  CINIT(PIPELINING, LONG, 3),$/;"	e	enum:__anon38
+CINIT	libcurl/include/curl/multi.h	/^  CINIT(SOCKETDATA, OBJECTPOINT, 2),$/;"	e	enum:__anon38
+CINIT	libcurl/include/curl/multi.h	/^  CINIT(SOCKETFUNCTION, FUNCTIONPOINT, 1),$/;"	e	enum:__anon38
+CINIT	libcurl/include/curl/multi.h	/^  CINIT(TIMERDATA, OBJECTPOINT, 5),$/;"	e	enum:__anon38
+CINIT	libcurl/include/curl/multi.h	/^  CINIT(TIMERFUNCTION, FUNCTIONPOINT, 4),$/;"	e	enum:__anon38
+CINIT	libcurl/include/curl/multi.h	309;"	d
+CINIT	libcurl/include/curl/multi.h	312;"	d
+CINIT	libcurl/include/curl/multi.h	319;"	d
 CJSON_EXPORT_SYMBOLS	cJSON/cJSON.h	108;"	d
 CJSON_NESTING_LIMIT	cJSON/cJSON.h	129;"	d
 CJSON_PUBLIC	cJSON/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_Compare(const cJSON * const a, const cJSON * const b, const cJSON_bool case_sensitive)$/;"	f
@@ -43,20 +276,577 @@ CJSON_VERSION_MAJOR	cJSON/cJSON.h	32;"	d
 CJSON_VERSION_MINOR	cJSON/cJSON.h	33;"	d
 CJSON_VERSION_PATCH	cJSON/cJSON.h	34;"	d
 COPY	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
+CURL	libcurl/include/curl/curl.h	/^typedef void CURL;$/;"	t
+CURLAUTH_ANY	libcurl/include/curl/curl.h	626;"	d
+CURLAUTH_ANYSAFE	libcurl/include/curl/curl.h	627;"	d
+CURLAUTH_BASIC	libcurl/include/curl/curl.h	619;"	d
+CURLAUTH_DIGEST	libcurl/include/curl/curl.h	620;"	d
+CURLAUTH_DIGEST_IE	libcurl/include/curl/curl.h	623;"	d
+CURLAUTH_GSSNEGOTIATE	libcurl/include/curl/curl.h	621;"	d
+CURLAUTH_NONE	libcurl/include/curl/curl.h	618;"	d
+CURLAUTH_NTLM	libcurl/include/curl/curl.h	622;"	d
+CURLAUTH_NTLM_WB	libcurl/include/curl/curl.h	624;"	d
+CURLAUTH_ONLY	libcurl/include/curl/curl.h	625;"	d
+CURLCLOSEPOLICY_CALLBACK	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_CALLBACK,$/;"	e	enum:__anon28
+CURLCLOSEPOLICY_LAST	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_LAST \/* last, never use this *\/$/;"	e	enum:__anon28
+CURLCLOSEPOLICY_LEAST_RECENTLY_USED	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_LEAST_RECENTLY_USED,$/;"	e	enum:__anon28
+CURLCLOSEPOLICY_LEAST_TRAFFIC	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_LEAST_TRAFFIC,$/;"	e	enum:__anon28
+CURLCLOSEPOLICY_NONE	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_NONE, \/* first, never use this *\/$/;"	e	enum:__anon28
+CURLCLOSEPOLICY_OLDEST	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_OLDEST,$/;"	e	enum:__anon28
+CURLCLOSEPOLICY_SLOWEST	libcurl/include/curl/curl.h	/^  CURLCLOSEPOLICY_SLOWEST,$/;"	e	enum:__anon28
+CURLE_ABORTED_BY_CALLBACK	libcurl/include/curl/curl.h	/^  CURLE_ABORTED_BY_CALLBACK,     \/* 42 *\/$/;"	e	enum:__anon13
+CURLE_AGAIN	libcurl/include/curl/curl.h	/^  CURLE_AGAIN,                   \/* 81 - socket is not ready for send\/recv,$/;"	e	enum:__anon13
+CURLE_ALREADY_COMPLETE	libcurl/include/curl/curl.h	576;"	d
+CURLE_BAD_CALLING_ORDER	libcurl/include/curl/curl.h	542;"	d
+CURLE_BAD_CONTENT_ENCODING	libcurl/include/curl/curl.h	/^  CURLE_BAD_CONTENT_ENCODING,    \/* 61 - Unrecognized\/bad encoding *\/$/;"	e	enum:__anon13
+CURLE_BAD_DOWNLOAD_RESUME	libcurl/include/curl/curl.h	/^  CURLE_BAD_DOWNLOAD_RESUME,     \/* 36 - couldn't resume download *\/$/;"	e	enum:__anon13
+CURLE_BAD_FUNCTION_ARGUMENT	libcurl/include/curl/curl.h	/^  CURLE_BAD_FUNCTION_ARGUMENT,   \/* 43 *\/$/;"	e	enum:__anon13
+CURLE_BAD_PASSWORD_ENTERED	libcurl/include/curl/curl.h	541;"	d
+CURLE_CHUNK_FAILED	libcurl/include/curl/curl.h	/^  CURLE_CHUNK_FAILED,            \/* 88 - chunk callback reported error *\/$/;"	e	enum:__anon13
+CURLE_CONV_FAILED	libcurl/include/curl/curl.h	/^  CURLE_CONV_FAILED,             \/* 75 - conversion failed *\/$/;"	e	enum:__anon13
+CURLE_CONV_REQD	libcurl/include/curl/curl.h	/^  CURLE_CONV_REQD,               \/* 76 - caller must register conversion$/;"	e	enum:__anon13
+CURLE_COULDNT_CONNECT	libcurl/include/curl/curl.h	/^  CURLE_COULDNT_CONNECT,         \/* 7 *\/$/;"	e	enum:__anon13
+CURLE_COULDNT_RESOLVE_HOST	libcurl/include/curl/curl.h	/^  CURLE_COULDNT_RESOLVE_HOST,    \/* 6 *\/$/;"	e	enum:__anon13
+CURLE_COULDNT_RESOLVE_PROXY	libcurl/include/curl/curl.h	/^  CURLE_COULDNT_RESOLVE_PROXY,   \/* 5 *\/$/;"	e	enum:__anon13
+CURLE_FAILED_INIT	libcurl/include/curl/curl.h	/^  CURLE_FAILED_INIT,             \/* 2 *\/$/;"	e	enum:__anon13
+CURLE_FILESIZE_EXCEEDED	libcurl/include/curl/curl.h	/^  CURLE_FILESIZE_EXCEEDED,       \/* 63 - Maximum file size exceeded *\/$/;"	e	enum:__anon13
+CURLE_FILE_COULDNT_READ_FILE	libcurl/include/curl/curl.h	/^  CURLE_FILE_COULDNT_READ_FILE,  \/* 37 *\/$/;"	e	enum:__anon13
+CURLE_FTP_ACCEPT_FAILED	libcurl/include/curl/curl.h	/^  CURLE_FTP_ACCEPT_FAILED,       \/* 10 - [was obsoleted in April 2006 for$/;"	e	enum:__anon13
+CURLE_FTP_ACCEPT_TIMEOUT	libcurl/include/curl/curl.h	/^  CURLE_FTP_ACCEPT_TIMEOUT,      \/* 12 - timeout occurred accepting server$/;"	e	enum:__anon13
+CURLE_FTP_ACCESS_DENIED	libcurl/include/curl/curl.h	554;"	d
+CURLE_FTP_BAD_DOWNLOAD_RESUME	libcurl/include/curl/curl.h	571;"	d
+CURLE_FTP_BAD_FILE_LIST	libcurl/include/curl/curl.h	/^  CURLE_FTP_BAD_FILE_LIST,       \/* 87 - unable to parse FTP file list *\/$/;"	e	enum:__anon13
+CURLE_FTP_CANT_GET_HOST	libcurl/include/curl/curl.h	/^  CURLE_FTP_CANT_GET_HOST,       \/* 15 *\/$/;"	e	enum:__anon13
+CURLE_FTP_CANT_RECONNECT	libcurl/include/curl/curl.h	544;"	d
+CURLE_FTP_COULDNT_GET_SIZE	libcurl/include/curl/curl.h	545;"	d
+CURLE_FTP_COULDNT_RETR_FILE	libcurl/include/curl/curl.h	/^  CURLE_FTP_COULDNT_RETR_FILE,   \/* 19 *\/$/;"	e	enum:__anon13
+CURLE_FTP_COULDNT_SET_ASCII	libcurl/include/curl/curl.h	546;"	d
+CURLE_FTP_COULDNT_SET_BINARY	libcurl/include/curl/curl.h	555;"	d
+CURLE_FTP_COULDNT_SET_TYPE	libcurl/include/curl/curl.h	/^  CURLE_FTP_COULDNT_SET_TYPE,    \/* 17 *\/$/;"	e	enum:__anon13
+CURLE_FTP_COULDNT_STOR_FILE	libcurl/include/curl/curl.h	568;"	d
+CURLE_FTP_COULDNT_USE_REST	libcurl/include/curl/curl.h	/^  CURLE_FTP_COULDNT_USE_REST,    \/* 31 - the REST command failed *\/$/;"	e	enum:__anon13
+CURLE_FTP_PARTIAL_FILE	libcurl/include/curl/curl.h	570;"	d
+CURLE_FTP_PORT_FAILED	libcurl/include/curl/curl.h	/^  CURLE_FTP_PORT_FAILED,         \/* 30 - FTP PORT operation failed *\/$/;"	e	enum:__anon13
+CURLE_FTP_PRET_FAILED	libcurl/include/curl/curl.h	/^  CURLE_FTP_PRET_FAILED,         \/* 84 - a PRET command failed *\/$/;"	e	enum:__anon13
+CURLE_FTP_QUOTE_ERROR	libcurl/include/curl/curl.h	556;"	d
+CURLE_FTP_SSL_FAILED	libcurl/include/curl/curl.h	560;"	d
+CURLE_FTP_USER_PASSWORD_INCORRECT	libcurl/include/curl/curl.h	543;"	d
+CURLE_FTP_WEIRD_227_FORMAT	libcurl/include/curl/curl.h	/^  CURLE_FTP_WEIRD_227_FORMAT,    \/* 14 *\/$/;"	e	enum:__anon13
+CURLE_FTP_WEIRD_PASS_REPLY	libcurl/include/curl/curl.h	/^  CURLE_FTP_WEIRD_PASS_REPLY,    \/* 11 *\/$/;"	e	enum:__anon13
+CURLE_FTP_WEIRD_PASV_REPLY	libcurl/include/curl/curl.h	/^  CURLE_FTP_WEIRD_PASV_REPLY,    \/* 13 *\/$/;"	e	enum:__anon13
+CURLE_FTP_WEIRD_SERVER_REPLY	libcurl/include/curl/curl.h	/^  CURLE_FTP_WEIRD_SERVER_REPLY,  \/* 8 *\/$/;"	e	enum:__anon13
+CURLE_FTP_WEIRD_USER_REPLY	libcurl/include/curl/curl.h	547;"	d
+CURLE_FTP_WRITE_ERROR	libcurl/include/curl/curl.h	548;"	d
+CURLE_FUNCTION_NOT_FOUND	libcurl/include/curl/curl.h	/^  CURLE_FUNCTION_NOT_FOUND,      \/* 41 *\/$/;"	e	enum:__anon13
+CURLE_GOT_NOTHING	libcurl/include/curl/curl.h	/^  CURLE_GOT_NOTHING,             \/* 52 - when this is a specific error *\/$/;"	e	enum:__anon13
+CURLE_HTTP_NOT_FOUND	libcurl/include/curl/curl.h	566;"	d
+CURLE_HTTP_PORT_FAILED	libcurl/include/curl/curl.h	567;"	d
+CURLE_HTTP_POST_ERROR	libcurl/include/curl/curl.h	/^  CURLE_HTTP_POST_ERROR,         \/* 34 *\/$/;"	e	enum:__anon13
+CURLE_HTTP_RANGE_ERROR	libcurl/include/curl/curl.h	559;"	d
+CURLE_HTTP_RETURNED_ERROR	libcurl/include/curl/curl.h	/^  CURLE_HTTP_RETURNED_ERROR,     \/* 22 *\/$/;"	e	enum:__anon13
+CURLE_INTERFACE_FAILED	libcurl/include/curl/curl.h	/^  CURLE_INTERFACE_FAILED,        \/* 45 - CURLOPT_INTERFACE failed *\/$/;"	e	enum:__anon13
+CURLE_LDAP_CANNOT_BIND	libcurl/include/curl/curl.h	/^  CURLE_LDAP_CANNOT_BIND,        \/* 38 *\/$/;"	e	enum:__anon13
+CURLE_LDAP_INVALID_URL	libcurl/include/curl/curl.h	/^  CURLE_LDAP_INVALID_URL,        \/* 62 - Invalid LDAP URL *\/$/;"	e	enum:__anon13
+CURLE_LDAP_SEARCH_FAILED	libcurl/include/curl/curl.h	/^  CURLE_LDAP_SEARCH_FAILED,      \/* 39 *\/$/;"	e	enum:__anon13
+CURLE_LIBRARY_NOT_FOUND	libcurl/include/curl/curl.h	549;"	d
+CURLE_LOGIN_DENIED	libcurl/include/curl/curl.h	/^  CURLE_LOGIN_DENIED,            \/* 67 - user, password or similar was not$/;"	e	enum:__anon13
+CURLE_MALFORMAT_USER	libcurl/include/curl/curl.h	550;"	d
+CURLE_NOT_BUILT_IN	libcurl/include/curl/curl.h	/^  CURLE_NOT_BUILT_IN,            \/* 4 - [was obsoleted in August 2007 for$/;"	e	enum:__anon13
+CURLE_OBSOLETE	libcurl/include/curl/curl.h	540;"	d
+CURLE_OBSOLETE10	libcurl/include/curl/curl.h	525;"	d
+CURLE_OBSOLETE12	libcurl/include/curl/curl.h	526;"	d
+CURLE_OBSOLETE16	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE16,              \/* 16 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE20	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE20,              \/* 20 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE24	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE24,              \/* 24 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE29	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE29,              \/* 29 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE32	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE32,              \/* 32 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE40	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE40,              \/* 40 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE44	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE44,              \/* 44 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE46	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE46,              \/* 46 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE50	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE50,              \/* 50 - NOT USED *\/$/;"	e	enum:__anon13
+CURLE_OBSOLETE57	libcurl/include/curl/curl.h	/^  CURLE_OBSOLETE57,              \/* 57 - NOT IN USE *\/$/;"	e	enum:__anon13
+CURLE_OK	libcurl/include/curl/curl.h	/^  CURLE_OK = 0,$/;"	e	enum:__anon13
+CURLE_OPERATION_TIMEDOUT	libcurl/include/curl/curl.h	/^  CURLE_OPERATION_TIMEDOUT,      \/* 28 - the timeout time was reached *\/$/;"	e	enum:__anon13
+CURLE_OPERATION_TIMEOUTED	libcurl/include/curl/curl.h	564;"	d
+CURLE_OUT_OF_MEMORY	libcurl/include/curl/curl.h	/^  CURLE_OUT_OF_MEMORY,           \/* 27 *\/$/;"	e	enum:__anon13
+CURLE_PARTIAL_FILE	libcurl/include/curl/curl.h	/^  CURLE_PARTIAL_FILE,            \/* 18 *\/$/;"	e	enum:__anon13
+CURLE_PEER_FAILED_VERIFICATION	libcurl/include/curl/curl.h	/^  CURLE_PEER_FAILED_VERIFICATION, \/* 51 - peer's certificate or fingerprint$/;"	e	enum:__anon13
+CURLE_QUOTE_ERROR	libcurl/include/curl/curl.h	/^  CURLE_QUOTE_ERROR,             \/* 21 - quote command failure *\/$/;"	e	enum:__anon13
+CURLE_RANGE_ERROR	libcurl/include/curl/curl.h	/^  CURLE_RANGE_ERROR,             \/* 33 - RANGE "command" didn't work *\/$/;"	e	enum:__anon13
+CURLE_READ_ERROR	libcurl/include/curl/curl.h	/^  CURLE_READ_ERROR,              \/* 26 - couldn't open\/read from file *\/$/;"	e	enum:__anon13
+CURLE_RECV_ERROR	libcurl/include/curl/curl.h	/^  CURLE_RECV_ERROR,              \/* 56 - failure in receiving network data *\/$/;"	e	enum:__anon13
+CURLE_REMOTE_ACCESS_DENIED	libcurl/include/curl/curl.h	/^  CURLE_REMOTE_ACCESS_DENIED,    \/* 9 a service was denied by the server$/;"	e	enum:__anon13
+CURLE_REMOTE_DISK_FULL	libcurl/include/curl/curl.h	/^  CURLE_REMOTE_DISK_FULL,        \/* 70 - out of disk space on server *\/$/;"	e	enum:__anon13
+CURLE_REMOTE_FILE_EXISTS	libcurl/include/curl/curl.h	/^  CURLE_REMOTE_FILE_EXISTS,      \/* 73 - File already exists *\/$/;"	e	enum:__anon13
+CURLE_REMOTE_FILE_NOT_FOUND	libcurl/include/curl/curl.h	/^  CURLE_REMOTE_FILE_NOT_FOUND,   \/* 78 - remote file not found *\/$/;"	e	enum:__anon13
+CURLE_RTSP_CSEQ_ERROR	libcurl/include/curl/curl.h	/^  CURLE_RTSP_CSEQ_ERROR,         \/* 85 - mismatch of RTSP CSeq numbers *\/$/;"	e	enum:__anon13
+CURLE_RTSP_SESSION_ERROR	libcurl/include/curl/curl.h	/^  CURLE_RTSP_SESSION_ERROR,      \/* 86 - mismatch of RTSP Session Ids *\/$/;"	e	enum:__anon13
+CURLE_SEND_ERROR	libcurl/include/curl/curl.h	/^  CURLE_SEND_ERROR,              \/* 55 - failed sending network data *\/$/;"	e	enum:__anon13
+CURLE_SEND_FAIL_REWIND	libcurl/include/curl/curl.h	/^  CURLE_SEND_FAIL_REWIND,        \/* 65 - Sending the data requires a rewind$/;"	e	enum:__anon13
+CURLE_SHARE_IN_USE	libcurl/include/curl/curl.h	551;"	d
+CURLE_SSH	libcurl/include/curl/curl.h	/^  CURLE_SSH,                     \/* 79 - error from the SSH layer, somewhat$/;"	e	enum:__anon13
+CURLE_SSL_CACERT	libcurl/include/curl/curl.h	/^  CURLE_SSL_CACERT,              \/* 60 - problem with the CA cert (path?) *\/$/;"	e	enum:__anon13
+CURLE_SSL_CACERT_BADFILE	libcurl/include/curl/curl.h	/^  CURLE_SSL_CACERT_BADFILE,      \/* 77 - could not load CACERT file, missing$/;"	e	enum:__anon13
+CURLE_SSL_CERTPROBLEM	libcurl/include/curl/curl.h	/^  CURLE_SSL_CERTPROBLEM,         \/* 58 - problem with the local certificate *\/$/;"	e	enum:__anon13
+CURLE_SSL_CIPHER	libcurl/include/curl/curl.h	/^  CURLE_SSL_CIPHER,              \/* 59 - couldn't use specified cipher *\/$/;"	e	enum:__anon13
+CURLE_SSL_CONNECT_ERROR	libcurl/include/curl/curl.h	/^  CURLE_SSL_CONNECT_ERROR,       \/* 35 - wrong when connecting with SSL *\/$/;"	e	enum:__anon13
+CURLE_SSL_CRL_BADFILE	libcurl/include/curl/curl.h	/^  CURLE_SSL_CRL_BADFILE,         \/* 82 - could not load CRL file, missing or$/;"	e	enum:__anon13
+CURLE_SSL_ENGINE_INITFAILED	libcurl/include/curl/curl.h	/^  CURLE_SSL_ENGINE_INITFAILED,   \/* 66 - failed to initialise ENGINE *\/$/;"	e	enum:__anon13
+CURLE_SSL_ENGINE_NOTFOUND	libcurl/include/curl/curl.h	/^  CURLE_SSL_ENGINE_NOTFOUND,     \/* 53 - SSL crypto engine not found *\/$/;"	e	enum:__anon13
+CURLE_SSL_ENGINE_SETFAILED	libcurl/include/curl/curl.h	/^  CURLE_SSL_ENGINE_SETFAILED,    \/* 54 - can not set SSL crypto engine as$/;"	e	enum:__anon13
+CURLE_SSL_ISSUER_ERROR	libcurl/include/curl/curl.h	/^  CURLE_SSL_ISSUER_ERROR,        \/* 83 - Issuer check failed.  (Added in$/;"	e	enum:__anon13
+CURLE_SSL_PEER_CERTIFICATE	libcurl/include/curl/curl.h	536;"	d
+CURLE_SSL_SHUTDOWN_FAILED	libcurl/include/curl/curl.h	/^  CURLE_SSL_SHUTDOWN_FAILED,     \/* 80 - Failed to shut down the SSL$/;"	e	enum:__anon13
+CURLE_TELNET_OPTION_SYNTAX	libcurl/include/curl/curl.h	/^  CURLE_TELNET_OPTION_SYNTAX ,   \/* 49 - Malformed telnet option *\/$/;"	e	enum:__anon13
+CURLE_TFTP_DISKFULL	libcurl/include/curl/curl.h	557;"	d
+CURLE_TFTP_EXISTS	libcurl/include/curl/curl.h	558;"	d
+CURLE_TFTP_ILLEGAL	libcurl/include/curl/curl.h	/^  CURLE_TFTP_ILLEGAL,            \/* 71 - Illegal TFTP operation *\/$/;"	e	enum:__anon13
+CURLE_TFTP_NOSUCHUSER	libcurl/include/curl/curl.h	/^  CURLE_TFTP_NOSUCHUSER,         \/* 74 - No such user *\/$/;"	e	enum:__anon13
+CURLE_TFTP_NOTFOUND	libcurl/include/curl/curl.h	/^  CURLE_TFTP_NOTFOUND,           \/* 68 - file not found on server *\/$/;"	e	enum:__anon13
+CURLE_TFTP_PERM	libcurl/include/curl/curl.h	/^  CURLE_TFTP_PERM,               \/* 69 - permission problem on server *\/$/;"	e	enum:__anon13
+CURLE_TFTP_UNKNOWNID	libcurl/include/curl/curl.h	/^  CURLE_TFTP_UNKNOWNID,          \/* 72 - Unknown transfer ID *\/$/;"	e	enum:__anon13
+CURLE_TOO_MANY_REDIRECTS	libcurl/include/curl/curl.h	/^  CURLE_TOO_MANY_REDIRECTS ,     \/* 47 - catch endless re-direct loops *\/$/;"	e	enum:__anon13
+CURLE_UNKNOWN_OPTION	libcurl/include/curl/curl.h	/^  CURLE_UNKNOWN_OPTION,          \/* 48 - User specified an unknown option *\/$/;"	e	enum:__anon13
+CURLE_UNKNOWN_TELNET_OPTION	libcurl/include/curl/curl.h	532;"	d
+CURLE_UNSUPPORTED_PROTOCOL	libcurl/include/curl/curl.h	/^  CURLE_UNSUPPORTED_PROTOCOL,    \/* 1 *\/$/;"	e	enum:__anon13
+CURLE_UPLOAD_FAILED	libcurl/include/curl/curl.h	/^  CURLE_UPLOAD_FAILED,           \/* 25 - failed upload "command" *\/$/;"	e	enum:__anon13
+CURLE_URL_MALFORMAT	libcurl/include/curl/curl.h	/^  CURLE_URL_MALFORMAT,           \/* 3 *\/$/;"	e	enum:__anon13
+CURLE_URL_MALFORMAT_USER	libcurl/include/curl/curl.h	552;"	d
+CURLE_USE_SSL_FAILED	libcurl/include/curl/curl.h	/^  CURLE_USE_SSL_FAILED,          \/* 64 - Requested FTP SSL level failed *\/$/;"	e	enum:__anon13
+CURLE_WRITE_ERROR	libcurl/include/curl/curl.h	/^  CURLE_WRITE_ERROR,             \/* 23 *\/$/;"	e	enum:__anon13
+CURLFILETYPE_DEVICE_BLOCK	libcurl/include/curl/curl.h	/^  CURLFILETYPE_DEVICE_BLOCK,$/;"	e	enum:__anon7
+CURLFILETYPE_DEVICE_CHAR	libcurl/include/curl/curl.h	/^  CURLFILETYPE_DEVICE_CHAR,$/;"	e	enum:__anon7
+CURLFILETYPE_DIRECTORY	libcurl/include/curl/curl.h	/^  CURLFILETYPE_DIRECTORY,$/;"	e	enum:__anon7
+CURLFILETYPE_DOOR	libcurl/include/curl/curl.h	/^  CURLFILETYPE_DOOR, \/* is possible only on Sun Solaris now *\/$/;"	e	enum:__anon7
+CURLFILETYPE_FILE	libcurl/include/curl/curl.h	/^  CURLFILETYPE_FILE = 0,$/;"	e	enum:__anon7
+CURLFILETYPE_NAMEDPIPE	libcurl/include/curl/curl.h	/^  CURLFILETYPE_NAMEDPIPE,$/;"	e	enum:__anon7
+CURLFILETYPE_SOCKET	libcurl/include/curl/curl.h	/^  CURLFILETYPE_SOCKET,$/;"	e	enum:__anon7
+CURLFILETYPE_SYMLINK	libcurl/include/curl/curl.h	/^  CURLFILETYPE_SYMLINK,$/;"	e	enum:__anon7
+CURLFILETYPE_UNKNOWN	libcurl/include/curl/curl.h	/^  CURLFILETYPE_UNKNOWN \/* should never occur *\/$/;"	e	enum:__anon7
+CURLFINFOFLAG_KNOWN_FILENAME	libcurl/include/curl/curl.h	215;"	d
+CURLFINFOFLAG_KNOWN_FILETYPE	libcurl/include/curl/curl.h	216;"	d
+CURLFINFOFLAG_KNOWN_GID	libcurl/include/curl/curl.h	220;"	d
+CURLFINFOFLAG_KNOWN_HLINKCOUNT	libcurl/include/curl/curl.h	222;"	d
+CURLFINFOFLAG_KNOWN_PERM	libcurl/include/curl/curl.h	218;"	d
+CURLFINFOFLAG_KNOWN_SIZE	libcurl/include/curl/curl.h	221;"	d
+CURLFINFOFLAG_KNOWN_TIME	libcurl/include/curl/curl.h	217;"	d
+CURLFINFOFLAG_KNOWN_UID	libcurl/include/curl/curl.h	219;"	d
+CURLFORM_LASTENTRY	libcurl/include/curl/curl.h	/^  CURLFORM_LASTENTRY \/* the last unused *\/$/;"	e	enum:__anon25
+CURLFORMcode	libcurl/include/curl/curl.h	/^} CURLFORMcode;$/;"	t	typeref:enum:__anon26
+CURLFTPAUTH_DEFAULT	libcurl/include/curl/curl.h	/^  CURLFTPAUTH_DEFAULT, \/* let libcurl decide *\/$/;"	e	enum:__anon17
+CURLFTPAUTH_LAST	libcurl/include/curl/curl.h	/^  CURLFTPAUTH_LAST \/* not an option, never use *\/$/;"	e	enum:__anon17
+CURLFTPAUTH_SSL	libcurl/include/curl/curl.h	/^  CURLFTPAUTH_SSL,     \/* use "AUTH SSL" *\/$/;"	e	enum:__anon17
+CURLFTPAUTH_TLS	libcurl/include/curl/curl.h	/^  CURLFTPAUTH_TLS,     \/* use "AUTH TLS" *\/$/;"	e	enum:__anon17
+CURLFTPMETHOD_DEFAULT	libcurl/include/curl/curl.h	/^  CURLFTPMETHOD_DEFAULT,   \/* let libcurl pick *\/$/;"	e	enum:__anon19
+CURLFTPMETHOD_LAST	libcurl/include/curl/curl.h	/^  CURLFTPMETHOD_LAST       \/* not an option, never use *\/$/;"	e	enum:__anon19
+CURLFTPMETHOD_MULTICWD	libcurl/include/curl/curl.h	/^  CURLFTPMETHOD_MULTICWD,  \/* single CWD operation for each path part *\/$/;"	e	enum:__anon19
+CURLFTPMETHOD_NOCWD	libcurl/include/curl/curl.h	/^  CURLFTPMETHOD_NOCWD,     \/* no CWD at all *\/$/;"	e	enum:__anon19
+CURLFTPMETHOD_SINGLECWD	libcurl/include/curl/curl.h	/^  CURLFTPMETHOD_SINGLECWD, \/* one CWD to full dir, then work on file *\/$/;"	e	enum:__anon19
+CURLFTPSSL_ALL	libcurl/include/curl/curl.h	710;"	d
+CURLFTPSSL_CCC_ACTIVE	libcurl/include/curl/curl.h	/^  CURLFTPSSL_CCC_ACTIVE,  \/* Initiate the shutdown *\/$/;"	e	enum:__anon16
+CURLFTPSSL_CCC_LAST	libcurl/include/curl/curl.h	/^  CURLFTPSSL_CCC_LAST     \/* not an option, never use *\/$/;"	e	enum:__anon16
+CURLFTPSSL_CCC_NONE	libcurl/include/curl/curl.h	/^  CURLFTPSSL_CCC_NONE,    \/* do not send CCC *\/$/;"	e	enum:__anon16
+CURLFTPSSL_CCC_PASSIVE	libcurl/include/curl/curl.h	/^  CURLFTPSSL_CCC_PASSIVE, \/* Let the server initiate the shutdown *\/$/;"	e	enum:__anon16
+CURLFTPSSL_CONTROL	libcurl/include/curl/curl.h	709;"	d
+CURLFTPSSL_LAST	libcurl/include/curl/curl.h	711;"	d
+CURLFTPSSL_NONE	libcurl/include/curl/curl.h	707;"	d
+CURLFTPSSL_TRY	libcurl/include/curl/curl.h	708;"	d
+CURLFTP_CREATE_DIR	libcurl/include/curl/curl.h	/^  CURLFTP_CREATE_DIR,       \/* (FTP\/SFTP) if CWD fails, try MKD and then CWD$/;"	e	enum:__anon18
+CURLFTP_CREATE_DIR_LAST	libcurl/include/curl/curl.h	/^  CURLFTP_CREATE_DIR_LAST   \/* not an option, never use *\/$/;"	e	enum:__anon18
+CURLFTP_CREATE_DIR_NONE	libcurl/include/curl/curl.h	/^  CURLFTP_CREATE_DIR_NONE,  \/* do NOT create missing dirs! *\/$/;"	e	enum:__anon18
+CURLFTP_CREATE_DIR_RETRY	libcurl/include/curl/curl.h	/^  CURLFTP_CREATE_DIR_RETRY, \/* (FTP only) if CWD fails, try MKD and then CWD$/;"	e	enum:__anon18
+CURLGSSAPI_DELEGATION_FLAG	libcurl/include/curl/curl.h	640;"	d
+CURLGSSAPI_DELEGATION_NONE	libcurl/include/curl/curl.h	638;"	d
+CURLGSSAPI_DELEGATION_POLICY_FLAG	libcurl/include/curl/curl.h	639;"	d
+CURLINFO	libcurl/include/curl/curl.h	/^} CURLINFO;$/;"	t	typeref:enum:__anon27
+CURLINFO_APPCONNECT_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_APPCONNECT_TIME  = CURLINFO_DOUBLE + 33,$/;"	e	enum:__anon27
+CURLINFO_CERTINFO	libcurl/include/curl/curl.h	/^  CURLINFO_CERTINFO         = CURLINFO_SLIST  + 34,$/;"	e	enum:__anon27
+CURLINFO_CONDITION_UNMET	libcurl/include/curl/curl.h	/^  CURLINFO_CONDITION_UNMET  = CURLINFO_LONG   + 35,$/;"	e	enum:__anon27
+CURLINFO_CONNECT_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_CONNECT_TIME     = CURLINFO_DOUBLE + 5,$/;"	e	enum:__anon27
+CURLINFO_CONTENT_LENGTH_DOWNLOAD	libcurl/include/curl/curl.h	/^  CURLINFO_CONTENT_LENGTH_DOWNLOAD   = CURLINFO_DOUBLE + 15,$/;"	e	enum:__anon27
+CURLINFO_CONTENT_LENGTH_UPLOAD	libcurl/include/curl/curl.h	/^  CURLINFO_CONTENT_LENGTH_UPLOAD     = CURLINFO_DOUBLE + 16,$/;"	e	enum:__anon27
+CURLINFO_CONTENT_TYPE	libcurl/include/curl/curl.h	/^  CURLINFO_CONTENT_TYPE     = CURLINFO_STRING + 18,$/;"	e	enum:__anon27
+CURLINFO_COOKIELIST	libcurl/include/curl/curl.h	/^  CURLINFO_COOKIELIST       = CURLINFO_SLIST  + 28,$/;"	e	enum:__anon27
+CURLINFO_DATA_IN	libcurl/include/curl/curl.h	/^  CURLINFO_DATA_IN,      \/* 3 *\/$/;"	e	enum:__anon12
+CURLINFO_DATA_OUT	libcurl/include/curl/curl.h	/^  CURLINFO_DATA_OUT,     \/* 4 *\/$/;"	e	enum:__anon12
+CURLINFO_DOUBLE	libcurl/include/curl/curl.h	1951;"	d
+CURLINFO_EFFECTIVE_URL	libcurl/include/curl/curl.h	/^  CURLINFO_EFFECTIVE_URL    = CURLINFO_STRING + 1,$/;"	e	enum:__anon27
+CURLINFO_END	libcurl/include/curl/curl.h	/^  CURLINFO_END$/;"	e	enum:__anon12
+CURLINFO_FILETIME	libcurl/include/curl/curl.h	/^  CURLINFO_FILETIME         = CURLINFO_LONG   + 14,$/;"	e	enum:__anon27
+CURLINFO_FTP_ENTRY_PATH	libcurl/include/curl/curl.h	/^  CURLINFO_FTP_ENTRY_PATH   = CURLINFO_STRING + 30,$/;"	e	enum:__anon27
+CURLINFO_HEADER_IN	libcurl/include/curl/curl.h	/^  CURLINFO_HEADER_IN,    \/* 1 *\/$/;"	e	enum:__anon12
+CURLINFO_HEADER_OUT	libcurl/include/curl/curl.h	/^  CURLINFO_HEADER_OUT,   \/* 2 *\/$/;"	e	enum:__anon12
+CURLINFO_HEADER_SIZE	libcurl/include/curl/curl.h	/^  CURLINFO_HEADER_SIZE      = CURLINFO_LONG   + 11,$/;"	e	enum:__anon27
+CURLINFO_HTTPAUTH_AVAIL	libcurl/include/curl/curl.h	/^  CURLINFO_HTTPAUTH_AVAIL   = CURLINFO_LONG   + 23,$/;"	e	enum:__anon27
+CURLINFO_HTTP_CODE	libcurl/include/curl/curl.h	2007;"	d
+CURLINFO_HTTP_CONNECTCODE	libcurl/include/curl/curl.h	/^  CURLINFO_HTTP_CONNECTCODE = CURLINFO_LONG   + 22,$/;"	e	enum:__anon27
+CURLINFO_LASTONE	libcurl/include/curl/curl.h	/^  CURLINFO_LASTONE          = 42$/;"	e	enum:__anon27
+CURLINFO_LASTSOCKET	libcurl/include/curl/curl.h	/^  CURLINFO_LASTSOCKET       = CURLINFO_LONG   + 29,$/;"	e	enum:__anon27
+CURLINFO_LOCAL_IP	libcurl/include/curl/curl.h	/^  CURLINFO_LOCAL_IP         = CURLINFO_STRING + 41,$/;"	e	enum:__anon27
+CURLINFO_LOCAL_PORT	libcurl/include/curl/curl.h	/^  CURLINFO_LOCAL_PORT       = CURLINFO_LONG   + 42,$/;"	e	enum:__anon27
+CURLINFO_LONG	libcurl/include/curl/curl.h	1950;"	d
+CURLINFO_MASK	libcurl/include/curl/curl.h	1953;"	d
+CURLINFO_NAMELOOKUP_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_NAMELOOKUP_TIME  = CURLINFO_DOUBLE + 4,$/;"	e	enum:__anon27
+CURLINFO_NONE	libcurl/include/curl/curl.h	/^  CURLINFO_NONE, \/* first, never use this *\/$/;"	e	enum:__anon27
+CURLINFO_NUM_CONNECTS	libcurl/include/curl/curl.h	/^  CURLINFO_NUM_CONNECTS     = CURLINFO_LONG   + 26,$/;"	e	enum:__anon27
+CURLINFO_OS_ERRNO	libcurl/include/curl/curl.h	/^  CURLINFO_OS_ERRNO         = CURLINFO_LONG   + 25,$/;"	e	enum:__anon27
+CURLINFO_PRETRANSFER_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_PRETRANSFER_TIME = CURLINFO_DOUBLE + 6,$/;"	e	enum:__anon27
+CURLINFO_PRIMARY_IP	libcurl/include/curl/curl.h	/^  CURLINFO_PRIMARY_IP       = CURLINFO_STRING + 32,$/;"	e	enum:__anon27
+CURLINFO_PRIMARY_PORT	libcurl/include/curl/curl.h	/^  CURLINFO_PRIMARY_PORT     = CURLINFO_LONG   + 40,$/;"	e	enum:__anon27
+CURLINFO_PRIVATE	libcurl/include/curl/curl.h	/^  CURLINFO_PRIVATE          = CURLINFO_STRING + 21,$/;"	e	enum:__anon27
+CURLINFO_PROXYAUTH_AVAIL	libcurl/include/curl/curl.h	/^  CURLINFO_PROXYAUTH_AVAIL  = CURLINFO_LONG   + 24,$/;"	e	enum:__anon27
+CURLINFO_REDIRECT_COUNT	libcurl/include/curl/curl.h	/^  CURLINFO_REDIRECT_COUNT   = CURLINFO_LONG   + 20,$/;"	e	enum:__anon27
+CURLINFO_REDIRECT_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_REDIRECT_TIME    = CURLINFO_DOUBLE + 19,$/;"	e	enum:__anon27
+CURLINFO_REDIRECT_URL	libcurl/include/curl/curl.h	/^  CURLINFO_REDIRECT_URL     = CURLINFO_STRING + 31,$/;"	e	enum:__anon27
+CURLINFO_REQUEST_SIZE	libcurl/include/curl/curl.h	/^  CURLINFO_REQUEST_SIZE     = CURLINFO_LONG   + 12,$/;"	e	enum:__anon27
+CURLINFO_RESPONSE_CODE	libcurl/include/curl/curl.h	/^  CURLINFO_RESPONSE_CODE    = CURLINFO_LONG   + 2,$/;"	e	enum:__anon27
+CURLINFO_RTSP_CLIENT_CSEQ	libcurl/include/curl/curl.h	/^  CURLINFO_RTSP_CLIENT_CSEQ = CURLINFO_LONG   + 37,$/;"	e	enum:__anon27
+CURLINFO_RTSP_CSEQ_RECV	libcurl/include/curl/curl.h	/^  CURLINFO_RTSP_CSEQ_RECV   = CURLINFO_LONG   + 39,$/;"	e	enum:__anon27
+CURLINFO_RTSP_SERVER_CSEQ	libcurl/include/curl/curl.h	/^  CURLINFO_RTSP_SERVER_CSEQ = CURLINFO_LONG   + 38,$/;"	e	enum:__anon27
+CURLINFO_RTSP_SESSION_ID	libcurl/include/curl/curl.h	/^  CURLINFO_RTSP_SESSION_ID  = CURLINFO_STRING + 36,$/;"	e	enum:__anon27
+CURLINFO_SIZE_DOWNLOAD	libcurl/include/curl/curl.h	/^  CURLINFO_SIZE_DOWNLOAD    = CURLINFO_DOUBLE + 8,$/;"	e	enum:__anon27
+CURLINFO_SIZE_UPLOAD	libcurl/include/curl/curl.h	/^  CURLINFO_SIZE_UPLOAD      = CURLINFO_DOUBLE + 7,$/;"	e	enum:__anon27
+CURLINFO_SLIST	libcurl/include/curl/curl.h	1952;"	d
+CURLINFO_SPEED_DOWNLOAD	libcurl/include/curl/curl.h	/^  CURLINFO_SPEED_DOWNLOAD   = CURLINFO_DOUBLE + 9,$/;"	e	enum:__anon27
+CURLINFO_SPEED_UPLOAD	libcurl/include/curl/curl.h	/^  CURLINFO_SPEED_UPLOAD     = CURLINFO_DOUBLE + 10,$/;"	e	enum:__anon27
+CURLINFO_SSL_DATA_IN	libcurl/include/curl/curl.h	/^  CURLINFO_SSL_DATA_IN,  \/* 5 *\/$/;"	e	enum:__anon12
+CURLINFO_SSL_DATA_OUT	libcurl/include/curl/curl.h	/^  CURLINFO_SSL_DATA_OUT, \/* 6 *\/$/;"	e	enum:__anon12
+CURLINFO_SSL_ENGINES	libcurl/include/curl/curl.h	/^  CURLINFO_SSL_ENGINES      = CURLINFO_SLIST  + 27,$/;"	e	enum:__anon27
+CURLINFO_SSL_VERIFYRESULT	libcurl/include/curl/curl.h	/^  CURLINFO_SSL_VERIFYRESULT = CURLINFO_LONG   + 13,$/;"	e	enum:__anon27
+CURLINFO_STARTTRANSFER_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_STARTTRANSFER_TIME = CURLINFO_DOUBLE + 17,$/;"	e	enum:__anon27
+CURLINFO_STRING	libcurl/include/curl/curl.h	1949;"	d
+CURLINFO_TEXT	libcurl/include/curl/curl.h	/^  CURLINFO_TEXT = 0,$/;"	e	enum:__anon12
+CURLINFO_TOTAL_TIME	libcurl/include/curl/curl.h	/^  CURLINFO_TOTAL_TIME       = CURLINFO_DOUBLE + 3,$/;"	e	enum:__anon27
+CURLINFO_TYPEMASK	libcurl/include/curl/curl.h	1954;"	d
+CURLIOCMD_LAST	libcurl/include/curl/curl.h	/^  CURLIOCMD_LAST         \/* never use *\/$/;"	e	enum:__anon11
+CURLIOCMD_NOP	libcurl/include/curl/curl.h	/^  CURLIOCMD_NOP,         \/* no operation *\/$/;"	e	enum:__anon11
+CURLIOCMD_RESTARTREAD	libcurl/include/curl/curl.h	/^  CURLIOCMD_RESTARTREAD, \/* restart the read stream from start *\/$/;"	e	enum:__anon11
+CURLIOE_FAILRESTART	libcurl/include/curl/curl.h	/^  CURLIOE_FAILRESTART,   \/* failed to restart the read *\/$/;"	e	enum:__anon10
+CURLIOE_LAST	libcurl/include/curl/curl.h	/^  CURLIOE_LAST           \/* never use *\/$/;"	e	enum:__anon10
+CURLIOE_OK	libcurl/include/curl/curl.h	/^  CURLIOE_OK,            \/* I\/O operation successful *\/$/;"	e	enum:__anon10
+CURLIOE_UNKNOWNCMD	libcurl/include/curl/curl.h	/^  CURLIOE_UNKNOWNCMD,    \/* command was unknown to callback *\/$/;"	e	enum:__anon10
+CURLKHMATCH_LAST	libcurl/include/curl/curl.h	/^  CURLKHMATCH_LAST      \/* not for use, only a marker for last-in-list *\/$/;"	e	enum:curl_khmatch
+CURLKHMATCH_MISMATCH	libcurl/include/curl/curl.h	/^  CURLKHMATCH_MISMATCH, \/* host found, key mismatch! *\/$/;"	e	enum:curl_khmatch
+CURLKHMATCH_MISSING	libcurl/include/curl/curl.h	/^  CURLKHMATCH_MISSING,  \/* no matching host\/key found *\/$/;"	e	enum:curl_khmatch
+CURLKHMATCH_OK	libcurl/include/curl/curl.h	/^  CURLKHMATCH_OK,       \/* match *\/$/;"	e	enum:curl_khmatch
+CURLKHSTAT_DEFER	libcurl/include/curl/curl.h	/^  CURLKHSTAT_DEFER,  \/* do not accept it, but we can't answer right now so$/;"	e	enum:curl_khstat
+CURLKHSTAT_FINE	libcurl/include/curl/curl.h	/^  CURLKHSTAT_FINE,$/;"	e	enum:curl_khstat
+CURLKHSTAT_FINE_ADD_TO_FILE	libcurl/include/curl/curl.h	/^  CURLKHSTAT_FINE_ADD_TO_FILE,$/;"	e	enum:curl_khstat
+CURLKHSTAT_LAST	libcurl/include/curl/curl.h	/^  CURLKHSTAT_LAST    \/* not for use, only a marker for last-in-list *\/$/;"	e	enum:curl_khstat
+CURLKHSTAT_REJECT	libcurl/include/curl/curl.h	/^  CURLKHSTAT_REJECT, \/* reject the connection, return an error *\/$/;"	e	enum:curl_khstat
+CURLKHTYPE_DSS	libcurl/include/curl/curl.h	/^    CURLKHTYPE_DSS$/;"	e	enum:curl_khkey::type
+CURLKHTYPE_RSA	libcurl/include/curl/curl.h	/^    CURLKHTYPE_RSA,$/;"	e	enum:curl_khkey::type
+CURLKHTYPE_RSA1	libcurl/include/curl/curl.h	/^    CURLKHTYPE_RSA1,$/;"	e	enum:curl_khkey::type
+CURLKHTYPE_UNKNOWN	libcurl/include/curl/curl.h	/^    CURLKHTYPE_UNKNOWN,$/;"	e	enum:curl_khkey::type
+CURLM	libcurl/include/curl/multi.h	/^typedef void CURLM;$/;"	t
+CURLMOPT_LASTENTRY	libcurl/include/curl/multi.h	/^  CURLMOPT_LASTENTRY \/* the last unused *\/$/;"	e	enum:__anon38
+CURLMSG	libcurl/include/curl/multi.h	/^} CURLMSG;$/;"	t	typeref:enum:__anon36
+CURLMSG_DONE	libcurl/include/curl/multi.h	/^  CURLMSG_DONE, \/* This easy handle has completed. 'result' contains$/;"	e	enum:__anon36
+CURLMSG_LAST	libcurl/include/curl/multi.h	/^  CURLMSG_LAST \/* last, not used *\/$/;"	e	enum:__anon36
+CURLMSG_NONE	libcurl/include/curl/multi.h	/^  CURLMSG_NONE, \/* first, not used *\/$/;"	e	enum:__anon36
+CURLM_BAD_EASY_HANDLE	libcurl/include/curl/multi.h	/^  CURLM_BAD_EASY_HANDLE, \/* an easy handle was not good\/valid *\/$/;"	e	enum:__anon35
+CURLM_BAD_HANDLE	libcurl/include/curl/multi.h	/^  CURLM_BAD_HANDLE,      \/* the passed-in handle is not a valid CURLM handle *\/$/;"	e	enum:__anon35
+CURLM_BAD_SOCKET	libcurl/include/curl/multi.h	/^  CURLM_BAD_SOCKET,      \/* the passed in socket argument did not match *\/$/;"	e	enum:__anon35
+CURLM_CALL_MULTI_PERFORM	libcurl/include/curl/multi.h	/^  CURLM_CALL_MULTI_PERFORM = -1, \/* please call curl_multi_perform() or$/;"	e	enum:__anon35
+CURLM_CALL_MULTI_SOCKET	libcurl/include/curl/multi.h	73;"	d
+CURLM_INTERNAL_ERROR	libcurl/include/curl/multi.h	/^  CURLM_INTERNAL_ERROR,  \/* this is a libcurl bug *\/$/;"	e	enum:__anon35
+CURLM_LAST	libcurl/include/curl/multi.h	/^  CURLM_LAST$/;"	e	enum:__anon35
+CURLM_OK	libcurl/include/curl/multi.h	/^  CURLM_OK,$/;"	e	enum:__anon35
+CURLM_OUT_OF_MEMORY	libcurl/include/curl/multi.h	/^  CURLM_OUT_OF_MEMORY,   \/* if you ever get this, you're in deep sh*t *\/$/;"	e	enum:__anon35
+CURLM_UNKNOWN_OPTION	libcurl/include/curl/multi.h	/^  CURLM_UNKNOWN_OPTION,  \/* curl_multi_setopt() with unsupported option *\/$/;"	e	enum:__anon35
+CURLMcode	libcurl/include/curl/multi.h	/^} CURLMcode;$/;"	t	typeref:enum:__anon35
+CURLMoption	libcurl/include/curl/multi.h	/^} CURLMoption;$/;"	t	typeref:enum:__anon38
+CURLMsg	libcurl/include/curl/multi.h	/^struct CURLMsg {$/;"	s
+CURLMsg	libcurl/include/curl/multi.h	/^typedef struct CURLMsg CURLMsg;$/;"	t	typeref:struct:CURLMsg
+CURLOPTTYPE_FUNCTIONPOINT	libcurl/include/curl/curl.h	784;"	d
+CURLOPTTYPE_LONG	libcurl/include/curl/curl.h	782;"	d
+CURLOPTTYPE_OBJECTPOINT	libcurl/include/curl/curl.h	783;"	d
+CURLOPTTYPE_OFF_T	libcurl/include/curl/curl.h	785;"	d
+CURLOPT_DNS_USE_GLOBAL_CACHE	libcurl/include/curl/curl.h	1566;"	d
+CURLOPT_ENCODING	libcurl/include/curl/curl.h	529;"	d
+CURLOPT_FTPAPPEND	libcurl/include/curl/curl.h	1555;"	d
+CURLOPT_FTPLISTONLY	libcurl/include/curl/curl.h	1556;"	d
+CURLOPT_FTP_SSL	libcurl/include/curl/curl.h	1557;"	d
+CURLOPT_HEADERDATA	libcurl/include/curl/curl.h	1581;"	d
+CURLOPT_KRB4LEVEL	libcurl/include/curl/curl.h	1562;"	d
+CURLOPT_LASTENTRY	libcurl/include/curl/curl.h	/^  CURLOPT_LASTENTRY \/* the last unused *\/$/;"	e	enum:__anon20
+CURLOPT_POST301	libcurl/include/curl/curl.h	1549;"	d
+CURLOPT_READDATA	libcurl/include/curl/curl.h	1580;"	d
+CURLOPT_RTSPHEADER	libcurl/include/curl/curl.h	1582;"	d
+CURLOPT_SERVER_RESPONSE_TIMEOUT	libcurl/include/curl/curl.h	1189;"	d
+CURLOPT_SSLCERTPASSWD	libcurl/include/curl/curl.h	1561;"	d
+CURLOPT_SSLKEYPASSWD	libcurl/include/curl/curl.h	1554;"	d
+CURLOPT_WRITEDATA	libcurl/include/curl/curl.h	1579;"	d
+CURLPAUSE_ALL	libcurl/include/curl/curl.h	2203;"	d
+CURLPAUSE_CONT	libcurl/include/curl/curl.h	2204;"	d
+CURLPAUSE_RECV	libcurl/include/curl/curl.h	2197;"	d
+CURLPAUSE_RECV_CONT	libcurl/include/curl/curl.h	2198;"	d
+CURLPAUSE_SEND	libcurl/include/curl/curl.h	2200;"	d
+CURLPAUSE_SEND_CONT	libcurl/include/curl/curl.h	2201;"	d
+CURLPROTO_ALL	libcurl/include/curl/curl.h	778;"	d
+CURLPROTO_DICT	libcurl/include/curl/curl.h	761;"	d
+CURLPROTO_FILE	libcurl/include/curl/curl.h	762;"	d
+CURLPROTO_FTP	libcurl/include/curl/curl.h	754;"	d
+CURLPROTO_FTPS	libcurl/include/curl/curl.h	755;"	d
+CURLPROTO_GOPHER	libcurl/include/curl/curl.h	777;"	d
+CURLPROTO_HTTP	libcurl/include/curl/curl.h	752;"	d
+CURLPROTO_HTTPS	libcurl/include/curl/curl.h	753;"	d
+CURLPROTO_IMAP	libcurl/include/curl/curl.h	764;"	d
+CURLPROTO_IMAPS	libcurl/include/curl/curl.h	765;"	d
+CURLPROTO_LDAP	libcurl/include/curl/curl.h	759;"	d
+CURLPROTO_LDAPS	libcurl/include/curl/curl.h	760;"	d
+CURLPROTO_POP3	libcurl/include/curl/curl.h	766;"	d
+CURLPROTO_POP3S	libcurl/include/curl/curl.h	767;"	d
+CURLPROTO_RTMP	libcurl/include/curl/curl.h	771;"	d
+CURLPROTO_RTMPE	libcurl/include/curl/curl.h	773;"	d
+CURLPROTO_RTMPS	libcurl/include/curl/curl.h	775;"	d
+CURLPROTO_RTMPT	libcurl/include/curl/curl.h	772;"	d
+CURLPROTO_RTMPTE	libcurl/include/curl/curl.h	774;"	d
+CURLPROTO_RTMPTS	libcurl/include/curl/curl.h	776;"	d
+CURLPROTO_RTSP	libcurl/include/curl/curl.h	770;"	d
+CURLPROTO_SCP	libcurl/include/curl/curl.h	756;"	d
+CURLPROTO_SFTP	libcurl/include/curl/curl.h	757;"	d
+CURLPROTO_SMTP	libcurl/include/curl/curl.h	768;"	d
+CURLPROTO_SMTPS	libcurl/include/curl/curl.h	769;"	d
+CURLPROTO_TELNET	libcurl/include/curl/curl.h	758;"	d
+CURLPROTO_TFTP	libcurl/include/curl/curl.h	763;"	d
+CURLPROXY_HTTP	libcurl/include/curl/curl.h	/^  CURLPROXY_HTTP = 0,   \/* added in 7.10, new in 7.19.4 default is to use$/;"	e	enum:__anon14
+CURLPROXY_HTTP_1_0	libcurl/include/curl/curl.h	/^  CURLPROXY_HTTP_1_0 = 1,   \/* added in 7.19.4, force to use CONNECT$/;"	e	enum:__anon14
+CURLPROXY_SOCKS4	libcurl/include/curl/curl.h	/^  CURLPROXY_SOCKS4 = 4, \/* support added in 7.15.2, enum existed already$/;"	e	enum:__anon14
+CURLPROXY_SOCKS4A	libcurl/include/curl/curl.h	/^  CURLPROXY_SOCKS4A = 6, \/* added in 7.18.0 *\/$/;"	e	enum:__anon14
+CURLPROXY_SOCKS5	libcurl/include/curl/curl.h	/^  CURLPROXY_SOCKS5 = 5, \/* added in 7.10 *\/$/;"	e	enum:__anon14
+CURLPROXY_SOCKS5_HOSTNAME	libcurl/include/curl/curl.h	/^  CURLPROXY_SOCKS5_HOSTNAME = 7 \/* Use the SOCKS5 protocol but pass along the$/;"	e	enum:__anon14
+CURLSH	libcurl/include/curl/curl.h	/^typedef void CURLSH;$/;"	t
+CURLSHE_BAD_OPTION	libcurl/include/curl/curl.h	/^  CURLSHE_BAD_OPTION, \/* 1 *\/$/;"	e	enum:__anon31
+CURLSHE_INVALID	libcurl/include/curl/curl.h	/^  CURLSHE_INVALID,    \/* 3 *\/$/;"	e	enum:__anon31
+CURLSHE_IN_USE	libcurl/include/curl/curl.h	/^  CURLSHE_IN_USE,     \/* 2 *\/$/;"	e	enum:__anon31
+CURLSHE_LAST	libcurl/include/curl/curl.h	/^  CURLSHE_LAST        \/* never use *\/$/;"	e	enum:__anon31
+CURLSHE_NOMEM	libcurl/include/curl/curl.h	/^  CURLSHE_NOMEM,      \/* 4 out of memory *\/$/;"	e	enum:__anon31
+CURLSHE_NOT_BUILT_IN	libcurl/include/curl/curl.h	/^  CURLSHE_NOT_BUILT_IN, \/* 5 feature not present in lib *\/$/;"	e	enum:__anon31
+CURLSHE_OK	libcurl/include/curl/curl.h	/^  CURLSHE_OK,  \/* all is fine *\/$/;"	e	enum:__anon31
+CURLSHOPT_LAST	libcurl/include/curl/curl.h	/^  CURLSHOPT_LAST  \/* never use *\/$/;"	e	enum:__anon32
+CURLSHOPT_LOCKFUNC	libcurl/include/curl/curl.h	/^  CURLSHOPT_LOCKFUNC,   \/* pass in a 'curl_lock_function' pointer *\/$/;"	e	enum:__anon32
+CURLSHOPT_NONE	libcurl/include/curl/curl.h	/^  CURLSHOPT_NONE,  \/* don't use *\/$/;"	e	enum:__anon32
+CURLSHOPT_SHARE	libcurl/include/curl/curl.h	/^  CURLSHOPT_SHARE,   \/* specify a data type to share *\/$/;"	e	enum:__anon32
+CURLSHOPT_UNLOCKFUNC	libcurl/include/curl/curl.h	/^  CURLSHOPT_UNLOCKFUNC, \/* pass in a 'curl_unlock_function' pointer *\/$/;"	e	enum:__anon32
+CURLSHOPT_UNSHARE	libcurl/include/curl/curl.h	/^  CURLSHOPT_UNSHARE, \/* specify which data type to stop sharing *\/$/;"	e	enum:__anon32
+CURLSHOPT_USERDATA	libcurl/include/curl/curl.h	/^  CURLSHOPT_USERDATA,   \/* pass in a user data pointer used in the lock\/unlock$/;"	e	enum:__anon32
+CURLSHcode	libcurl/include/curl/curl.h	/^} CURLSHcode;$/;"	t	typeref:enum:__anon31
+CURLSHoption	libcurl/include/curl/curl.h	/^} CURLSHoption;$/;"	t	typeref:enum:__anon32
+CURLSOCKTYPE_ACCEPT	libcurl/include/curl/curl.h	/^  CURLSOCKTYPE_ACCEPT, \/* socket created by accept() call *\/$/;"	e	enum:__anon9
+CURLSOCKTYPE_IPCXN	libcurl/include/curl/curl.h	/^  CURLSOCKTYPE_IPCXN,  \/* socket created for a specific IP connection *\/$/;"	e	enum:__anon9
+CURLSOCKTYPE_LAST	libcurl/include/curl/curl.h	/^  CURLSOCKTYPE_LAST    \/* never use *\/$/;"	e	enum:__anon9
+CURLSSH_AUTH_AGENT	libcurl/include/curl/curl.h	635;"	d
+CURLSSH_AUTH_ANY	libcurl/include/curl/curl.h	629;"	d
+CURLSSH_AUTH_DEFAULT	libcurl/include/curl/curl.h	636;"	d
+CURLSSH_AUTH_HOST	libcurl/include/curl/curl.h	633;"	d
+CURLSSH_AUTH_KEYBOARD	libcurl/include/curl/curl.h	634;"	d
+CURLSSH_AUTH_NONE	libcurl/include/curl/curl.h	630;"	d
+CURLSSH_AUTH_PASSWORD	libcurl/include/curl/curl.h	632;"	d
+CURLSSH_AUTH_PUBLICKEY	libcurl/include/curl/curl.h	631;"	d
+CURLSSLOPT_ALLOW_BEAST	libcurl/include/curl/curl.h	699;"	d
+CURLUSESSL_ALL	libcurl/include/curl/curl.h	/^  CURLUSESSL_ALL,     \/* SSL for all communication or fail *\/$/;"	e	enum:__anon15
+CURLUSESSL_CONTROL	libcurl/include/curl/curl.h	/^  CURLUSESSL_CONTROL, \/* SSL for the control connection or fail *\/$/;"	e	enum:__anon15
+CURLUSESSL_LAST	libcurl/include/curl/curl.h	/^  CURLUSESSL_LAST     \/* not an option, never use *\/$/;"	e	enum:__anon15
+CURLUSESSL_NONE	libcurl/include/curl/curl.h	/^  CURLUSESSL_NONE,    \/* do not attempt to use SSL *\/$/;"	e	enum:__anon15
+CURLUSESSL_TRY	libcurl/include/curl/curl.h	/^  CURLUSESSL_TRY,     \/* try using SSL, proceed anyway otherwise *\/$/;"	e	enum:__anon15
+CURLVERSION_FIRST	libcurl/include/curl/curl.h	/^  CURLVERSION_FIRST,$/;"	e	enum:__anon33
+CURLVERSION_FOURTH	libcurl/include/curl/curl.h	/^  CURLVERSION_FOURTH,$/;"	e	enum:__anon33
+CURLVERSION_LAST	libcurl/include/curl/curl.h	/^  CURLVERSION_LAST \/* never actually use this *\/$/;"	e	enum:__anon33
+CURLVERSION_NOW	libcurl/include/curl/curl.h	2107;"	d
+CURLVERSION_SECOND	libcurl/include/curl/curl.h	/^  CURLVERSION_SECOND,$/;"	e	enum:__anon33
+CURLVERSION_THIRD	libcurl/include/curl/curl.h	/^  CURLVERSION_THIRD,$/;"	e	enum:__anon33
+CURL_CHUNK_BGN_FUNC_FAIL	libcurl/include/curl/curl.h	257;"	d
+CURL_CHUNK_BGN_FUNC_OK	libcurl/include/curl/curl.h	256;"	d
+CURL_CHUNK_BGN_FUNC_SKIP	libcurl/include/curl/curl.h	258;"	d
+CURL_CHUNK_END_FUNC_FAIL	libcurl/include/curl/curl.h	269;"	d
+CURL_CHUNK_END_FUNC_OK	libcurl/include/curl/curl.h	268;"	d
+CURL_CSELECT_ERR	libcurl/include/curl/multi.h	255;"	d
+CURL_CSELECT_IN	libcurl/include/curl/multi.h	253;"	d
+CURL_CSELECT_OUT	libcurl/include/curl/multi.h	254;"	d
+CURL_ERROR_SIZE	libcurl/include/curl/curl.h	642;"	d
+CURL_EXTERN	libcurl/include/curl/curl.h	102;"	d
+CURL_EXTERN	libcurl/include/curl/curl.h	104;"	d
+CURL_EXTERN	libcurl/include/curl/curl.h	115;"	d
+CURL_EXTERN	libcurl/include/curl/curl.h	117;"	d
+CURL_FNMATCHFUNC_FAIL	libcurl/include/curl/curl.h	282;"	d
+CURL_FNMATCHFUNC_MATCH	libcurl/include/curl/curl.h	280;"	d
+CURL_FNMATCHFUNC_NOMATCH	libcurl/include/curl/curl.h	281;"	d
+CURL_FORMADD_DISABLED	libcurl/include/curl/curl.h	/^  CURL_FORMADD_DISABLED, \/* libcurl was built with this disabled *\/$/;"	e	enum:__anon26
+CURL_FORMADD_ILLEGAL_ARRAY	libcurl/include/curl/curl.h	/^  CURL_FORMADD_ILLEGAL_ARRAY,$/;"	e	enum:__anon26
+CURL_FORMADD_INCOMPLETE	libcurl/include/curl/curl.h	/^  CURL_FORMADD_INCOMPLETE,$/;"	e	enum:__anon26
+CURL_FORMADD_LAST	libcurl/include/curl/curl.h	/^  CURL_FORMADD_LAST \/* last *\/$/;"	e	enum:__anon26
+CURL_FORMADD_MEMORY	libcurl/include/curl/curl.h	/^  CURL_FORMADD_MEMORY,$/;"	e	enum:__anon26
+CURL_FORMADD_NULL	libcurl/include/curl/curl.h	/^  CURL_FORMADD_NULL,$/;"	e	enum:__anon26
+CURL_FORMADD_OK	libcurl/include/curl/curl.h	/^  CURL_FORMADD_OK, \/* first, no error *\/$/;"	e	enum:__anon26
+CURL_FORMADD_OPTION_TWICE	libcurl/include/curl/curl.h	/^  CURL_FORMADD_OPTION_TWICE,$/;"	e	enum:__anon26
+CURL_FORMADD_UNKNOWN_OPTION	libcurl/include/curl/curl.h	/^  CURL_FORMADD_UNKNOWN_OPTION,$/;"	e	enum:__anon26
+CURL_FORMAT_CURL_OFF_T	libcurl/include/curl/curlbuild.h	181;"	d
+CURL_FORMAT_CURL_OFF_TU	libcurl/include/curl/curlbuild.h	184;"	d
+CURL_FORMAT_OFF_T	libcurl/include/curl/curlbuild.h	187;"	d
+CURL_FORMAT_OFF_T	libcurl/include/curl/curlrules.h	259;"	d
+CURL_GLOBAL_ALL	libcurl/include/curl/curl.h	2023;"	d
+CURL_GLOBAL_DEFAULT	libcurl/include/curl/curl.h	2025;"	d
+CURL_GLOBAL_NOTHING	libcurl/include/curl/curl.h	2024;"	d
+CURL_GLOBAL_SSL	libcurl/include/curl/curl.h	2021;"	d
+CURL_GLOBAL_WIN32	libcurl/include/curl/curl.h	2022;"	d
+CURL_HTTP_VERSION_1_0	libcurl/include/curl/curl.h	/^  CURL_HTTP_VERSION_1_0,  \/* please use HTTP 1.0 in the request *\/$/;"	e	enum:__anon21
+CURL_HTTP_VERSION_1_1	libcurl/include/curl/curl.h	/^  CURL_HTTP_VERSION_1_1,  \/* please use HTTP 1.1 in the request *\/$/;"	e	enum:__anon21
+CURL_HTTP_VERSION_LAST	libcurl/include/curl/curl.h	/^  CURL_HTTP_VERSION_LAST \/* *ILLEGAL* http version *\/$/;"	e	enum:__anon21
+CURL_HTTP_VERSION_NONE	libcurl/include/curl/curl.h	/^  CURL_HTTP_VERSION_NONE, \/* setting this means we don't care, and that we'd$/;"	e	enum:__anon21
+CURL_IPRESOLVE_V4	libcurl/include/curl/curl.h	1575;"	d
+CURL_IPRESOLVE_V6	libcurl/include/curl/curl.h	1576;"	d
+CURL_IPRESOLVE_WHATEVER	libcurl/include/curl/curl.h	1573;"	d
+CURL_ISOCPP	libcurl/include/curl/curlrules.h	209;"	d
+CURL_ISOCPP	libcurl/include/curl/curlrules.h	212;"	d
+CURL_LAST	libcurl/include/curl/curl.h	/^  CURL_LAST \/* never use! *\/$/;"	e	enum:__anon13
+CURL_LOCK_ACCESS_LAST	libcurl/include/curl/curl.h	/^  CURL_LOCK_ACCESS_LAST        \/* never use *\/$/;"	e	enum:__anon30
+CURL_LOCK_ACCESS_NONE	libcurl/include/curl/curl.h	/^  CURL_LOCK_ACCESS_NONE = 0,   \/* unspecified action *\/$/;"	e	enum:__anon30
+CURL_LOCK_ACCESS_SHARED	libcurl/include/curl/curl.h	/^  CURL_LOCK_ACCESS_SHARED = 1, \/* for read perhaps *\/$/;"	e	enum:__anon30
+CURL_LOCK_ACCESS_SINGLE	libcurl/include/curl/curl.h	/^  CURL_LOCK_ACCESS_SINGLE = 2, \/* for write perhaps *\/$/;"	e	enum:__anon30
+CURL_LOCK_DATA_CONNECT	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_CONNECT,$/;"	e	enum:__anon29
+CURL_LOCK_DATA_COOKIE	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_COOKIE,$/;"	e	enum:__anon29
+CURL_LOCK_DATA_DNS	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_DNS,$/;"	e	enum:__anon29
+CURL_LOCK_DATA_LAST	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_LAST$/;"	e	enum:__anon29
+CURL_LOCK_DATA_NONE	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_NONE = 0,$/;"	e	enum:__anon29
+CURL_LOCK_DATA_SHARE	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_SHARE,$/;"	e	enum:__anon29
+CURL_LOCK_DATA_SSL_SESSION	libcurl/include/curl/curl.h	/^  CURL_LOCK_DATA_SSL_SESSION,$/;"	e	enum:__anon29
+CURL_MAX_HTTP_HEADER	libcurl/include/curl/curl.h	187;"	d
+CURL_MAX_WRITE_SIZE	libcurl/include/curl/curl.h	180;"	d
+CURL_NETRC_IGNORED	libcurl/include/curl/curl.h	/^  CURL_NETRC_IGNORED,     \/* The .netrc will never be read.$/;"	e	enum:CURL_NETRC_OPTION
+CURL_NETRC_LAST	libcurl/include/curl/curl.h	/^  CURL_NETRC_LAST$/;"	e	enum:CURL_NETRC_OPTION
+CURL_NETRC_OPTION	libcurl/include/curl/curl.h	/^enum CURL_NETRC_OPTION {$/;"	g
+CURL_NETRC_OPTIONAL	libcurl/include/curl/curl.h	/^  CURL_NETRC_OPTIONAL,    \/* A user:password in the URL will be preferred$/;"	e	enum:CURL_NETRC_OPTION
+CURL_NETRC_REQUIRED	libcurl/include/curl/curl.h	/^  CURL_NETRC_REQUIRED,    \/* A user:password in the URL will be ignored.$/;"	e	enum:CURL_NETRC_OPTION
+CURL_OFF_TU_C	libcurl/include/curl/curlrules.h	224;"	d
+CURL_OFF_TU_C	libcurl/include/curl/curlrules.h	234;"	d
+CURL_OFF_T_C	libcurl/include/curl/curlrules.h	222;"	d
+CURL_OFF_T_C	libcurl/include/curl/curlrules.h	233;"	d
+CURL_POLL_IN	libcurl/include/curl/multi.h	246;"	d
+CURL_POLL_INOUT	libcurl/include/curl/multi.h	248;"	d
+CURL_POLL_NONE	libcurl/include/curl/multi.h	245;"	d
+CURL_POLL_OUT	libcurl/include/curl/multi.h	247;"	d
+CURL_POLL_REMOVE	libcurl/include/curl/multi.h	249;"	d
+CURL_PULL_INTTYPES_H	libcurl/include/curl/curlbuild.h	143;"	d
+CURL_PULL_INTTYPES_H	libcurl/include/curl/curlrules.h	253;"	d
+CURL_PULL_STDINT_H	libcurl/include/curl/curlbuild.h	136;"	d
+CURL_PULL_STDINT_H	libcurl/include/curl/curlrules.h	252;"	d
+CURL_PULL_SYS_POLL_H	libcurl/include/curl/curlrules.h	251;"	d
+CURL_PULL_SYS_SOCKET_H	libcurl/include/curl/curlbuild.h	150;"	d
+CURL_PULL_SYS_SOCKET_H	libcurl/include/curl/curlrules.h	250;"	d
+CURL_PULL_SYS_TYPES_H	libcurl/include/curl/curlbuild.h	129;"	d
+CURL_PULL_SYS_TYPES_H	libcurl/include/curl/curlrules.h	249;"	d
+CURL_PULL_WS2TCPIP_H	libcurl/include/curl/curlrules.h	248;"	d
+CURL_READFUNC_ABORT	libcurl/include/curl/curl.h	301;"	d
+CURL_READFUNC_PAUSE	libcurl/include/curl/curl.h	304;"	d
+CURL_REDIR_GET_ALL	libcurl/include/curl/curl.h	1646;"	d
+CURL_REDIR_POST_301	libcurl/include/curl/curl.h	1647;"	d
+CURL_REDIR_POST_302	libcurl/include/curl/curl.h	1648;"	d
+CURL_REDIR_POST_303	libcurl/include/curl/curl.h	1649;"	d
+CURL_REDIR_POST_ALL	libcurl/include/curl/curl.h	1650;"	d
+CURL_RTSPREQ_ANNOUNCE	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_ANNOUNCE,$/;"	e	enum:__anon22
+CURL_RTSPREQ_DESCRIBE	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_DESCRIBE,$/;"	e	enum:__anon22
+CURL_RTSPREQ_GET_PARAMETER	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_GET_PARAMETER,$/;"	e	enum:__anon22
+CURL_RTSPREQ_LAST	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_LAST \/* last in list *\/$/;"	e	enum:__anon22
+CURL_RTSPREQ_NONE	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_NONE, \/* first in list *\/$/;"	e	enum:__anon22
+CURL_RTSPREQ_OPTIONS	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_OPTIONS,$/;"	e	enum:__anon22
+CURL_RTSPREQ_PAUSE	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_PAUSE,$/;"	e	enum:__anon22
+CURL_RTSPREQ_PLAY	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_PLAY,$/;"	e	enum:__anon22
+CURL_RTSPREQ_RECEIVE	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_RECEIVE,$/;"	e	enum:__anon22
+CURL_RTSPREQ_RECORD	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_RECORD,$/;"	e	enum:__anon22
+CURL_RTSPREQ_SETUP	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_SETUP,$/;"	e	enum:__anon22
+CURL_RTSPREQ_SET_PARAMETER	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_SET_PARAMETER,$/;"	e	enum:__anon22
+CURL_RTSPREQ_TEARDOWN	libcurl/include/curl/curl.h	/^    CURL_RTSPREQ_TEARDOWN,$/;"	e	enum:__anon22
+CURL_SEEKFUNC_CANTSEEK	libcurl/include/curl/curl.h	293;"	d
+CURL_SEEKFUNC_FAIL	libcurl/include/curl/curl.h	292;"	d
+CURL_SEEKFUNC_OK	libcurl/include/curl/curl.h	291;"	d
+CURL_SIZEOF_CURL_OFF_T	libcurl/include/curl/curlbuild.h	190;"	d
+CURL_SIZEOF_CURL_SOCKLEN_T	libcurl/include/curl/curlbuild.h	169;"	d
+CURL_SIZEOF_LONG	libcurl/include/curl/curlbuild.h	163;"	d
+CURL_SOCKET_BAD	libcurl/include/curl/curl.h	125;"	d
+CURL_SOCKET_BAD	libcurl/include/curl/curl.h	128;"	d
+CURL_SOCKET_TIMEOUT	libcurl/include/curl/multi.h	251;"	d
+CURL_SOCKOPT_ALREADY_CONNECTED	libcurl/include/curl/curl.h	322;"	d
+CURL_SOCKOPT_ERROR	libcurl/include/curl/curl.h	320;"	d
+CURL_SOCKOPT_OK	libcurl/include/curl/curl.h	319;"	d
+CURL_SSLVERSION_DEFAULT	libcurl/include/curl/curl.h	/^  CURL_SSLVERSION_DEFAULT,$/;"	e	enum:__anon23
+CURL_SSLVERSION_LAST	libcurl/include/curl/curl.h	/^  CURL_SSLVERSION_LAST \/* never use, keep last *\/$/;"	e	enum:__anon23
+CURL_SSLVERSION_SSLv2	libcurl/include/curl/curl.h	/^  CURL_SSLVERSION_SSLv2,$/;"	e	enum:__anon23
+CURL_SSLVERSION_SSLv3	libcurl/include/curl/curl.h	/^  CURL_SSLVERSION_SSLv3,$/;"	e	enum:__anon23
+CURL_SSLVERSION_TLSv1	libcurl/include/curl/curl.h	/^  CURL_SSLVERSION_TLSv1,$/;"	e	enum:__anon23
+CURL_SUFFIX_CURL_OFF_T	libcurl/include/curl/curlbuild.h	193;"	d
+CURL_SUFFIX_CURL_OFF_TU	libcurl/include/curl/curlbuild.h	196;"	d
+CURL_TIMECOND_IFMODSINCE	libcurl/include/curl/curl.h	/^  CURL_TIMECOND_IFMODSINCE,$/;"	e	enum:__anon24
+CURL_TIMECOND_IFUNMODSINCE	libcurl/include/curl/curl.h	/^  CURL_TIMECOND_IFUNMODSINCE,$/;"	e	enum:__anon24
+CURL_TIMECOND_LAST	libcurl/include/curl/curl.h	/^  CURL_TIMECOND_LAST$/;"	e	enum:__anon24
+CURL_TIMECOND_LASTMOD	libcurl/include/curl/curl.h	/^  CURL_TIMECOND_LASTMOD,$/;"	e	enum:__anon24
+CURL_TIMECOND_NONE	libcurl/include/curl/curl.h	/^  CURL_TIMECOND_NONE,$/;"	e	enum:__anon24
+CURL_TLSAUTH	libcurl/include/curl/curl.h	/^enum CURL_TLSAUTH {$/;"	g
+CURL_TLSAUTH_LAST	libcurl/include/curl/curl.h	/^  CURL_TLSAUTH_LAST \/* never use, keep last *\/$/;"	e	enum:CURL_TLSAUTH
+CURL_TLSAUTH_NONE	libcurl/include/curl/curl.h	/^  CURL_TLSAUTH_NONE,$/;"	e	enum:CURL_TLSAUTH
+CURL_TLSAUTH_SRP	libcurl/include/curl/curl.h	/^  CURL_TLSAUTH_SRP,$/;"	e	enum:CURL_TLSAUTH
+CURL_TYPEOF_CURL_OFF_T	libcurl/include/curl/curlbuild.h	175;"	d
+CURL_TYPEOF_CURL_OFF_T	libcurl/include/curl/curlrules.h	256;"	d
+CURL_TYPEOF_CURL_SOCKLEN_T	libcurl/include/curl/curlbuild.h	166;"	d
+CURL_TYPEOF_CURL_SOCKLEN_T	libcurl/include/curl/curlrules.h	255;"	d
+CURL_VERSION_ASYNCHDNS	libcurl/include/curl/curl.h	2144;"	d
+CURL_VERSION_CONV	libcurl/include/curl/curl.h	2149;"	d
+CURL_VERSION_CURLDEBUG	libcurl/include/curl/curl.h	2150;"	d
+CURL_VERSION_DEBUG	libcurl/include/curl/curl.h	2143;"	d
+CURL_VERSION_GSSNEGOTIATE	libcurl/include/curl/curl.h	2142;"	d
+CURL_VERSION_IDN	libcurl/include/curl/curl.h	2147;"	d
+CURL_VERSION_IPV6	libcurl/include/curl/curl.h	2137;"	d
+CURL_VERSION_KERBEROS4	libcurl/include/curl/curl.h	2138;"	d
+CURL_VERSION_LARGEFILE	libcurl/include/curl/curl.h	2146;"	d
+CURL_VERSION_LIBZ	libcurl/include/curl/curl.h	2140;"	d
+CURL_VERSION_NTLM	libcurl/include/curl/curl.h	2141;"	d
+CURL_VERSION_NTLM_WB	libcurl/include/curl/curl.h	2152;"	d
+CURL_VERSION_SPNEGO	libcurl/include/curl/curl.h	2145;"	d
+CURL_VERSION_SSL	libcurl/include/curl/curl.h	2139;"	d
+CURL_VERSION_SSPI	libcurl/include/curl/curl.h	2148;"	d
+CURL_VERSION_TLSAUTH_SRP	libcurl/include/curl/curl.h	2151;"	d
+CURL_WAIT_POLLIN	libcurl/include/curl/multi.h	95;"	d
+CURL_WAIT_POLLOUT	libcurl/include/curl/multi.h	97;"	d
+CURL_WAIT_POLLPRI	libcurl/include/curl/multi.h	96;"	d
+CURL_WRITEFUNC_PAUSE	libcurl/include/curl/curl.h	192;"	d
+CURLcode	libcurl/include/curl/curl.h	/^} CURLcode;$/;"	t	typeref:enum:__anon13
+CURLformoption	libcurl/include/curl/curl.h	/^} CURLformoption;$/;"	t	typeref:enum:__anon25
+CURLoption	libcurl/include/curl/curl.h	/^} CURLoption;$/;"	t	typeref:enum:__anon20
+CURLversion	libcurl/include/curl/curl.h	/^} CURLversion;$/;"	t	typeref:enum:__anon33
 ContainerID	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  ContainerID[16];$/;"	m	struct:libusb_container_id_descriptor
 CreateListItem	List.c	/^static ListItem* CreateListItem(List* pList, void* pData)$/;"	f	file:
+CurlchkszEQ	libcurl/include/curl/curlrules.h	132;"	d
+CurlchkszEQ	libcurl/include/curl/curlrules.h	241;"	d
+CurlchkszGE	libcurl/include/curl/curlrules.h	134;"	d
+CurlchkszGE	libcurl/include/curl/curlrules.h	242;"	d
 DEBUG	Makefile	/^DEBUG = -g -O2$/;"	m
 DEBUG	libusb/test/Makefile	/^DEBUG = -g -O2$/;"	m
-FAC	kprotocal.c	/^	uint8_t FAC;$/;"	m	struct:__anon4	file:
-ID	kprotocal.c	/^	uint32_t ID;$/;"	m	struct:__anon3	file:
-ID	kprotocal.c	/^	uint32_t ID;$/;"	m	struct:__anon4	file:
-INCLUDE	Makefile	/^INCLUDE = -I\/usr\/libcurl\/include -I.\/cJSON$/;"	m
+FAC	kprotocal.c	/^    uint8_t FAC;$/;"	m	struct:__anon4	file:
+FUNCTIONPOINT	libcurl/include/curl/curl.h	800;"	d
+FUNCTIONPOINT	libcurl/include/curl/multi.h	317;"	d
+HTTPPOST_BUFFER	libcurl/include/curl/curl.h	153;"	d
+HTTPPOST_CALLBACK	libcurl/include/curl/curl.h	155;"	d
+HTTPPOST_FILENAME	libcurl/include/curl/curl.h	147;"	d
+HTTPPOST_PTRBUFFER	libcurl/include/curl/curl.h	154;"	d
+HTTPPOST_PTRCONTENTS	libcurl/include/curl/curl.h	151;"	d
+HTTPPOST_PTRNAME	libcurl/include/curl/curl.h	149;"	d
+HTTPPOST_READFILE	libcurl/include/curl/curl.h	148;"	d
+ID	kprotocal.c	/^    uint32_t ID;$/;"	m	struct:__anon3	file:
+ID	kprotocal.c	/^    uint32_t ID;$/;"	m	struct:__anon4	file:
+INCLUDE	Makefile	/^INCLUDE = -I.\/libcurl\/include -I.\/cJSON -I.\/libusb\/include\/$/;"	m
 INCLUDE	libusb/test/Makefile	/^INCLUDE = -I\/root\/tool\/libusb\/include\/$/;"	m
 INVALID	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
 IteratorHandler	List.h	/^typedef int IteratorHandler(void*);$/;"	t
-LIB	Makefile	/^LIB = -L\/usr\/libcurl\/lib$/;"	m
+LIB	Makefile	/^LIB = -L.\/libcurl\/lib -L.\/libusb\/lib$/;"	m
 LIB	libusb/test/Makefile	/^LIB = -L\/root\/tool\/libusb\/lib$/;"	m
-LIBS	Makefile	/^LIBS = -lcurl$/;"	m
+LIBCURL_COPYRIGHT	libcurl/include/curl/curlver.h	29;"	d
+LIBCURL_TIMESTAMP	libcurl/include/curl/curlver.h	67;"	d
+LIBCURL_VERSION	libcurl/include/curl/curlver.h	33;"	d
+LIBCURL_VERSION_MAJOR	libcurl/include/curl/curlver.h	37;"	d
+LIBCURL_VERSION_MINOR	libcurl/include/curl/curlver.h	38;"	d
+LIBCURL_VERSION_NUM	libcurl/include/curl/curlver.h	56;"	d
+LIBCURL_VERSION_PATCH	libcurl/include/curl/curlver.h	39;"	d
+LIBS	Makefile	/^LIBS = -lcurl -lusb-1.0 -lrt$/;"	m
 LIBS	libusb/test/Makefile	/^LIBS = -lusb-1.0 -lrt$/;"	m
 LIBUSBX_API_VERSION	libusb/include/libusb-1.0/libusb.h	155;"	d
 LIBUSB_API_VERSION	libusb/include/libusb-1.0/libusb.h	152;"	d
@@ -210,8 +1000,12 @@ LIBUSB_TRANSFER_TYPE_CONTROL	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSF
 LIBUSB_TRANSFER_TYPE_INTERRUPT	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_INTERRUPT = 3,$/;"	e	enum:libusb_transfer_type
 LIBUSB_TRANSFER_TYPE_ISOCHRONOUS	libusb/include/libusb-1.0/libusb.h	/^	LIBUSB_TRANSFER_TYPE_ISOCHRONOUS = 1,$/;"	e	enum:libusb_transfer_type
 LIBUSB_TRANSFER_TYPE_MASK	libusb/include/libusb-1.0/libusb.h	334;"	d
-LIST_MAX_BUFF_CNT	List.c	7;"	d	file:
-LQI	kprotocal.c	/^	uint8_t LQI;$/;"	m	struct:__anon4	file:
+LIST_MAX_BUFF_CNT	List.c	6;"	d	file:
+LOCAL_DEBUG	kprotocal.c	14;"	d	file:
+LOCAL_DEBUG	kprotocal.c	9;"	d	file:
+LONG	libcurl/include/curl/curl.h	798;"	d
+LONG	libcurl/include/curl/multi.h	315;"	d
+LQI	kprotocal.c	/^    uint8_t LQI;$/;"	m	struct:__anon4	file:
 List	List.h	/^typedef struct List $/;"	s
 List	List.h	/^}List;$/;"	t	typeref:struct:List
 ListItem	List.h	/^typedef struct ListItem$/;"	s
@@ -229,14 +1023,22 @@ List_Remove	List.c	/^int List_Remove(List* pList, unsigned int nIndex)$/;"	f
 List_Update	List.c	/^int List_Update(List *pList, int nIndex, void *pItem)$/;"	f
 MOVE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
 MaxPower	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  MaxPower;$/;"	m	struct:libusb_config_descriptor
+OBJECTPOINT	libcurl/include/curl/curl.h	799;"	d
+OBJECTPOINT	libcurl/include/curl/multi.h	316;"	d
+OBJS	Makefile	/^OBJS := $(SRCS:%.c=%.o)$/;"	m
+OFF_T	libcurl/include/curl/curl.h	801;"	d
+OFF_T	libcurl/include/curl/multi.h	318;"	d
 OP_ALL	SharedList.c	8;"	d	file:
 OP_FREE	SharedList.c	5;"	d	file:
 OP_READ	SharedList.c	7;"	d	file:
 OP_WRITE	SharedList.c	6;"	d	file:
+PANID1	kprotocal.c	/^    uint16_t PANID1;$/;"	m	struct:__anon4	file:
+PANID2	kprotocal.c	/^    uint16_t PANID2;$/;"	m	struct:__anon4	file:
 PID	libusb/test/test.c	8;"	d	file:
 PROC_FILE_PATH	deamonTask.c	1;"	d	file:
-PRODUCT_ID	usbCom.c	7;"	d	file:
-Panid	kprotocal.c	/^	uint16_t Panid;$/;"	m	struct:__anon3	file:
+PRODUCT_ID	usbCom.c	8;"	d	file:
+PROTOCAL_DEBUG_ENABLE	kprotocal.c	6;"	d	file:
+Panid	kprotocal.c	/^    uint16_t Panid;$/;"	m	struct:__anon3	file:
 REMOVE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
 REPLACE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
 RET_ABANDON	SharedList.c	10;"	d	file:
@@ -246,6 +1048,7 @@ RET_GENERAL_ERR	CommonDefine.h	6;"	d
 RET_MALLOC_ERR	CommonDefine.h	5;"	d
 RET_USER_DEFINE	CommonDefine.h	7;"	d
 RxBuffer_t	httpClient.c	/^}RxBuffer_t;$/;"	t	typeref:struct:__anon6	file:
+SRCS	Makefile	/^SRCS := httpClient.c kprotocal.c .\/cJSON\/cJSON.c usbCom.c router.c List.c$/;"	m
 ShareList_update	SharedList.c	/^int ShareList_update(ShareList *pList, int nIndex, void *pItem)$/;"	f
 SharedList	SharedList.h	/^typedef struct SharedList$/;"	s
 SharedList	SharedList.h	/^}SharedList;$/;"	t	typeref:struct:SharedList
@@ -258,45 +1061,155 @@ SharedList_Iterator	SharedList.c	/^int SharedList_Iterator(SharedList* pList, It
 SharedList_Lock	SharedList.c	/^int SharedList_Lock(SharedList* pList)$/;"	f
 SharedList_Remove	SharedList.c	/^int SharedList_Remove(SharedList* pList, int nIndex)$/;"	f
 SharedList_Unlock	SharedList.c	/^int SharedList_Unlock(SharedList* pList)$/;"	f
-TARGET	Makefile	/^TARGET = httpClient$/;"	m
+TARGET	Makefile	/^TARGET = router$/;"	m
 TARGET	libusb/test/Makefile	/^TARGET = usb_test $/;"	m
 TEST	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
-TYPE	kprotocal.c	/^	uint8_t TYPE;$/;"	m	struct:__anon4	file:
-USB_DEBUG	usbCom.c	12;"	d	file:
-USB_DEBUG	usbCom.c	17;"	d	file:
-USB_DEBUG_ENABLE	usbCom.c	9;"	d	file:
-VENDER_ID	usbCom.c	6;"	d	file:
-VER	kprotocal.c	/^	uint8_t VER;$/;"	m	struct:__anon3	file:
-VER	kprotocal.c	/^	uint8_t VER;$/;"	m	struct:__anon4	file:
+TYPE	kprotocal.c	/^    uint8_t TYPE;$/;"	m	struct:__anon4	file:
+USB_DEBUG	usbCom.c	13;"	d	file:
+USB_DEBUG	usbCom.c	18;"	d	file:
+USB_DEBUG_ENABLE	usbCom.c	10;"	d	file:
+VENDER_ID	usbCom.c	7;"	d	file:
+VER	kprotocal.c	/^    uint8_t VER;$/;"	m	struct:__anon3	file:
+VER	kprotocal.c	/^    uint8_t VER;$/;"	m	struct:__anon4	file:
 VID	libusb/test/test.c	7;"	d	file:
-VOL	kprotocal.c	/^	uint8_t VOL;$/;"	m	struct:__anon4	file:
-XD1	kprotocal.c	/^	uint8_t XD1;$/;"	m	struct:__anon3	file:
-XD1	kprotocal.c	/^	uint8_t XD1;$/;"	m	struct:__anon4	file:
-XD2	kprotocal.c	/^	uint8_t XD2;$/;"	m	struct:__anon3	file:
-XD2	kprotocal.c	/^	uint8_t XD2;$/;"	m	struct:__anon4	file:
+VOL	kprotocal.c	/^    uint8_t VOL;$/;"	m	struct:__anon4	file:
+WIN32	libcurl/include/curl/curl.h	43;"	d
+WIN32_LEAN_AND_MEAN	libcurl/include/curl/curlbuild.h	120;"	d
+XD1	kprotocal.c	/^    uint8_t XD1;$/;"	m	struct:__anon3	file:
+XD1	kprotocal.c	/^    uint8_t XD1;$/;"	m	struct:__anon4	file:
+XD2	kprotocal.c	/^    uint8_t XD2;$/;"	m	struct:__anon3	file:
+XD2	kprotocal.c	/^    uint8_t XD2;$/;"	m	struct:__anon4	file:
 ZERO_SIZED_ARRAY	libusb/include/libusb-1.0/libusb.h	65;"	d
 ZERO_SIZED_ARRAY	libusb/include/libusb-1.0/libusb.h	67;"	d
 _CRT_SECURE_NO_DEPRECATE	cJSON/cJSON.c	28;"	d	file:
 _CRT_SECURE_NO_DEPRECATE	cJSON/cJSON_Utils.c	25;"	d	file:
+_CURL_WARNING	libcurl/include/curl/typecheck-gcc.h	143;"	d
 _SSIZE_T_DEFINED	libusb/include/libusb-1.0/libusb.h	34;"	d
 __COMMONDEFINE_H__	CommonDefine.h	2;"	d
+__CURL_CURLBUILD_H	libcurl/include/curl/curlbuild.h	3;"	d
+__CURL_CURLRULES_H	libcurl/include/curl/curlrules.h	2;"	d
+__CURL_CURLVER_H	libcurl/include/curl/curlver.h	2;"	d
+__CURL_CURL_H	libcurl/include/curl/curl.h	2;"	d
+__CURL_EASY_H	libcurl/include/curl/easy.h	2;"	d
+__CURL_MPRINTF_H	libcurl/include/curl/mprintf.h	2;"	d
+__CURL_MULTI_H	libcurl/include/curl/multi.h	2;"	d
+__CURL_OFF_T_C_HLPR1	libcurl/include/curl/curlrules.h	221;"	d
+__CURL_OFF_T_C_HLPR1	libcurl/include/curl/curlrules.h	232;"	d
+__CURL_OFF_T_C_HLPR2	libcurl/include/curl/curlrules.h	220;"	d
+__CURL_OFF_T_C_HLPR2	libcurl/include/curl/curlrules.h	228;"	d
+__CURL_OFF_T_C_HLPR2	libcurl/include/curl/curlrules.h	230;"	d
+__CURL_TYPECHECK_GCC_H	libcurl/include/curl/typecheck-gcc.h	2;"	d
+__KPROTOCAL_H__	kprotocal.h	2;"	d
 __LIST_H__	List.h	2;"	d
-__PROTOCALPARSE_H__	kprotocal.h	2;"	d
 __SHAREDLIST_H__	SharedList.h	2;"	d
+__STDC_HEADERS_H	libcurl/include/curl/stdcheaders.h	2;"	d
 __WINDOWS__	cJSON/cJSON.h	84;"	d
+__curl_rule_01__	libcurl/include/curl/curlrules.h	/^  __curl_rule_01__$/;"	t
+__curl_rule_02__	libcurl/include/curl/curlrules.h	/^  __curl_rule_02__$/;"	t
+__curl_rule_03__	libcurl/include/curl/curlrules.h	/^  __curl_rule_03__$/;"	t
+__curl_rule_04__	libcurl/include/curl/curlrules.h	/^  __curl_rule_04__$/;"	t
+__curl_rule_05__	libcurl/include/curl/curlrules.h	/^  __curl_rule_05__$/;"	t
+_curl_callback_compatible	libcurl/include/curl/typecheck-gcc.h	425;"	d
+_curl_conv_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (*_curl_conv_callback1)(char *, size_t length);$/;"	t
+_curl_conv_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (*_curl_conv_callback2)(const char *, size_t length);$/;"	t
+_curl_conv_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (*_curl_conv_callback3)(void *, size_t length);$/;"	t
+_curl_conv_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (*_curl_conv_callback4)(const void *, size_t length);$/;"	t
+_curl_debug_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback1) (CURL *,$/;"	t
+_curl_debug_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback2) (CURL *,$/;"	t
+_curl_debug_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback3) (CURL *,$/;"	t
+_curl_debug_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback4) (CURL *,$/;"	t
+_curl_debug_callback5	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback5) (CURL *,$/;"	t
+_curl_debug_callback6	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback6) (CURL *,$/;"	t
+_curl_debug_callback7	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback7) (CURL *,$/;"	t
+_curl_debug_callback8	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_debug_callback8) (CURL *,$/;"	t
+_curl_ioctl_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef curlioerr (_curl_ioctl_callback1)(CURL *, int, void*);$/;"	t
+_curl_ioctl_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef curlioerr (_curl_ioctl_callback2)(CURL *, int, const void*);$/;"	t
+_curl_ioctl_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef curlioerr (_curl_ioctl_callback3)(CURL *, curliocmd, void*);$/;"	t
+_curl_ioctl_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef curlioerr (_curl_ioctl_callback4)(CURL *, curliocmd, const void*);$/;"	t
+_curl_is_FILE	libcurl/include/curl/typecheck-gcc.h	411;"	d
+_curl_is_NULL	libcurl/include/curl/typecheck-gcc.h	352;"	d
+_curl_is_any_ptr	libcurl/include/curl/typecheck-gcc.h	347;"	d
+_curl_is_arr	libcurl/include/curl/typecheck-gcc.h	362;"	d
+_curl_is_cb_data	libcurl/include/curl/typecheck-gcc.h	406;"	d
+_curl_is_cb_data_option	libcurl/include/curl/typecheck-gcc.h	281;"	d
+_curl_is_conv_cb	libcurl/include/curl/typecheck-gcc.h	582;"	d
+_curl_is_conv_cb_option	libcurl/include/curl/typecheck-gcc.h	275;"	d
+_curl_is_debug_cb	libcurl/include/curl/typecheck-gcc.h	520;"	d
+_curl_is_double_info	libcurl/include/curl/typecheck-gcc.h	327;"	d
+_curl_is_error_buffer	libcurl/include/curl/typecheck-gcc.h	395;"	d
+_curl_is_ioctl_cb	libcurl/include/curl/typecheck-gcc.h	468;"	d
+_curl_is_long	libcurl/include/curl/typecheck-gcc.h	375;"	d
+_curl_is_long_info	libcurl/include/curl/typecheck-gcc.h	323;"	d
+_curl_is_long_option	libcurl/include/curl/typecheck-gcc.h	213;"	d
+_curl_is_off_t	libcurl/include/curl/typecheck-gcc.h	390;"	d
+_curl_is_off_t_option	libcurl/include/curl/typecheck-gcc.h	216;"	d
+_curl_is_opensocket_cb	libcurl/include/curl/typecheck-gcc.h	492;"	d
+_curl_is_postfields	libcurl/include/curl/typecheck-gcc.h	415;"	d
+_curl_is_postfields_option	libcurl/include/curl/typecheck-gcc.h	300;"	d
+_curl_is_progress_cb	libcurl/include/curl/typecheck-gcc.h	509;"	d
+_curl_is_ptr	libcurl/include/curl/typecheck-gcc.h	356;"	d
+_curl_is_read_cb	libcurl/include/curl/typecheck-gcc.h	430;"	d
+_curl_is_seek_cb	libcurl/include/curl/typecheck-gcc.h	595;"	d
+_curl_is_slist_info	libcurl/include/curl/typecheck-gcc.h	331;"	d
+_curl_is_slist_option	libcurl/include/curl/typecheck-gcc.h	306;"	d
+_curl_is_sockopt_cb	libcurl/include/curl/typecheck-gcc.h	481;"	d
+_curl_is_ssl_ctx_cb	libcurl/include/curl/typecheck-gcc.h	550;"	d
+_curl_is_string	libcurl/include/curl/typecheck-gcc.h	367;"	d
+_curl_is_string_info	libcurl/include/curl/typecheck-gcc.h	319;"	d
+_curl_is_string_option	libcurl/include/curl/typecheck-gcc.h	220;"	d
+_curl_is_write_cb	libcurl/include/curl/typecheck-gcc.h	448;"	d
+_curl_is_write_cb_option	libcurl/include/curl/typecheck-gcc.h	270;"	d
+_curl_opensocket_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef curl_socket_t (_curl_opensocket_callback1)$/;"	t
+_curl_opensocket_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef curl_socket_t (_curl_opensocket_callback2)$/;"	t
+_curl_opensocket_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef curl_socket_t (_curl_opensocket_callback3)$/;"	t
+_curl_opensocket_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef curl_socket_t (_curl_opensocket_callback4)$/;"	t
+_curl_progress_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_progress_callback1)(void *,$/;"	t
+_curl_progress_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_progress_callback2)(const void *,$/;"	t
+_curl_read_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_read_callback1)(char *, size_t, size_t, void*);$/;"	t
+_curl_read_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_read_callback2)(char *, size_t, size_t, const void*);$/;"	t
+_curl_read_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_read_callback3)(char *, size_t, size_t, FILE*);$/;"	t
+_curl_read_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_read_callback4)(void *, size_t, size_t, void*);$/;"	t
+_curl_read_callback5	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_read_callback5)(void *, size_t, size_t, const void*);$/;"	t
+_curl_read_callback6	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_read_callback6)(void *, size_t, size_t, FILE*);$/;"	t
+_curl_seek_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (*_curl_seek_callback1)(void *, curl_off_t, int);$/;"	t
+_curl_seek_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (*_curl_seek_callback2)(const void *, curl_off_t, int);$/;"	t
+_curl_sockopt_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_sockopt_callback1)(void *, curl_socket_t, curlsocktype);$/;"	t
+_curl_sockopt_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef int (_curl_sockopt_callback2)(const void *, curl_socket_t,$/;"	t
+_curl_ssl_ctx_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback1)(CURL *, void *, void *);$/;"	t
+_curl_ssl_ctx_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback2)(CURL *, void *, const void *);$/;"	t
+_curl_ssl_ctx_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback3)(CURL *, const void *, void *);$/;"	t
+_curl_ssl_ctx_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback4)(CURL *, const void *, const void *);$/;"	t
+_curl_ssl_ctx_callback5	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback5)(CURL *, SSL_CTX, void *);$/;"	t
+_curl_ssl_ctx_callback5	libcurl/include/curl/typecheck-gcc.h	/^typedef _curl_ssl_ctx_callback1 _curl_ssl_ctx_callback5;$/;"	t
+_curl_ssl_ctx_callback6	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback6)(CURL *, SSL_CTX, const void *);$/;"	t
+_curl_ssl_ctx_callback6	libcurl/include/curl/typecheck-gcc.h	/^typedef _curl_ssl_ctx_callback1 _curl_ssl_ctx_callback6;$/;"	t
+_curl_ssl_ctx_callback7	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback7)(CURL *, const SSL_CTX, void *);$/;"	t
+_curl_ssl_ctx_callback7	libcurl/include/curl/typecheck-gcc.h	/^typedef _curl_ssl_ctx_callback1 _curl_ssl_ctx_callback7;$/;"	t
+_curl_ssl_ctx_callback8	libcurl/include/curl/typecheck-gcc.h	/^typedef CURLcode (_curl_ssl_ctx_callback8)(CURL *, const SSL_CTX,$/;"	t
+_curl_ssl_ctx_callback8	libcurl/include/curl/typecheck-gcc.h	/^typedef _curl_ssl_ctx_callback1 _curl_ssl_ctx_callback8;$/;"	t
+_curl_write_callback1	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback1)(const char *, size_t, size_t, void*);$/;"	t
+_curl_write_callback2	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback2)(const char *, size_t, size_t,$/;"	t
+_curl_write_callback3	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback3)(const char *, size_t, size_t, FILE*);$/;"	t
+_curl_write_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback4)(const void *, size_t, size_t, void*);$/;"	t
+_curl_write_callback5	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback5)(const void *, size_t, size_t,$/;"	t
+_curl_write_callback6	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback6)(const void *, size_t, size_t, FILE*);$/;"	t
 active_config	libusb/test/test3.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
-active_config	test3.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
 active_config	usbCom.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
 actual_length	libusb/include/libusb-1.0/libusb.h	/^	int actual_length;$/;"	m	struct:libusb_transfer
 actual_length	libusb/include/libusb-1.0/libusb.h	/^	unsigned int actual_length;$/;"	m	struct:libusb_iso_packet_descriptor
 add_item_to_array	cJSON/cJSON.c	/^static cJSON_bool add_item_to_array(cJSON *array, cJSON *item)$/;"	f	file:
 add_item_to_object	cJSON/cJSON.c	/^static cJSON_bool add_item_to_object(cJSON * const object, const char * const string, cJSON * const item, const internal_hooks * const hooks, const cJSON_bool constant_key)$/;"	f	file:
+addr	libcurl/include/curl/curl.h	/^  struct sockaddr addr;$/;"	m	struct:curl_sockaddr	typeref:struct:curl_sockaddr::sockaddr
+addrlen	libcurl/include/curl/curl.h	/^  unsigned int addrlen; \/* addrlen was a socklen_t type before 7.18.0 but it$/;"	m	struct:curl_sockaddr
+age	libcurl/include/curl/curl.h	/^  CURLversion age;          \/* age of the returned struct *\/$/;"	m	struct:__anon34
 allocate	cJSON/cJSON.c	/^    void *(*allocate)(size_t size);$/;"	m	struct:internal_hooks	file:
 alt_interface	libusb/test/test3.c	/^int alt_interface, interface_number;$/;"	v
-alt_interface	test3.c	/^int alt_interface, interface_number;$/;"	v
 altsetting	libusb/include/libusb-1.0/libusb.h	/^	const struct libusb_interface_descriptor *altsetting;$/;"	m	struct:libusb_interface	typeref:struct:libusb_interface::libusb_interface_descriptor
-apid	kprotocal.c	/^static uint32_t apid = 0x12345678;$/;"	v	file:
 apply_patch	cJSON/cJSON_Utils.c	/^static int apply_patch(cJSON *object, const cJSON *patch, const cJSON_bool case_sensitive)$/;"	f	file:
+aprintf	libcurl/include/curl/mprintf.h	56;"	d
+aprintf	libcurl/include/curl/mprintf.h	73;"	d
+ares	libcurl/include/curl/curl.h	/^  const char *ares;$/;"	m	struct:__anon34
+ares_num	libcurl/include/curl/curl.h	/^  int ares_num;$/;"	m	struct:__anon34
 array	cJSON/cJSON.h	/^CJSON_PUBLIC(int) cJSON_GetArraySize(const cJSON *array);$/;"	v
 bAlternateSetting	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bAlternateSetting;$/;"	m	struct:libusb_interface_descriptor
 bConfigurationValue	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bConfigurationValue;$/;"	m	struct:libusb_config_descriptor
@@ -346,6 +1259,9 @@ bReserved	libusb/include/libusb-1.0/libusb.h	/^	uint8_t bReserved;$/;"	m	struct:
 bSynchAddress	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bSynchAddress;$/;"	m	struct:libusb_endpoint_descriptor
 bU1DevExitLat	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bU1DevExitLat;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
 bU2DevExitLat	libusb/include/libusb-1.0/libusb.h	/^	uint16_t bU2DevExitLat;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
+b_data	libcurl/include/curl/curl.h	/^  char * b_data;$/;"	m	struct:curl_fileinfo
+b_size	libcurl/include/curl/curl.h	/^  size_t b_size;$/;"	m	struct:curl_fileinfo
+b_used	libcurl/include/curl/curl.h	/^  size_t b_used;$/;"	m	struct:curl_fileinfo
 bcdDevice	libusb/include/libusb-1.0/libusb.h	/^	uint16_t bcdDevice;$/;"	m	struct:libusb_device_descriptor
 bcdUSB	libusb/include/libusb-1.0/libusb.h	/^	uint16_t bcdUSB;$/;"	m	struct:libusb_device_descriptor
 bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint32_t  bmAttributes;$/;"	m	struct:libusb_usb_2_0_extension_descriptor
@@ -355,11 +1271,13 @@ bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	
 bmAttributes	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_ss_usb_device_capability_descriptor
 bmRequestType	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  bmRequestType;$/;"	m	struct:libusb_control_setup
 boolean	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateBool(cJSON_bool boolean);$/;"	v
-buffer	cJSON/cJSON.c	/^    unsigned char *buffer;$/;"	m	struct:__anon9	file:
+buffer	cJSON/cJSON.c	/^    unsigned char *buffer;$/;"	m	struct:__anon41	file:
+buffer	libcurl/include/curl/curl.h	/^  char *buffer;                     \/* pointer to allocated buffer contents *\/$/;"	m	struct:curl_httppost
 buffer	libusb/include/libusb-1.0/libusb.h	/^	unsigned char *buffer;$/;"	m	struct:libusb_transfer
 bufferCnt	List.h	/^	int bufferCnt;$/;"	m	struct:List
 buffer_at_offset	cJSON/cJSON.c	263;"	d	file:
 buffer_skip_whitespace	cJSON/cJSON.c	/^static parse_buffer *buffer_skip_whitespace(parse_buffer * const buffer)$/;"	f	file:
+bufferlength	libcurl/include/curl/curl.h	/^  long bufferlength;                \/* length of buffer field *\/$/;"	m	struct:curl_httppost
 c	cJSON/cJSON.h	/^CJSON_PUBLIC(void) cJSON_Delete(cJSON *c);$/;"	v
 cJSON	cJSON/cJSON.h	/^typedef struct cJSON$/;"	s
 cJSON	cJSON/cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
@@ -465,6 +1383,7 @@ can_read	cJSON/cJSON.c	258;"	d	file:
 cannot_access_at_index	cJSON/cJSON.c	261;"	d	file:
 case_insensitive_strcmp	cJSON/cJSON.c	/^static int case_insensitive_strcmp(const unsigned char *string1, const unsigned char *string2)$/;"	f	file:
 cast_away_const	cJSON/cJSON.c	/^static void* cast_away_const(const void* string)$/;"	f	file:
+certinfo	libcurl/include/curl/curl.h	/^  struct curl_slist **certinfo; \/* for each index in this array, there's a$/;"	m	struct:curl_certinfo	typeref:struct:curl_certinfo::curl_slist
 child	cJSON/cJSON.h	/^    struct cJSON *child;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
 child	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArrayReference(const cJSON *child);$/;"	v
 child	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObjectReference(const cJSON *child);$/;"	v
@@ -473,10 +1392,82 @@ compare_json	cJSON/cJSON_Utils.c	/^static cJSON_bool compare_json(cJSON *a, cJSO
 compare_pointers	cJSON/cJSON_Utils.c	/^static cJSON_bool compare_pointers(const unsigned char *name, const unsigned char *pointer, const cJSON_bool case_sensitive)$/;"	f	file:
 compare_strings	cJSON/cJSON_Utils.c	/^static int compare_strings(const unsigned char *string1, const unsigned char *string2, const cJSON_bool case_sensitive)$/;"	f	file:
 compose_patch	cJSON/cJSON_Utils.c	/^static void compose_patch(cJSON * const patches, const unsigned char * const operation, const unsigned char * const path, const unsigned char *suffix, const cJSON * const value)$/;"	f	file:
-content	cJSON/cJSON.c	/^    const unsigned char *content;$/;"	m	struct:__anon8	file:
+content	cJSON/cJSON.c	/^    const unsigned char *content;$/;"	m	struct:__anon40	file:
+contentheader	libcurl/include/curl/curl.h	/^  struct curl_slist* contentheader; \/* list of extra headers for this form *\/$/;"	m	struct:curl_httppost	typeref:struct:curl_httppost::curl_slist
+contents	libcurl/include/curl/curl.h	/^  char *contents;                   \/* pointer to allocated data contents *\/$/;"	m	struct:curl_httppost
+contentslength	libcurl/include/curl/curl.h	/^  long contentslength;              \/* length of contents field *\/$/;"	m	struct:curl_httppost
+contenttype	libcurl/include/curl/curl.h	/^  char *contenttype;                \/* Content-Type *\/$/;"	m	struct:curl_httppost
 count	List.h	/^	int count;$/;"	m	struct:List
 create_patches	cJSON/cJSON_Utils.c	/^static void create_patches(cJSON * const patches, const unsigned char * const path, cJSON * const from, cJSON * const to, const cJSON_bool case_sensitive)$/;"	f	file:
 create_reference	cJSON/cJSON.c	/^static cJSON *create_reference(const cJSON *item, const internal_hooks * const hooks)$/;"	f	file:
+curl_TimeCond	libcurl/include/curl/curl.h	/^} curl_TimeCond;$/;"	t	typeref:enum:__anon24
+curl_calloc_callback	libcurl/include/curl/curl.h	/^typedef void *(*curl_calloc_callback)(size_t nmemb, size_t size);$/;"	t
+curl_certinfo	libcurl/include/curl/curl.h	/^struct curl_certinfo {$/;"	s
+curl_chunk_bgn_callback	libcurl/include/curl/curl.h	/^typedef long (*curl_chunk_bgn_callback)(const void *transfer_info,$/;"	t
+curl_chunk_end_callback	libcurl/include/curl/curl.h	/^typedef long (*curl_chunk_end_callback)(void *ptr);$/;"	t
+curl_closepolicy	libcurl/include/curl/curl.h	/^} curl_closepolicy;$/;"	t	typeref:enum:__anon28
+curl_closesocket_callback	libcurl/include/curl/curl.h	/^(*curl_closesocket_callback)(void *clientp, curl_socket_t item);$/;"	t
+curl_conv_callback	libcurl/include/curl/curl.h	/^typedef CURLcode (*curl_conv_callback)(char *buffer, size_t length);$/;"	t
+curl_debug_callback	libcurl/include/curl/curl.h	/^typedef int (*curl_debug_callback)$/;"	t
+curl_easy_getinfo	libcurl/include/curl/curl.h	2226;"	d
+curl_easy_getinfo	libcurl/include/curl/typecheck-gcc.h	111;"	d
+curl_easy_setopt	libcurl/include/curl/curl.h	2225;"	d
+curl_easy_setopt	libcurl/include/curl/typecheck-gcc.h	41;"	d
+curl_fileinfo	libcurl/include/curl/curl.h	/^struct curl_fileinfo {$/;"	s
+curl_fnmatch_callback	libcurl/include/curl/curl.h	/^typedef int (*curl_fnmatch_callback)(void *ptr,$/;"	t
+curl_formget_callback	libcurl/include/curl/curl.h	/^typedef size_t (*curl_formget_callback)(void *arg, const char *buf,$/;"	t
+curl_forms	libcurl/include/curl/curl.h	/^struct curl_forms {$/;"	s
+curl_free_callback	libcurl/include/curl/curl.h	/^typedef void (*curl_free_callback)(void *ptr);$/;"	t
+curl_ftpauth	libcurl/include/curl/curl.h	/^} curl_ftpauth;$/;"	t	typeref:enum:__anon17
+curl_ftpccc	libcurl/include/curl/curl.h	/^} curl_ftpccc;$/;"	t	typeref:enum:__anon16
+curl_ftpcreatedir	libcurl/include/curl/curl.h	/^} curl_ftpcreatedir;$/;"	t	typeref:enum:__anon18
+curl_ftpmethod	libcurl/include/curl/curl.h	/^} curl_ftpmethod;$/;"	t	typeref:enum:__anon19
+curl_ftpssl	libcurl/include/curl/curl.h	712;"	d
+curl_httppost	libcurl/include/curl/curl.h	/^struct curl_httppost {$/;"	s
+curl_infotype	libcurl/include/curl/curl.h	/^} curl_infotype;$/;"	t	typeref:enum:__anon12
+curl_ioctl_callback	libcurl/include/curl/curl.h	/^typedef curlioerr (*curl_ioctl_callback)(CURL *handle,$/;"	t
+curl_khkey	libcurl/include/curl/curl.h	/^struct curl_khkey {$/;"	s
+curl_khmatch	libcurl/include/curl/curl.h	/^enum curl_khmatch {$/;"	g
+curl_khstat	libcurl/include/curl/curl.h	/^enum curl_khstat {$/;"	g
+curl_lock_access	libcurl/include/curl/curl.h	/^} curl_lock_access;$/;"	t	typeref:enum:__anon30
+curl_lock_data	libcurl/include/curl/curl.h	/^} curl_lock_data;$/;"	t	typeref:enum:__anon29
+curl_lock_function	libcurl/include/curl/curl.h	/^typedef void (*curl_lock_function)(CURL *handle,$/;"	t
+curl_malloc_callback	libcurl/include/curl/curl.h	/^typedef void *(*curl_malloc_callback)(size_t size);$/;"	t
+curl_multi_setopt	libcurl/include/curl/curl.h	2228;"	d
+curl_multi_setopt	libcurl/include/curl/typecheck-gcc.h	136;"	d
+curl_multi_socket	libcurl/include/curl/multi.h	294;"	d
+curl_multi_timer_callback	libcurl/include/curl/multi.h	/^typedef int (*curl_multi_timer_callback)(CURLM *multi,    \/* multi handle *\/$/;"	t
+curl_off_t	libcurl/include/curl/curlbuild.h	/^typedef CURL_TYPEOF_CURL_OFF_T curl_off_t;$/;"	t
+curl_opensocket_callback	libcurl/include/curl/curl.h	/^(*curl_opensocket_callback)(void *clientp,$/;"	t
+curl_progress_callback	libcurl/include/curl/curl.h	/^typedef int (*curl_progress_callback)(void *clientp,$/;"	t
+curl_proxytype	libcurl/include/curl/curl.h	/^} curl_proxytype;  \/* this enum was added in 7.10 *\/$/;"	t	typeref:enum:__anon14
+curl_read_callback	libcurl/include/curl/curl.h	/^typedef size_t (*curl_read_callback)(char *buffer,$/;"	t
+curl_realloc_callback	libcurl/include/curl/curl.h	/^typedef void *(*curl_realloc_callback)(void *ptr, size_t size);$/;"	t
+curl_seek_callback	libcurl/include/curl/curl.h	/^typedef int (*curl_seek_callback)(void *instream,$/;"	t
+curl_share_setopt	libcurl/include/curl/curl.h	2227;"	d
+curl_share_setopt	libcurl/include/curl/typecheck-gcc.h	135;"	d
+curl_slist	libcurl/include/curl/curl.h	/^struct curl_slist {$/;"	s
+curl_sockaddr	libcurl/include/curl/curl.h	/^struct curl_sockaddr {$/;"	s
+curl_socket_callback	libcurl/include/curl/multi.h	/^typedef int (*curl_socket_callback)(CURL *easy,      \/* easy handle *\/$/;"	t
+curl_socket_t	libcurl/include/curl/curl.h	/^typedef SOCKET curl_socket_t;$/;"	t
+curl_socket_t	libcurl/include/curl/curl.h	/^typedef int curl_socket_t;$/;"	t
+curl_socket_typedef	libcurl/include/curl/curl.h	130;"	d
+curl_socklen_t	libcurl/include/curl/curlbuild.h	/^typedef CURL_TYPEOF_CURL_SOCKLEN_T curl_socklen_t;$/;"	t
+curl_sockopt_callback	libcurl/include/curl/curl.h	/^typedef int (*curl_sockopt_callback)(void *clientp,$/;"	t
+curl_sshkeycallback	libcurl/include/curl/curl.h	/^  (*curl_sshkeycallback) (CURL *easy,     \/* easy handle *\/$/;"	t
+curl_ssl_ctx_callback	libcurl/include/curl/curl.h	/^typedef CURLcode (*curl_ssl_ctx_callback)(CURL *curl,    \/* easy handle *\/$/;"	t
+curl_strdup_callback	libcurl/include/curl/curl.h	/^typedef char *(*curl_strdup_callback)(const char *str);$/;"	t
+curl_unlock_function	libcurl/include/curl/curl.h	/^typedef void (*curl_unlock_function)(CURL *handle,$/;"	t
+curl_usessl	libcurl/include/curl/curl.h	/^} curl_usessl;$/;"	t	typeref:enum:__anon15
+curl_version_info_data	libcurl/include/curl/curl.h	/^} curl_version_info_data;$/;"	t	typeref:struct:__anon34
+curl_waitfd	libcurl/include/curl/multi.h	/^struct curl_waitfd {$/;"	s
+curl_write_callback	libcurl/include/curl/curl.h	/^typedef size_t (*curl_write_callback)(char *buffer,$/;"	t
+curlfiletype	libcurl/include/curl/curl.h	/^} curlfiletype;$/;"	t	typeref:enum:__anon7
+curliocmd	libcurl/include/curl/curl.h	/^} curliocmd;$/;"	t	typeref:enum:__anon11
+curlioerr	libcurl/include/curl/curl.h	/^} curlioerr;$/;"	t	typeref:enum:__anon10
+curlsocktype	libcurl/include/curl/curl.h	/^} curlsocktype;$/;"	t	typeref:enum:__anon9
+data	libcurl/include/curl/curl.h	/^  char *data;$/;"	m	struct:curl_slist
+data	libcurl/include/curl/multi.h	/^  } data;$/;"	m	struct:CURLMsg	typeref:union:CURLMsg::__anon37
 deallocate	cJSON/cJSON.c	/^    void (*deallocate)(void *pointer);$/;"	m	struct:internal_hooks	file:
 deamonBootProcessor	deamonTask.c	/^int8_t deamonBootProcessor(const char* procname)$/;"	f
 deamonDetector	deamonTask.c	/^static int8_t deamonDetector(const char *procname)$/;"	f	file:
@@ -487,8 +1478,8 @@ decode_patch_operation	cJSON/cJSON_Utils.c	/^static enum patch_operation decode_
 decode_pointer_inplace	cJSON/cJSON_Utils.c	/^static void decode_pointer_inplace(unsigned char *string)$/;"	f	file:
 decode_price_tag	kprotocal.c	/^static int decode_price_tag(uint8_t *pData)$/;"	f	file:
 decode_tag_info	kprotocal.c	/^static void decode_tag_info(uint8_t *pData)$/;"	f	file:
-depth	cJSON/cJSON.c	/^    size_t depth; \/* How deeply nested (in arrays\/objects) is the input at the current offset. *\/$/;"	m	struct:__anon8	file:
-depth	cJSON/cJSON.c	/^    size_t depth; \/* current nesting depth (for formatted printing) *\/$/;"	m	struct:__anon9	file:
+depth	cJSON/cJSON.c	/^    size_t depth; \/* How deeply nested (in arrays\/objects) is the input at the current offset. *\/$/;"	m	struct:__anon40	file:
+depth	cJSON/cJSON.c	/^    size_t depth; \/* current nesting depth (for formatted printing) *\/$/;"	m	struct:__anon41	file:
 describe	libusb/include/libusb-1.0/libusb.h	/^	const char* describe;$/;"	m	struct:libusb_version
 detach_item_from_array	cJSON/cJSON_Utils.c	/^static cJSON *detach_item_from_array(cJSON *array, size_t which)$/;"	f	file:
 detach_path	cJSON/cJSON_Utils.c	/^static cJSON *detach_path(cJSON *object, const unsigned char *path, const cJSON_bool case_sensitive)$/;"	f	file:
@@ -496,13 +1487,15 @@ dev_capability	libusb/include/libusb-1.0/libusb.h	/^	struct libusb_bos_dev_capab
 dev_capability_data	libusb/include/libusb-1.0/libusb.h	/^	uint8_t dev_capability_data[ZERO_SIZED_ARRAY];$/;"	m	struct:libusb_bos_dev_capability_descriptor
 dev_handle	libusb/include/libusb-1.0/libusb.h	/^	libusb_device_handle *dev_handle;$/;"	m	struct:libusb_transfer
 device_satus	libusb/test/test.c	/^static int device_satus(libusb_device_handle *hd)$/;"	f	file:
-encodeToJsonHeartbeat	kprotocal.c	/^static uint32_t *encodeToJsonHeartbeat(uint8_t *pData)$/;"	f	file:
+easy_handle	libcurl/include/curl/multi.h	/^  CURL *easy_handle; \/* the handle it concerns *\/$/;"	m	struct:CURLMsg
+encodeToJsonHeartbeat	kprotocal.c	/^static uint8_t *encodeToJsonHeartbeat(uint8_t *pData)$/;"	f	file:
 encode_string_as_pointer	cJSON/cJSON_Utils.c	/^static void encode_string_as_pointer(unsigned char *destination, const unsigned char *source)$/;"	f	file:
 endpoint	libusb/include/libusb-1.0/libusb.h	/^	const struct libusb_endpoint_descriptor *endpoint;$/;"	m	struct:libusb_interface_descriptor	typeref:struct:libusb_interface_descriptor::libusb_endpoint_descriptor
 endpoint	libusb/include/libusb-1.0/libusb.h	/^	unsigned char endpoint;$/;"	m	struct:libusb_transfer
 ensure	cJSON/cJSON.c	/^static unsigned char* ensure(printbuffer * const p, size_t needed)$/;"	f	file:
-error	cJSON/cJSON.c	/^} error;$/;"	t	typeref:struct:__anon7	file:
+error	cJSON/cJSON.c	/^} error;$/;"	t	typeref:struct:__anon39	file:
 error_record	logProcessor.c	/^int error_record(char *fmt, ..)$/;"	f
+events	libcurl/include/curl/multi.h	/^  short events;$/;"	m	struct:curl_waitfd
 events	libusb/include/libusb-1.0/libusb.h	/^	short events;$/;"	m	struct:libusb_pollfd
 extra	libusb/include/libusb-1.0/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_config_descriptor
 extra	libusb/include/libusb-1.0/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_endpoint_descriptor
@@ -512,12 +1505,22 @@ extra_length	libusb/include/libusb-1.0/libusb.h	/^	int extra_length;$/;"	m	struc
 extra_length	libusb/include/libusb-1.0/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_interface_descriptor
 false	cJSON/cJSON.c	62;"	d	file:
 false	cJSON/cJSON_Utils.c	54;"	d	file:
+family	libcurl/include/curl/curl.h	/^  int family;$/;"	m	struct:curl_sockaddr
+fd	libcurl/include/curl/multi.h	/^  curl_socket_t fd;$/;"	m	struct:curl_waitfd
 fd	libusb/include/libusb-1.0/libusb.h	/^	int fd;$/;"	m	struct:libusb_pollfd
 fd_error	logProcessor.c	/^static int fd_error;$/;"	v	file:
 fd_log	logProcessor.c	/^static int fd_log;$/;"	v	file:
+features	libcurl/include/curl/curl.h	/^  int features;             \/* bitmask, see defines below *\/$/;"	m	struct:__anon34
+filename	libcurl/include/curl/curl.h	/^  char *filename;$/;"	m	struct:curl_fileinfo
+filetype	libcurl/include/curl/curl.h	/^  curlfiletype filetype;$/;"	m	struct:curl_fileinfo
+flags	libcurl/include/curl/curl.h	/^  long flags;                       \/* as defined below *\/$/;"	m	struct:curl_httppost
+flags	libcurl/include/curl/curl.h	/^  unsigned int flags;$/;"	m	struct:curl_fileinfo
 flags	libusb/include/libusb-1.0/libusb.h	/^	uint8_t flags;$/;"	m	struct:libusb_transfer
-format	cJSON/cJSON.c	/^    cJSON_bool format; \/* is this print a formatted print *\/$/;"	m	struct:__anon9	file:
+format	cJSON/cJSON.c	/^    cJSON_bool format; \/* is this print a formatted print *\/$/;"	m	struct:__anon41	file:
+fprintf	libcurl/include/curl/mprintf.h	49;"	d
+fprintf	libcurl/include/curl/mprintf.h	59;"	d
 free_fn	cJSON/cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+g_mutex	kprotocal.c	/^static pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER; $/;"	v	file:
 generate_merge_patch	cJSON/cJSON_Utils.c	/^static cJSON *generate_merge_patch(cJSON * const from, cJSON * const to, const cJSON_bool case_sensitive)$/;"	f	file:
 get_array_item	cJSON/cJSON.c	/^static cJSON* get_array_item(const cJSON *array, size_t index)$/;"	f	file:
 get_array_item	cJSON/cJSON_Utils.c	/^static cJSON *get_array_item(const cJSON *array, size_t item)$/;"	f	file:
@@ -525,18 +1528,25 @@ get_decimal_point	cJSON/cJSON.c	/^static unsigned char get_decimal_point(void)$/
 get_item_from_pointer	cJSON/cJSON_Utils.c	/^static cJSON *get_item_from_pointer(cJSON * const object, const char * pointer, const cJSON_bool case_sensitive)$/;"	f	file:
 get_object_item	cJSON/cJSON.c	/^static cJSON *get_object_item(const cJSON * const object, const char * const name, const cJSON_bool case_sensitive)$/;"	f	file:
 get_object_item	cJSON/cJSON_Utils.c	/^static cJSON *get_object_item(const cJSON * const object, const char* name, const cJSON_bool case_sensitive)$/;"	f	file:
+gid	libcurl/include/curl/curl.h	/^  int gid;$/;"	m	struct:curl_fileinfo
 global_error	cJSON/cJSON.c	/^static error global_error = { NULL, 0 };$/;"	v	file:
 global_hooks	cJSON/cJSON.c	/^static internal_hooks global_hooks = { internal_malloc, internal_free, internal_realloc };$/;"	v	file:
+group	libcurl/include/curl/curl.h	/^    char *group;$/;"	m	struct:curl_fileinfo::__anon8
+handle	usbCom.c	/^static struct libusb_device_handle *handle;$/;"	v	typeref:struct:libusb_device_handle	file:
+hardlinks	libcurl/include/curl/curl.h	/^  long int hardlinks;$/;"	m	struct:curl_fileinfo
 haveNoPriceLable	httpClient.c	/^	haveNoPriceLable,$/;"	e	enum:__anon5	file:
 havePriceLable	httpClient.c	/^	havePriceLable,$/;"	e	enum:__anon5	file:
-hooks	cJSON/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon8	file:
-hooks	cJSON/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon9	file:
+hooks	cJSON/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon40	file:
+hooks	cJSON/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon41	file:
 hooks	cJSON/cJSON.h	/^CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks);$/;"	v
+host	libcurl/include/curl/curl.h	/^  const char *host;         \/* OS\/host\/cpu\/machine when configured *\/$/;"	m	struct:__anon34
+httpClent	router.c	/^void httpClent(void)$/;"	f
 iConfiguration	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iConfiguration;$/;"	m	struct:libusb_config_descriptor
 iInterface	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iInterface;$/;"	m	struct:libusb_interface_descriptor
 iManufacturer	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iManufacturer;$/;"	m	struct:libusb_device_descriptor
 iProduct	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iProduct;$/;"	m	struct:libusb_device_descriptor
 iSerialNumber	libusb/include/libusb-1.0/libusb.h	/^	uint8_t  iSerialNumber;$/;"	m	struct:libusb_device_descriptor
+iconv_ver_num	libcurl/include/curl/curl.h	/^  int iconv_ver_num;$/;"	m	struct:__anon34
 idProduct	libusb/include/libusb-1.0/libusb.h	/^	uint16_t idProduct;$/;"	m	struct:libusb_device_descriptor
 idVendor	libusb/include/libusb-1.0/libusb.h	/^	uint16_t idVendor;$/;"	m	struct:libusb_device_descriptor
 inline	libusb/include/libusb-1.0/libusb.h	30;"	d
@@ -544,10 +1554,8 @@ insert_item_in_array	cJSON/cJSON_Utils.c	/^static cJSON_bool insert_item_in_arra
 interface	libusb/include/libusb-1.0/libusb.h	/^	const struct libusb_interface *interface;$/;"	m	struct:libusb_config_descriptor	typeref:struct:libusb_config_descriptor::libusb_interface
 interface	libusb/include/libusb-1.0/libusb.h	78;"	d
 interface_number	libusb/test/test3.c	/^int alt_interface, interface_number;$/;"	v
-interface_number	test3.c	/^int alt_interface, interface_number;$/;"	v
 interface_number	usbCom.c	/^int interface_number = -1;$/;"	v
 interface_ref	libusb/test/test3.c	/^int interface_ref = 0;$/;"	v
-interface_ref	test3.c	/^int interface_ref = 0;$/;"	v
 internal_free	cJSON/cJSON.c	/^static void internal_free(void *pointer)$/;"	f	file:
 internal_free	cJSON/cJSON.c	143;"	d	file:
 internal_hooks	cJSON/cJSON.c	/^typedef struct internal_hooks$/;"	s	file:
@@ -556,7 +1564,7 @@ internal_malloc	cJSON/cJSON.c	/^static void *internal_malloc(size_t size)$/;"	f	
 internal_malloc	cJSON/cJSON.c	142;"	d	file:
 internal_realloc	cJSON/cJSON.c	/^static void *internal_realloc(void *pointer, size_t size)$/;"	f	file:
 internal_realloc	cJSON/cJSON.c	144;"	d	file:
-is_opened	usbCom.c	/^	uint8_t is_opened:1;$/;"	m	struct:__anon10	file:
+is_opened	usbCom.c	/^	uint8_t is_opened:1;$/;"	m	struct:__anon42	file:
 iso_packet_desc	libusb/include/libusb-1.0/libusb.h	/^	struct libusb_iso_packet_descriptor iso_packet_desc[ZERO_SIZED_ARRAY];$/;"	m	struct:libusb_transfer	typeref:struct:libusb_transfer::libusb_iso_packet_descriptor
 item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsArray(const cJSON * const item);$/;"	v
 item	cJSON/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsBool(const cJSON * const item);$/;"	v
@@ -572,12 +1580,17 @@ item	cJSON/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_GetStringValue(cJSON *item);$/;"
 item	cJSON/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_Print(const cJSON *item);$/;"	v
 item	cJSON/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_PrintUnformatted(const cJSON *item);$/;"	v
 itemLen	List.h	/^	int itemLen;$/;"	m	struct:List
-json	cJSON/cJSON.c	/^    const unsigned char *json;$/;"	m	struct:__anon7	file:
+json	cJSON/cJSON.c	/^    const unsigned char *json;$/;"	m	struct:__anon39	file:
+key	libcurl/include/curl/curl.h	/^  const char *key; \/* points to a zero-terminated string encoded with base64$/;"	m	struct:curl_khkey
+keytype	libcurl/include/curl/curl.h	/^  } keytype;$/;"	m	struct:curl_khkey	typeref:enum:curl_khkey::type
 len	httpClient.c	/^	uint32_t len;$/;"	m	struct:__anon6	file:
-length	cJSON/cJSON.c	/^    size_t length;$/;"	m	struct:__anon8	file:
-length	cJSON/cJSON.c	/^    size_t length;$/;"	m	struct:__anon9	file:
+len	libcurl/include/curl/curl.h	/^  size_t len;$/;"	m	struct:curl_khkey
+length	cJSON/cJSON.c	/^    size_t length;$/;"	m	struct:__anon40	file:
+length	cJSON/cJSON.c	/^    size_t length;$/;"	m	struct:__anon41	file:
 length	libusb/include/libusb-1.0/libusb.h	/^	int length;$/;"	m	struct:libusb_transfer
 length	libusb/include/libusb-1.0/libusb.h	/^	unsigned int length;$/;"	m	struct:libusb_iso_packet_descriptor
+libidn	libcurl/include/curl/curl.h	/^  const char *libidn;$/;"	m	struct:__anon34
+libssh_version	libcurl/include/curl/curl.h	/^  const char *libssh_version; \/* human readable string *\/$/;"	m	struct:__anon34
 libusb_bos_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_bos_descriptor {$/;"	s
 libusb_bos_dev_capability_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_bos_dev_capability_descriptor {$/;"	s
 libusb_bos_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_bos_type {$/;"	g
@@ -639,33 +1652,41 @@ libusb_transfer_type	libusb/include/libusb-1.0/libusb.h	/^enum libusb_transfer_t
 libusb_usb_2_0_extension_attributes	libusb/include/libusb-1.0/libusb.h	/^enum libusb_usb_2_0_extension_attributes {$/;"	g
 libusb_usb_2_0_extension_descriptor	libusb/include/libusb-1.0/libusb.h	/^struct libusb_usb_2_0_extension_descriptor {$/;"	s
 libusb_version	libusb/include/libusb-1.0/libusb.h	/^struct libusb_version {$/;"	s
+libz_version	libcurl/include/curl/curl.h	/^  const char *libz_version; \/* human readable string *\/$/;"	m	struct:__anon34
+lock_share_buff	kprotocal.c	/^static bool lock_share_buff(void)$/;"	f	file:
 log_init	logProcessor.c	/^bool log_init(void)$/;"	f
 log_record	logProcessor.c	/^int log_record(char *fmt, ...)$/;"	f
 main	deamonTask.c	/^int main(int argc, char *argv[])$/;"	f
-main	httpClient.c	/^int main(void)$/;"	f
 main	libusb/test/test.c	/^int main() {$/;"	f
 main	libusb/test/test2.c	/^int main(int argc, char *argv[])$/;"	f
 main	libusb/test/test3.c	/^int main(void)$/;"	f
 main	logProcessor.c	/^int main(void)$/;"	f
-main	test3.c	/^int main(void)$/;"	f
+main	router.c	/^int main(void)                                                                  $/;"	f
 major	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t major;$/;"	m	struct:libusb_version
 malloc_fn	cJSON/cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
 merge_patch	cJSON/cJSON_Utils.c	/^static cJSON *merge_patch(cJSON *target, const cJSON * const patch, const cJSON_bool case_sensitive)$/;"	f	file:
 micro	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t micro;$/;"	m	struct:libusb_version
 minor	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t minor;$/;"	m	struct:libusb_version
+more	libcurl/include/curl/curl.h	/^  struct curl_httppost *more;       \/* if one field name has more than one$/;"	m	struct:curl_httppost	typeref:struct:curl_httppost::curl_httppost
+msg	libcurl/include/curl/multi.h	/^  CURLMSG msg;       \/* what this message means *\/$/;"	m	struct:CURLMsg
+name	libcurl/include/curl/curl.h	/^  char *name;                       \/* pointer to allocated name *\/$/;"	m	struct:curl_httppost
+namelength	libcurl/include/curl/curl.h	/^  long namelength;                  \/* length of name length *\/$/;"	m	struct:curl_httppost
 nano	libusb/include/libusb-1.0/libusb.h	/^	const uint16_t nano;$/;"	m	struct:libusb_version
 next	cJSON/cJSON.h	/^    struct cJSON *next;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
-noalloc	cJSON/cJSON.c	/^    cJSON_bool noalloc;$/;"	m	struct:__anon9	file:
+next	libcurl/include/curl/curl.h	/^  struct curl_httppost *next;       \/* next entry in the list *\/$/;"	m	struct:curl_httppost	typeref:struct:curl_httppost::curl_httppost
+next	libcurl/include/curl/curl.h	/^  struct curl_slist *next;$/;"	m	struct:curl_slist	typeref:struct:curl_slist::curl_slist
+noalloc	cJSON/cJSON.c	/^    cJSON_bool noalloc;$/;"	m	struct:__anon41	file:
 normalInfo	httpClient.c	/^uint8_t normalInfo[] = {0x40, 0x11, 0x12, 0x1, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x04};$/;"	v
 num_altsetting	libusb/include/libusb-1.0/libusb.h	/^	int num_altsetting;$/;"	m	struct:libusb_interface
 num_iso_packets	libusb/include/libusb-1.0/libusb.h	/^	int num_iso_packets;$/;"	m	struct:libusb_transfer
-obj	Makefile	/^obj := httpClient.c kprotocal.c .\/cJSON\/cJSON.c$/;"	m
+num_of_certs	libcurl/include/curl/curl.h	/^  int num_of_certs;             \/* number of certificates with information *\/$/;"	m	struct:curl_certinfo
 obj	libusb/test/Makefile	/^obj := test3.c $/;"	m
 object	cJSON/cJSON_Utils.h	/^CJSON_PUBLIC(void) cJSONUtils_SortObject(cJSON * const object);$/;"	v
 object	cJSON/cJSON_Utils.h	/^CJSON_PUBLIC(void) cJSONUtils_SortObjectCaseSensitive(cJSON * const object);$/;"	v
-offset	cJSON/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon8	file:
-offset	cJSON/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon9	file:
+offset	cJSON/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon40	file:
+offset	cJSON/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon41	file:
 op_code	SharedList.h	/^	volatile int op_code;$/;"	m	struct:SharedList
+option	libcurl/include/curl/curl.h	/^  CURLformoption option;$/;"	m	struct:curl_forms
 overwrite_item	cJSON/cJSON_Utils.c	/^static void overwrite_item(cJSON * const root, const cJSON replacement)$/;"	f	file:
 pBufferHead	List.h	/^	ListItem* pBufferHead;$/;"	m	struct:List
 pData	httpClient.c	/^	uint8_t *pData;$/;"	m	struct:__anon6	file:
@@ -673,17 +1694,20 @@ pHead	List.h	/^	ListItem* pHead;$/;"	m	struct:List
 pItem	List.h	/^	void* pItem;$/;"	m	struct:ListItem
 pList	SharedList.h	/^	List* pList;$/;"	m	struct:SharedList
 pNext	List.h	/^	struct ListItem* pNext;$/;"	m	struct:ListItem	typeref:struct:ListItem::ListItem
-pTag_list	kprotocal.c	/^static ShareList *pTag_list;$/;"	v	file:
+pTag_list	kprotocal.c	/^static List *pTag_list;$/;"	v	file:
 parse_array	cJSON/cJSON.c	/^static cJSON_bool parse_array(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
-parse_buffer	cJSON/cJSON.c	/^} parse_buffer;$/;"	t	typeref:struct:__anon8	file:
+parse_buffer	cJSON/cJSON.c	/^} parse_buffer;$/;"	t	typeref:struct:__anon40	file:
 parse_hex4	cJSON/cJSON.c	/^static unsigned parse_hex4(const unsigned char * const input)$/;"	f	file:
 parse_number	cJSON/cJSON.c	/^static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
 parse_object	cJSON/cJSON.c	/^static cJSON_bool parse_object(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
 parse_string	cJSON/cJSON.c	/^static cJSON_bool parse_string(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
 parse_value	cJSON/cJSON.c	/^static cJSON_bool parse_value(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
 patch_operation	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	g	file:
+perm	libcurl/include/curl/curl.h	/^    char *perm;$/;"	m	struct:curl_fileinfo::__anon8
+perm	libcurl/include/curl/curl.h	/^  unsigned int perm;$/;"	m	struct:curl_fileinfo
 pointer_encoded_length	cJSON/cJSON_Utils.c	/^static size_t pointer_encoded_length(const unsigned char *string)$/;"	f	file:
-position	cJSON/cJSON.c	/^    size_t position;$/;"	m	struct:__anon7	file:
+position	cJSON/cJSON.c	/^    size_t position;$/;"	m	struct:__anon39	file:
+prepack_price_tag	kprotocal.c	/^static int prepack_price_tag(uint8_t *pData, price_tag_t *pPrice_tag)$/;"	f	file:
 prev	cJSON/cJSON.h	/^    struct cJSON *prev;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
 price_tag_t	kprotocal.c	/^}price_tag_t;$/;"	t	typeref:struct:__anon4	file:
 print	cJSON/cJSON.c	/^static unsigned char *print(const cJSON * const item, cJSON_bool format, const internal_hooks * const hooks)$/;"	f	file:
@@ -693,7 +1717,7 @@ print_array	cJSON/cJSON.c	/^static cJSON_bool print_array(const cJSON * const it
 print_bos	libusb/test/test2.c	/^static void print_bos(libusb_device_handle *handle)$/;"	f	file:
 print_configuration	libusb/test/test2.c	/^static void print_configuration(struct libusb_config_descriptor *config)$/;"	f	file:
 print_configuration	libusb/test/test3.c	/^int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)$/;"	f
-print_configuration	test3.c	/^int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)$/;"	f
+print_configuration	usbCom.c	/^int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)$/;"	f
 print_device	libusb/test/test2.c	/^static int print_device(libusb_device *dev, int level)$/;"	f	file:
 print_endpoint	libusb/test/test2.c	/^static void print_endpoint(const struct libusb_endpoint_descriptor *endpoint)$/;"	f	file:
 print_endpoint_comp	libusb/test/test2.c	/^static void print_endpoint_comp(const struct libusb_ss_endpoint_companion_descriptor *ep_comp)$/;"	f	file:
@@ -704,55 +1728,98 @@ print_ss_usb_cap	libusb/test/test2.c	/^static void print_ss_usb_cap(struct libus
 print_string	cJSON/cJSON.c	/^static cJSON_bool print_string(const cJSON * const item, printbuffer * const p)$/;"	f	file:
 print_string_ptr	cJSON/cJSON.c	/^static cJSON_bool print_string_ptr(const unsigned char * const input, printbuffer * const output_buffer)$/;"	f	file:
 print_value	cJSON/cJSON.c	/^static cJSON_bool print_value(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
-printbuffer	cJSON/cJSON.c	/^} printbuffer;$/;"	t	typeref:struct:__anon9	file:
+printbuffer	cJSON/cJSON.c	/^} printbuffer;$/;"	t	typeref:struct:__anon41	file:
+printf	libcurl/include/curl/mprintf.h	48;"	d
+printf	libcurl/include/curl/mprintf.h	58;"	d
 protocalEncodeToJSONArray	kprotocal.c	/^uint8_t *protocalEncodeToJSONArray(uint8_t *pData)$/;"	f
 protocal_decode_usb_data	kprotocal.c	/^int protocal_decode_usb_data(uint8_t *pData,uint32_t len)$/;"	f
 protocal_encode_usb_resp	kprotocal.c	/^int protocal_encode_usb_resp(uint8_t *pEncodeData)$/;"	f
+protocol	libcurl/include/curl/curl.h	/^  int protocol;$/;"	m	struct:curl_sockaddr
+protocols	libcurl/include/curl/curl.h	/^  const char * const *protocols;$/;"	m	struct:__anon34
 rc	libusb/include/libusb-1.0/libusb.h	/^	const char *rc;$/;"	m	struct:libusb_version
 reallocate	cJSON/cJSON.c	/^    void *(*reallocate)(void *pointer, size_t size);$/;"	m	struct:internal_hooks	file:
 replace_item_in_object	cJSON/cJSON.c	/^static cJSON_bool replace_item_in_object(cJSON *object, const char *string, cJSON *replacement, cJSON_bool case_sensitive)$/;"	f	file:
-reserved	usbCom.c	/^	uint8_t reserved:7;$/;"	m	struct:__anon10	file:
+reserved	usbCom.c	/^	uint8_t reserved:7;$/;"	m	struct:__anon42	file:
+result	libcurl/include/curl/multi.h	/^    CURLcode result;   \/* return code for transfer *\/$/;"	m	union:CURLMsg::__anon37
+revents	libcurl/include/curl/multi.h	/^  short revents; \/* not supported yet *\/$/;"	m	struct:curl_waitfd
 routerStatus_t	httpClient.c	/^}routerStatus_t;$/;"	t	typeref:enum:__anon5	file:
+showfilename	libcurl/include/curl/curl.h	/^  char *showfilename;               \/* The file name to show. If not set, the$/;"	m	struct:curl_httppost
 size	cJSON/cJSON.h	/^CJSON_PUBLIC(void *) cJSON_malloc(size_t size);$/;"	v
+size	libcurl/include/curl/curl.h	/^  curl_off_t size;$/;"	m	struct:curl_fileinfo
 skip_utf8_bom	cJSON/cJSON.c	/^static parse_buffer *skip_utf8_bom(parse_buffer * const buffer)$/;"	f	file:
+snprintf	libcurl/include/curl/mprintf.h	52;"	d
+snprintf	libcurl/include/curl/mprintf.h	69;"	d
 snprintf	libusb/test/test2.c	26;"	d	file:
+socktype	libcurl/include/curl/curl.h	/^  int socktype;$/;"	m	struct:curl_sockaddr
 sort_list	cJSON/cJSON_Utils.c	/^static cJSON *sort_list(cJSON *list, const cJSON_bool case_sensitive)$/;"	f	file:
 sort_object	cJSON/cJSON_Utils.c	/^static void sort_object(cJSON * const object, const cJSON_bool case_sensitive)$/;"	f	file:
+sprintf	libcurl/include/curl/mprintf.h	50;"	d
+sprintf	libcurl/include/curl/mprintf.h	63;"	d
+sprintf	libcurl/include/curl/mprintf.h	66;"	d
 sqnum	kprotocal.c	/^static uint32_t sqnum = 1;$/;"	v	file:
 ssize_t	libusb/include/libusb-1.0/libusb.h	/^  typedef __int64 ssize_t;$/;"	t
 ssize_t	libusb/include/libusb-1.0/libusb.h	/^  typedef int ssize_t;$/;"	t
 ssize_t	libusb/include/libusb-1.0/libusb.h	35;"	d
+ssl_version	libcurl/include/curl/curl.h	/^  const char *ssl_version;  \/* human readable string *\/$/;"	m	struct:__anon34
+ssl_version_num	libcurl/include/curl/curl.h	/^  long ssl_version_num;     \/* not used anymore, always 0 *\/$/;"	m	struct:__anon34
 status	httpClient.c	/^static routerStatus_t status;$/;"	v	file:
 status	libusb/include/libusb-1.0/libusb.h	/^	enum libusb_transfer_status status;$/;"	m	struct:libusb_iso_packet_descriptor	typeref:enum:libusb_iso_packet_descriptor::libusb_transfer_status
 status	libusb/include/libusb-1.0/libusb.h	/^	enum libusb_transfer_status status;$/;"	m	struct:libusb_transfer	typeref:enum:libusb_transfer::libusb_transfer_status
 string	cJSON/cJSON.h	/^    char *string;$/;"	m	struct:cJSON
+strings	libcurl/include/curl/curl.h	/^  } strings;$/;"	m	struct:curl_fileinfo	typeref:struct:curl_fileinfo::__anon8
 suffix_object	cJSON/cJSON.c	/^static void suffix_object(cJSON *prev, cJSON *item)$/;"	f	file:
+suqnum	kprotocal.c	/^static uint32_t suqnum;$/;"	v	file:
 tag_info	kprotocal.c	/^static tag_info_t tag_info;$/;"	v	file:
 tag_info_t	kprotocal.c	/^}tag_info_t;$/;"	t	typeref:struct:__anon3	file:
+target	libcurl/include/curl/curl.h	/^    char *target; \/* pointer to the target filename of a symlink *\/$/;"	m	struct:curl_fileinfo::__anon8
 thread_client_hdl	deamonTask.c	/^static void *thread_client_hdl(void *pdata)$/;"	f	file:
+time	libcurl/include/curl/curl.h	/^    char *time;$/;"	m	struct:curl_fileinfo::__anon8
+time	libcurl/include/curl/curl.h	/^  time_t time;$/;"	m	struct:curl_fileinfo
 timeout	libusb/include/libusb-1.0/libusb.h	/^	unsigned int timeout;$/;"	m	struct:libusb_transfer
 true	cJSON/cJSON.c	61;"	d	file:
 true	cJSON/cJSON_Utils.c	53;"	d	file:
 type	cJSON/cJSON.h	/^    int type;$/;"	m	struct:cJSON
+type	libcurl/include/curl/curl.h	/^  enum type {$/;"	g	struct:curl_khkey
 type	libusb/include/libusb-1.0/libusb.h	/^	unsigned char type;$/;"	m	struct:libusb_transfer
+uid	libcurl/include/curl/curl.h	/^  int uid;$/;"	m	struct:curl_fileinfo
 uint16_t	libusb/include/libusb-1.0/libusb.h	/^typedef unsigned __int16  uint16_t;$/;"	t
 uint32_t	libusb/include/libusb-1.0/libusb.h	/^typedef unsigned __int32  uint32_t;$/;"	t
 uint8_t	libusb/include/libusb-1.0/libusb.h	/^typedef unsigned __int8   uint8_t;$/;"	t
+unlock_share_buff	kprotocal.c	/^static bool unlock_share_buff(void)$/;"	f	file:
 update_offset	cJSON/cJSON.c	/^static void update_offset(printbuffer * const buffer)$/;"	f	file:
+usbCom	router.c	/^void usbCom(void)                                                               $/;"	f
 usb_get_status	usbCom.c	/^bool usb_get_status(void)$/;"	f
 usb_open	usbCom.c	/^int usb_open(void)$/;"	f
 usb_print_device_descriptors	usbCom.c	/^static void usb_print_device_descriptors(struct libusb_device_descriptor desc)$/;"	f	file:
 usb_receive	usbCom.c	/^int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)$/;"	f
+usb_receive_buff	router.c	/^static usb_receive_buff[2048];$/;"	v	file:
 usb_status_falg	usbCom.c	/^usb_status_falg_t usb_status_falg;$/;"	v
-usb_status_falg_t	usbCom.c	/^}usb_status_falg_t;$/;"	t	typeref:struct:__anon10	file:
+usb_status_falg_t	usbCom.c	/^}usb_status_falg_t;$/;"	t	typeref:struct:__anon42	file:
 usb_transmite	usbCom.c	/^int usb_transmite(uint8_t *pData, int len, int timeout)$/;"	f
+usb_transmite_buff	router.c	/^static usb_transmite_buff[2048];$/;"	v	file:
+user	libcurl/include/curl/curl.h	/^    char *user;$/;"	m	struct:curl_fileinfo::__anon8
 user_data	libusb/include/libusb-1.0/libusb.h	/^	void *user_data;$/;"	m	struct:libusb_transfer
+userp	libcurl/include/curl/curl.h	/^  void *userp;                      \/* custom pointer used for$/;"	m	struct:curl_httppost
 utf16_literal_to_utf8	cJSON/cJSON.c	/^static unsigned char utf16_literal_to_utf8(const unsigned char * const input_pointer, const unsigned char * const input_end, unsigned char **output_pointer)$/;"	f	file:
+value	libcurl/include/curl/curl.h	/^  const char     *value;$/;"	m	struct:curl_forms
 valuedouble	cJSON/cJSON.h	/^    double valuedouble;$/;"	m	struct:cJSON
 valueint	cJSON/cJSON.h	/^    int valueint;$/;"	m	struct:cJSON
 valuestring	cJSON/cJSON.h	/^    char *valuestring;$/;"	m	struct:cJSON
+vaprintf	libcurl/include/curl/mprintf.h	57;"	d
+vaprintf	libcurl/include/curl/mprintf.h	74;"	d
 verbose	libusb/test/test2.c	/^int verbose = 0;$/;"	v
+version	libcurl/include/curl/curl.h	/^  const char *version;      \/* LIBCURL_VERSION *\/$/;"	m	struct:__anon34
+version_num	libcurl/include/curl/curl.h	/^  unsigned int version_num; \/* LIBCURL_VERSION_NUM *\/$/;"	m	struct:__anon34
 vfpf	logProcessor.c	/^static int vfpf(char *fmt, ...)$/;"	f	file:
+vfprintf	libcurl/include/curl/mprintf.h	54;"	d
+vfprintf	libcurl/include/curl/mprintf.h	71;"	d
+vprintf	libcurl/include/curl/mprintf.h	53;"	d
+vprintf	libcurl/include/curl/mprintf.h	70;"	d
+vsnprintf	libcurl/include/curl/mprintf.h	55;"	d
+vsnprintf	libcurl/include/curl/mprintf.h	72;"	d
+vsprintf	libcurl/include/curl/mprintf.h	51;"	d
+vsprintf	libcurl/include/curl/mprintf.h	64;"	d
+vsprintf	libcurl/include/curl/mprintf.h	67;"	d
 wBytesPerInterval	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wBytesPerInterval;$/;"	m	struct:libusb_ss_endpoint_companion_descriptor
 wIndex	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wIndex;$/;"	m	struct:libusb_control_setup
 wLength	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wLength;$/;"	m	struct:libusb_control_setup
@@ -761,4 +1828,5 @@ wSpeedSupported	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wSpeedSupported;$
 wTotalLength	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wTotalLength;$/;"	m	struct:libusb_bos_descriptor
 wTotalLength	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wTotalLength;$/;"	m	struct:libusb_config_descriptor
 wValue	libusb/include/libusb-1.0/libusb.h	/^	uint16_t wValue;$/;"	m	struct:libusb_control_setup
+whatever	libcurl/include/curl/multi.h	/^    void *whatever;    \/* message-specific data *\/$/;"	m	union:CURLMsg::__anon37
 write_cb	httpClient.c	/^static size_t write_cb(char *buffer, size_t size, size_t nitems, void *userdata)$/;"	f	file:
