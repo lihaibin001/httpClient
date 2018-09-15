@@ -11,7 +11,7 @@
 #define USB_DEBUG(...) do{ \
 	printf("[USB] "); \
 	printf(__VA_ARGS__); \
-	}while(0)
+	}while(0);
 #else
 #define USB_DEBUG(...)
 #endif

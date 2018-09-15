@@ -23,5 +23,5 @@ int protocal_decode_usb_data(uint8_t *pData,uint32_t len);
 *****@para      pBuffer           
 *****@return    Retrun RET_FUNCTION_OK if no error 
 **********************************/
-int protocal_encode_usb_resp(uint8_t *pFuffer)
+int protocal_encode_usb_resp(uint8_t *pFuffer);
 #endif // __KPROTOCAL_H__ 

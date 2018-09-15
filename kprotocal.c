@@ -9,7 +9,7 @@
 #define LOCAL_DEBUG(...) do{ \
     printf("[PROT] ");\
 	printf(__VA_ARGS__); \
-	}while(0)
+	}while(0);
 #else
 #define LOCAL_DEBUG(...)
 #endif
