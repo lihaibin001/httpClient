@@ -1,6 +1,6 @@
 CC := arm-none-linux-gnueabi-gcc
 TARGET = router
-SRCS := httpClient.c kprotocal.c ./cJSON/cJSON.c usbCom.c router.c List.c
+SRCS := httpClient.c kprotocal.c ./cJSON/cJSON.c usbCom.c router.c List.c crc.c
 OBJS := $(SRCS:%.c=%.o)
 # LIB = -L/usr/libcurl/lib -L./libusb/lib
 LIB = -L./libcurl/lib -L./libusb/lib

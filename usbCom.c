@@ -24,7 +24,7 @@ typedef struct
 
 int interface_number = -1;
 usb_status_falg_t usb_status_falg;
-static struct libusb_device_handle *handle;
+static struct libusb_device_handle *gHandle;
 
 int print_configuration(struct libusb_device_handle *hDevice, struct libusb_config_descriptor *config)
 {
@@ -69,18 +69,16 @@ static void usb_print_device_descriptors(struct libusb_device_descriptor desc)
 	USB_DEBUG("Max. Packet Size: %d\n---------------------\n", desc.bMaxPacketSize0);
 }
 
-const struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)
+static const struct libusb_endpoint_descriptor* active_config(struct libusb_device *pDev, struct libusb_device_handle *pHandle)
 {
-	struct libusb_device_handle *hDevice_req;
 	struct libusb_config_descriptor *config;
 	const struct libusb_endpoint_descriptor *endpoint;
 	int altsetting_index, interface_index=0, ret_active;
 	int i, ret_print;
 
-	hDevice_req = handle;
 
-	ret_active = libusb_get_active_config_descriptor(dev, &config);
-	ret_print = print_configuration(hDevice_req, config);
+	ret_active = libusb_get_active_config_descriptor(pDev, &config);
+	ret_print = print_configuration(pHandle, config);
 
 	for (interface_index=0;interface_index<config->bNumInterfaces;interface_index++)
 	{
@@ -93,17 +91,13 @@ const struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev
 			for(endpoint_index=0; endpoint_index<altsetting->bNumEndpoints; endpoint_index++)
 			{
 				endpoint = &altsetting->endpoint[endpoint_index];
-				if(endpoint->bEndpointAddress == 0x81 || endpoint->bEndpointAddress == 0x01)
-				{
-					interface_number = altsetting->bInterfaceNumber;
-					
-				}
-				USB_DEBUG("Size of EndPoint Descriptor: %d", endpoint->bLength);
-				USB_DEBUG("Type of EndPoint Descriptor: %d", endpoint->bDescriptorType);
-				USB_DEBUG("Endpoint Address: 0x%x", endpoint->bEndpointAddress);
-				USB_DEBUG("Maximum Packet Size: %d", endpoint->wMaxPacketSize);
-				USB_DEBUG("Attributes applied to Endpoint: %d", endpoint->bmAttributes);
-				USB_DEBUG("Interval for Polling for data Tranfer: %d\n", endpoint->bInterval);
+                USB_DEBUG("Endpoint desc:----------------------------------\n");
+				USB_DEBUG("Size of EndPoint Descriptor: %d\n", endpoint->bLength);
+				USB_DEBUG("Type of EndPoint Descriptor: %d\n", endpoint->bDescriptorType);
+				USB_DEBUG("Endpoint Address: 0x%x\n", endpoint->bEndpointAddress);
+				USB_DEBUG("Maximum Packet Size: %d\n", endpoint->wMaxPacketSize);
+				USB_DEBUG("Attributes applied to Endpoint: %d\n", endpoint->bmAttributes);
+				USB_DEBUG("Interval for Polling for data Tranfer: %d\n-------------------------------------\n", endpoint->bInterval);
 			}
 		}
 	}
@@ -148,15 +142,12 @@ int usb_open(uint16_t vID, uint16_t pID)
 			return -1; 
 		}
 		
-		r = libusb_open(dev, &handle);
+		r = libusb_open(dev, &gHandle);
 		if(r < 0)
 		{
 			USB_DEBUG("Error opening device\n");
 			libusb_free_device_list(devs, 1);
-			if(handle != NULL)
-			{
-				libusb_close(handle);
-			}
+			libusb_close(gHandle);
 			return -1;
 		}
 		usb_print_device_descriptors(desc);
@@ -164,6 +155,7 @@ int usb_open(uint16_t vID, uint16_t pID)
 		if(desc.idVendor == vID && desc.idProduct == pID)
 		{
 			found = 1;
+            break;
 		}
 	}
 			
@@ -171,21 +163,21 @@ int usb_open(uint16_t vID, uint16_t pID)
 	{
 		USB_DEBUG("Device not found\n");
 		libusb_free_device_list(devs, 1);
-		libusb_close(handle);
+		libusb_close(gHandle);
 		return -1;
 	}
 	else
 	{
-		USB_DEBUG("Device found");
-		dev_expected = dev;
-		hDevice_expected = handle;
+		USB_DEBUG("Device found\n");
+		//dev_expected = dev;
+		//hDevice_expected = handle;
 	}
 	libusb_free_device_list(devs,1);
 	
-	if(libusb_kernel_driver_active(handle, 0) == 1)
+	if(libusb_kernel_driver_active(gHandle, 0) == 1)
 	{
 		USB_DEBUG("Kenenl Driver active\n");
-		if(libusb_detach_kernel_driver(handle, 0) == 0)
+		if(libusb_detach_kernel_driver(gHandle, 0) == 0)
 		{
 			USB_DEBUG("Kernel driver detached\n");
 		}
@@ -193,23 +185,22 @@ int usb_open(uint16_t vID, uint16_t pID)
 		{
 			USB_DEBUG("Couldn't detach kernel dirver\n");
 			libusb_free_device_list(devs, 1);
-			libusb_close(handle);
+			libusb_close(gHandle);
 			return -1;	
 		}
 	}
-	
-	active_config(dev_expected, hDevice_expected);
-
-	
-	r = libusb_claim_interface(handle, interface_number);
+	r = libusb_claim_interface(gHandle, 0);
     if(r < 0)
     {
         USB_DEBUG("Claim interface error\n");
 		libusb_free_device_list(devs, 1);
-		libusb_close(handle);
+		libusb_close(gHandle);
         return -1;
     }
     usb_status_falg.is_opened = 1;
+	active_config(dev, gHandle);
+
+	
 	return 0;
 }
 
@@ -219,7 +210,7 @@ int usb_transmite(uint8_t *pData, int len, int timeout)
     int transmited = 0;
     while(len)
     {
-        if(0 != libusb_bulk_transfer(handle, BULK_EP_OUT, pData, 64, &transmited, timeout)) 
+        if(0 != libusb_bulk_transfer(gHandle, BULK_EP_OUT, pData, 64, &transmited, timeout)) 
         {
             return 1;
         }
@@ -228,7 +219,7 @@ int usb_transmite(uint8_t *pData, int len, int timeout)
     }
     if(len != 0)
     {
-        if(0 !=libusb_bulk_transfer(handle, BULK_EP_OUT, pData, len, &transmited, timeout))
+        if(0 !=libusb_bulk_transfer(gHandle, BULK_EP_OUT, pData, len, &transmited, timeout))
         {
             return 1;
         }
@@ -246,14 +237,24 @@ int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)
     int r = 0;
     do
     {
-        if(0 != libusb_bulk_transfer(handle, BULK_EP_IN, pBuffer, 64, &received, timeout)) 
+        if(0 != libusb_bulk_transfer(gHandle, BULK_EP_IN, &pBuffer[r], 64, &received, timeout)) 
         {
             return 1;
         }
         r += received;
-        pBuffer += received;
         buffer_size -= received;
-    }while(received != 0 && buffer_size > 0);
+    }while(received == 64 && buffer_size > 0);
+#if USB_DEBUG_ENABLE
+    {
+        int i;
+        USB_DEBUG("Recieve length:%d: [", r);
+        for(i=0; i<r; i++)
+        {
+            printf("%02x ",pBuffer[i]);
+        }
+        printf("]\n");
+    }
+#endif
 	return r;
 }
 

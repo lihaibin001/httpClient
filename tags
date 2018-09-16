@@ -1015,7 +1015,7 @@ List_Count	List.c	/^int List_Count(List* pList)$/;"	f
 List_Create	List.c	/^List* List_Create(int nItemLen)$/;"	f
 List_Destroy	List.c	/^int List_Destroy(List* pList)$/;"	f
 List_DestroyListItem	List.c	/^static void List_DestroyListItem(ListItem* pListItem)$/;"	f	file:
-List_Find	List.c	/^const void* List_Find(List* pList, int nIndex)$/;"	f
+List_Find	List.c	/^void* List_Find(List* pList, int nIndex)$/;"	f
 List_FindCopy	List.c	/^void* List_FindCopy(List* pList, int nIndex)$/;"	f
 List_FindListItem	List.c	/^static ListItem* List_FindListItem(List* pList, unsigned int nIndex)$/;"	f	file:
 List_Iterator	List.c	/^int List_Iterator(List* pList, IteratorHandler handler)$/;"	f
@@ -1036,7 +1036,7 @@ PANID1	kprotocal.c	/^    uint16_t PANID1;$/;"	m	struct:__anon4	file:
 PANID2	kprotocal.c	/^    uint16_t PANID2;$/;"	m	struct:__anon4	file:
 PID	libusb/test/test.c	8;"	d	file:
 PROC_FILE_PATH	deamonTask.c	1;"	d	file:
-PRODUCT_ID	usbCom.c	8;"	d	file:
+PRODUCT_ID	router.c	7;"	d	file:
 PROTOCAL_DEBUG_ENABLE	kprotocal.c	6;"	d	file:
 Panid	kprotocal.c	/^    uint16_t Panid;$/;"	m	struct:__anon3	file:
 REMOVE	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
@@ -1065,10 +1065,10 @@ TARGET	Makefile	/^TARGET = router$/;"	m
 TARGET	libusb/test/Makefile	/^TARGET = usb_test $/;"	m
 TEST	cJSON/cJSON_Utils.c	/^enum patch_operation { INVALID, ADD, REMOVE, REPLACE, MOVE, COPY, TEST };$/;"	e	enum:patch_operation	file:
 TYPE	kprotocal.c	/^    uint8_t TYPE;$/;"	m	struct:__anon4	file:
-USB_DEBUG	usbCom.c	13;"	d	file:
-USB_DEBUG	usbCom.c	18;"	d	file:
-USB_DEBUG_ENABLE	usbCom.c	10;"	d	file:
-VENDER_ID	usbCom.c	7;"	d	file:
+USB_DEBUG	usbCom.c	11;"	d	file:
+USB_DEBUG	usbCom.c	16;"	d	file:
+USB_DEBUG_ENABLE	usbCom.c	8;"	d	file:
+VENDER_ID	router.c	6;"	d	file:
 VER	kprotocal.c	/^    uint8_t VER;$/;"	m	struct:__anon3	file:
 VER	kprotocal.c	/^    uint8_t VER;$/;"	m	struct:__anon4	file:
 VID	libusb/test/test.c	7;"	d	file:
@@ -1194,7 +1194,7 @@ _curl_write_callback4	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_cu
 _curl_write_callback5	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback5)(const void *, size_t, size_t,$/;"	t
 _curl_write_callback6	libcurl/include/curl/typecheck-gcc.h	/^typedef size_t (_curl_write_callback6)(const void *, size_t, size_t, FILE*);$/;"	t
 active_config	libusb/test/test3.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
-active_config	usbCom.c	/^struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
+active_config	usbCom.c	/^const struct libusb_endpoint_descriptor* active_config(struct libusb_device *dev, struct libusb_device_handle *handle)$/;"	f
 actual_length	libusb/include/libusb-1.0/libusb.h	/^	int actual_length;$/;"	m	struct:libusb_transfer
 actual_length	libusb/include/libusb-1.0/libusb.h	/^	unsigned int actual_length;$/;"	m	struct:libusb_iso_packet_descriptor
 add_item_to_array	cJSON/cJSON.c	/^static cJSON_bool add_item_to_array(cJSON *array, cJSON *item)$/;"	f	file:
@@ -1733,7 +1733,7 @@ printf	libcurl/include/curl/mprintf.h	48;"	d
 printf	libcurl/include/curl/mprintf.h	58;"	d
 protocalEncodeToJSONArray	kprotocal.c	/^uint8_t *protocalEncodeToJSONArray(uint8_t *pData)$/;"	f
 protocal_decode_usb_data	kprotocal.c	/^int protocal_decode_usb_data(uint8_t *pData,uint32_t len)$/;"	f
-protocal_encode_usb_resp	kprotocal.c	/^int protocal_encode_usb_resp(uint8_t *pEncodeData)$/;"	f
+protocal_encode_usb_resp	kprotocal.c	/^int protocal_encode_usb_resp(uint8_t *pBuffer)$/;"	f
 protocol	libcurl/include/curl/curl.h	/^  int protocol;$/;"	m	struct:curl_sockaddr
 protocols	libcurl/include/curl/curl.h	/^  const char * const *protocols;$/;"	m	struct:__anon34
 rc	libusb/include/libusb-1.0/libusb.h	/^	const char *rc;$/;"	m	struct:libusb_version
@@ -1789,14 +1789,14 @@ unlock_share_buff	kprotocal.c	/^static bool unlock_share_buff(void)$/;"	f	file:
 update_offset	cJSON/cJSON.c	/^static void update_offset(printbuffer * const buffer)$/;"	f	file:
 usbCom	router.c	/^void usbCom(void)                                                               $/;"	f
 usb_get_status	usbCom.c	/^bool usb_get_status(void)$/;"	f
-usb_open	usbCom.c	/^int usb_open(void)$/;"	f
+usb_open	usbCom.c	/^int usb_open(uint16_t vID, uint16_t pID)$/;"	f
 usb_print_device_descriptors	usbCom.c	/^static void usb_print_device_descriptors(struct libusb_device_descriptor desc)$/;"	f	file:
 usb_receive	usbCom.c	/^int usb_receive(uint8_t *pBuffer, int buffer_size, int timeout)$/;"	f
-usb_receive_buff	router.c	/^static usb_receive_buff[2048];$/;"	v	file:
+usb_receive_buff	router.c	/^static uint8_t usb_receive_buff[2048];$/;"	v	file:
 usb_status_falg	usbCom.c	/^usb_status_falg_t usb_status_falg;$/;"	v
 usb_status_falg_t	usbCom.c	/^}usb_status_falg_t;$/;"	t	typeref:struct:__anon42	file:
 usb_transmite	usbCom.c	/^int usb_transmite(uint8_t *pData, int len, int timeout)$/;"	f
-usb_transmite_buff	router.c	/^static usb_transmite_buff[2048];$/;"	v	file:
+usb_transmite_buff	router.c	/^static uint8_t usb_transmite_buff[2048];$/;"	v	file:
 user	libcurl/include/curl/curl.h	/^    char *user;$/;"	m	struct:curl_fileinfo::__anon8
 user_data	libusb/include/libusb-1.0/libusb.h	/^	void *user_data;$/;"	m	struct:libusb_transfer
 userp	libcurl/include/curl/curl.h	/^  void *userp;                      \/* custom pointer used for$/;"	m	struct:curl_httppost
